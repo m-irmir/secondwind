@@ -14,22 +14,75 @@ interface PhotoEntry {
   label: "item" | "tag";
 }
 
+// Compress image client-side to stay under Vercel's 4.5MB body limit
+function compressImage(file: File, maxDim = 1200, quality = 0.8): Promise<File> {
+  return new Promise((resolve) => {
+    // Skip non-image or already small files
+    if (!file.type.startsWith("image/") || file.size < 500_000) {
+      resolve(file);
+      return;
+    }
+
+    const img = new Image();
+    const url = URL.createObjectURL(file);
+    img.onload = () => {
+      URL.revokeObjectURL(url);
+      let { width, height } = img;
+
+      // Scale down if larger than maxDim
+      if (width > maxDim || height > maxDim) {
+        if (width > height) {
+          height = Math.round((height * maxDim) / width);
+          width = maxDim;
+        } else {
+          width = Math.round((width * maxDim) / height);
+          height = maxDim;
+        }
+      }
+
+      const canvas = document.createElement("canvas");
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext("2d")!;
+      ctx.drawImage(img, 0, 0, width, height);
+
+      canvas.toBlob(
+        (blob) => {
+          if (blob) {
+            resolve(new File([blob], file.name, { type: "image/jpeg" }));
+          } else {
+            resolve(file);
+          }
+        },
+        "image/jpeg",
+        quality
+      );
+    };
+    img.onerror = () => {
+      URL.revokeObjectURL(url);
+      resolve(file);
+    };
+    img.src = url;
+  });
+}
+
 export default function PhotoUpload({ onProcessed, onError }: PhotoUploadProps) {
   const [photos, setPhotos] = useState<PhotoEntry[]>([]);
   const [processing, setProcessing] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const tagInputRef = useRef<HTMLInputElement>(null);
 
-  function addPhoto(file: File, label: "item" | "tag") {
+  async function addPhoto(file: File, label: "item" | "tag") {
     if (!file.type.startsWith("image/")) {
       onError("Please select an image file");
       return;
     }
+    const compressed = await compressImage(file);
     const reader = new FileReader();
     reader.onload = (e) => {
-      setPhotos((prev) => [...prev, { file, preview: e.target?.result as string, label }]);
+      setPhotos((prev) => [...prev, { file: compressed, preview: e.target?.result as string, label }]);
     };
-    reader.readAsDataURL(file);
+    reader.readAsDataURL(compressed);
   }
 
   function removePhoto(index: number) {
@@ -59,13 +112,14 @@ export default function PhotoUpload({ onProcessed, onError }: PhotoUploadProps) 
         if (data.photoPaths?.length) {
           onProcessed({}, data.photoPaths);
         }
-        onError(data.error || "Failed to process images");
+        onError(data.error || `Server error (${res.status})`);
       } else {
         const { photoPaths, ...result } = data;
         onProcessed(result, photoPaths);
       }
-    } catch {
-      onError("Failed to upload images");
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : "Unknown error";
+      onError(`Upload failed: ${msg}`);
     } finally {
       setProcessing(false);
     }
