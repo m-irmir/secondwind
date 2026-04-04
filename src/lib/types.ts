@@ -9,6 +9,7 @@ export interface Store {
 export interface CarbonSavings {
   co2Kg: number;
   waterLiters: number;
+  shippingCo2Kg: number;
 }
 
 export interface Item {

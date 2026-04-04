@@ -1,18 +1,18 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { GeminiExtractionResult } from "./types";
 
-const SYSTEM_PROMPT = `You are a thrift store inventory assistant. Analyze the clothing item in this photo and extract structured data.
+const SYSTEM_PROMPT = `You are a secondhand inventory assistant. Analyze the item in this photo and extract structured data. The item may be clothing, furniture, electronics, home goods, or any other secondhand item.
 
 Return ONLY a JSON object with these fields:
-- type: string (one of: "shirt", "t-shirt", "top", "blouse", "pants", "jeans", "dress", "jacket", "coat", "sweater", "hoodie", "shoes", "boots", "skirt", "shorts", "accessories", "bag")
+- type: string (one of: "shirt", "t-shirt", "top", "blouse", "pants", "jeans", "dress", "jacket", "coat", "sweater", "hoodie", "shoes", "boots", "skirt", "shorts", "accessories", "bag", "furniture", "electronics", "home")
 - color: string[] (specific colors, e.g. ["navy", "white"] not ["blue"])
-- brand: string (brand name if visible on tags/logos, otherwise "Unknown")
-- size: string (from tag if visible: "XS", "S", "M", "L", "XL", "XXL", or numeric. If not visible: "Not visible")
-- style: string[] (2-3 tags from: "casual", "vintage", "streetwear", "formal", "boho", "preppy", "athletic", "minimal", "classic", "punk", "feminine", "rugged", "workwear", "outdoor")
-- condition: string (one of: "excellent", "good", "fair" based on visible wear)
-- material: string (if identifiable: "cotton", "denim", "polyester", "wool", "silk", "leather", "linen", etc. Otherwise: "Unknown")
-- description: string (1-2 sentence compelling description that makes someone want to buy this)
-- suggestedPrice: number (thrift store price in USD based on brand, condition, type)
+- brand: string (brand name if visible on tags/logos/labels, otherwise "Unknown")
+- size: string (from tag if visible: "XS", "S", "M", "L", "XL", "XXL", or numeric like "32" for waist. For furniture use dimensions if visible, e.g. "36x24". For electronics use model info. If not visible: "Not visible")
+- style: string[] (2-3 tags from: "casual", "vintage", "streetwear", "formal", "boho", "preppy", "athletic", "minimal", "classic", "punk", "feminine", "rugged", "workwear", "outdoor", "mid-century", "modern", "industrial", "rustic", "retro")
+- condition: string (one of: "excellent", "good", "fair" based on visible wear, scratches, stains, damage)
+- material: string (if identifiable: "cotton", "denim", "polyester", "wool", "silk", "leather", "linen", "wood", "metal", "plastic", "glass", "ceramic", etc. Otherwise: "Unknown")
+- description: string (1-2 sentence description noting visible features, brand markings, condition, and any identifying details from tags or labels)
+- suggestedPrice: number (secondhand price in USD based on brand, condition, type, and typical resale value)
 
 Return ONLY valid JSON — no markdown, no explanation.`;
 

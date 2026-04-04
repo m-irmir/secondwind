@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SecondWind — Thrift, Digitized",
+  title: "SecondWind — Secondhand, Digitized",
   description:
-    "AI-powered thrift store inventory. Browse secondhand finds near you and save the planet while you're at it.",
+    "AI-powered secondhand inventory. Browse finds near you and save the planet while you're at it.",
 };
 
 export default function RootLayout({

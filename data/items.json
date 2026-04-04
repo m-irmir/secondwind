@@ -1,18 +1,36 @@
 [
   {
     "id": "item-001",
-    "photos": ["/seed/denim-jacket.jpg"],
+    "photos": [
+      "/seed/denim-jacket.jpg"
+    ],
     "type": "jacket",
-    "color": ["indigo", "blue"],
+    "color": [
+      "indigo",
+      "blue"
+    ],
     "brand": "Levi's",
     "size": "M",
-    "style": ["classic", "casual"],
+    "style": [
+      "classic",
+      "casual"
+    ],
     "condition": "excellent",
     "material": "denim",
     "price": 28,
     "description": "Levi's branded denim trucker jacket in dark indigo wash. Button-front closure with two chest flap pockets. Tag reads size M. No visible fading, stains, or damage to stitching.",
-    "store": { "id": "store-1", "name": "Habitat for Humanity ReStore", "address": "2513 S Rural Rd, Tempe, AZ 85282", "lat": 33.4055, "lng": -111.9265 },
-    "carbonSavings": { "co2Kg": 35, "waterLiters": 12000 },
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
     "favorites": 12,
     "status": "available",
     "createdAt": "2026-04-03T10:30:00Z",
@@ -20,18 +38,36 @@
   },
   {
     "id": "item-002",
-    "photos": ["/seed/sneakers.jpg"],
+    "photos": [
+      "/seed/sneakers.jpg"
+    ],
     "type": "shoes",
-    "color": ["white", "red"],
+    "color": [
+      "white",
+      "red"
+    ],
     "brand": "Nike",
     "size": "10",
-    "style": ["streetwear", "athletic"],
+    "style": [
+      "streetwear",
+      "athletic"
+    ],
     "condition": "good",
     "material": "leather",
     "price": 35,
     "description": "White leather low-top sneakers with red Nike swoosh and Air Force 1 branding on tongue. Size 10 visible on inner tag. Light creasing on toe box, soles show minimal wear.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 14, "waterLiters": 4500 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
     "favorites": 24,
     "status": "available",
     "createdAt": "2026-04-03T11:15:00Z",
@@ -39,18 +75,35 @@
   },
   {
     "id": "item-003",
-    "photos": ["/seed/band-tee.jpg"],
+    "photos": [
+      "/seed/band-tee.jpg"
+    ],
     "type": "t-shirt",
-    "color": ["black"],
+    "color": [
+      "black"
+    ],
     "brand": "Unknown",
     "size": "L",
-    "style": ["vintage", "streetwear"],
+    "style": [
+      "vintage",
+      "streetwear"
+    ],
     "condition": "fair",
     "material": "cotton",
     "price": 15,
     "description": "Black cotton crew-neck t-shirt with large screen-printed graphic on front, appears to be a vintage band tour tee. Tag reads size L. Fabric is soft and broken-in with some fading on the print.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 31,
     "status": "available",
     "createdAt": "2026-04-03T14:00:00Z",
@@ -58,18 +111,37 @@
   },
   {
     "id": "item-004",
-    "photos": ["/seed/floral-dress.jpg"],
+    "photos": [
+      "/seed/floral-dress.jpg"
+    ],
     "type": "dress",
-    "color": ["navy", "pink", "green"],
+    "color": [
+      "navy",
+      "pink",
+      "green"
+    ],
     "brand": "Zara",
     "size": "S",
-    "style": ["feminine", "casual"],
+    "style": [
+      "feminine",
+      "casual"
+    ],
     "condition": "excellent",
     "material": "viscose",
     "price": 22,
     "description": "Navy midi dress with pink and green floral print throughout. Zara label visible on neck tag. Size S. Lightweight viscose fabric with good drape. No stains, tears, or pilling visible.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 22, "waterLiters": 8000 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 22,
+      "waterLiters": 8000,
+      "shippingCo2Kg": 1
+    },
     "favorites": 18,
     "status": "available",
     "createdAt": "2026-04-03T09:45:00Z",
@@ -77,18 +149,35 @@
   },
   {
     "id": "item-005",
-    "photos": ["/seed/fleece.jpg"],
+    "photos": [
+      "/seed/fleece.jpg"
+    ],
     "type": "sweater",
-    "color": ["forest green"],
+    "color": [
+      "forest green"
+    ],
     "brand": "Patagonia",
     "size": "XL",
-    "style": ["outdoor", "casual"],
+    "style": [
+      "outdoor",
+      "casual"
+    ],
     "condition": "good",
     "material": "polyester fleece",
     "price": 45,
     "description": "Patagonia Better Sweater quarter-zip pullover in forest green. Branded logo patch on left chest. Tag reads size XL. Polyester fleece material, minimal pilling visible on cuffs.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 12, "waterLiters": 5000 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
     "favorites": 9,
     "status": "available",
     "createdAt": "2026-04-02T16:30:00Z",
@@ -96,18 +185,36 @@
   },
   {
     "id": "item-006",
-    "photos": ["/seed/button-down.jpg"],
+    "photos": [
+      "/seed/button-down.jpg"
+    ],
     "type": "shirt",
-    "color": ["light blue", "white"],
+    "color": [
+      "light blue",
+      "white"
+    ],
     "brand": "Ralph Lauren",
     "size": "M",
-    "style": ["preppy", "classic"],
+    "style": [
+      "preppy",
+      "classic"
+    ],
     "condition": "excellent",
     "material": "cotton oxford",
     "price": 18,
     "description": "Light blue striped button-down shirt with Ralph Lauren polo logo embroidered on chest. Oxford cloth weave. Tag reads size M. Collar is crisp, no visible stains or discoloration.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 7,
     "status": "sold",
     "createdAt": "2026-04-03T13:20:00Z",
@@ -115,18 +222,35 @@
   },
   {
     "id": "item-007",
-    "photos": ["/seed/mom-jeans.jpg"],
+    "photos": [
+      "/seed/mom-jeans.jpg"
+    ],
     "type": "jeans",
-    "color": ["light blue"],
+    "color": [
+      "light blue"
+    ],
     "brand": "Levi's",
     "size": "28",
-    "style": ["vintage", "casual"],
+    "style": [
+      "vintage",
+      "casual"
+    ],
     "condition": "good",
     "material": "denim",
     "price": 20,
     "description": "High-waisted straight-leg jeans in light wash denim. Levi's red tab visible on back pocket, tag reads W28. Classic five-pocket design with authentic fading at thighs. No rips or holes.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 33.4, "waterLiters": 10000 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
     "favorites": 42,
     "status": "available",
     "createdAt": "2026-04-02T11:00:00Z",
@@ -134,18 +258,36 @@
   },
   {
     "id": "item-008",
-    "photos": ["/seed/track-jacket.jpg"],
+    "photos": [
+      "/seed/track-jacket.jpg"
+    ],
     "type": "jacket",
-    "color": ["black", "white"],
+    "color": [
+      "black",
+      "white"
+    ],
     "brand": "Adidas",
     "size": "L",
-    "style": ["streetwear", "athletic"],
+    "style": [
+      "streetwear",
+      "athletic"
+    ],
     "condition": "good",
     "material": "polyester",
     "price": 25,
     "description": "Black polyester track jacket with white three-stripe detailing on sleeves. Adidas Originals trefoil logo on chest. Zip-front closure, tag reads size L. No snags or pilling visible.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 35, "waterLiters": 12000 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
     "favorites": 15,
     "status": "available",
     "createdAt": "2026-04-03T08:15:00Z",
@@ -153,18 +295,35 @@
   },
   {
     "id": "item-009",
-    "photos": ["/seed/cashmere-sweater.jpg"],
+    "photos": [
+      "/seed/cashmere-sweater.jpg"
+    ],
     "type": "sweater",
-    "color": ["camel"],
+    "color": [
+      "camel"
+    ],
     "brand": "J.Crew",
     "size": "M",
-    "style": ["classic", "minimal"],
+    "style": [
+      "classic",
+      "minimal"
+    ],
     "condition": "excellent",
     "material": "cashmere",
     "price": 30,
     "description": "Crewneck sweater in camel tone. J.Crew label visible on inner neck tag, size M. Material appears to be cashmere based on texture and care label. No pilling or pulls detected.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 12, "waterLiters": 5000 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
     "favorites": 21,
     "status": "available",
     "createdAt": "2026-04-03T15:45:00Z",
@@ -172,18 +331,35 @@
   },
   {
     "id": "item-010",
-    "photos": ["/seed/boots.jpg"],
+    "photos": [
+      "/seed/boots.jpg"
+    ],
     "type": "boots",
-    "color": ["black"],
+    "color": [
+      "black"
+    ],
     "brand": "Dr. Martens",
     "size": "8",
-    "style": ["punk", "classic"],
+    "style": [
+      "punk",
+      "classic"
+    ],
     "condition": "fair",
     "material": "leather",
     "price": 40,
     "description": "Black leather 8-eye lace-up boots. Dr. Martens AirWair branding visible on heel tab. Size 8 stamped on insole. Leather is well broken-in with scuffing on toe area, soles have good tread remaining.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 14, "waterLiters": 4500 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 2.2
+    },
     "favorites": 33,
     "status": "available",
     "createdAt": "2026-04-02T14:30:00Z",
@@ -191,18 +367,35 @@
   },
   {
     "id": "item-011",
-    "photos": ["/seed/silk-blouse.jpg"],
+    "photos": [
+      "/seed/silk-blouse.jpg"
+    ],
     "type": "blouse",
-    "color": ["ivory"],
+    "color": [
+      "ivory"
+    ],
     "brand": "Everlane",
     "size": "S",
-    "style": ["minimal", "feminine"],
+    "style": [
+      "minimal",
+      "feminine"
+    ],
     "condition": "excellent",
     "material": "silk",
     "price": 16,
     "description": "Ivory silk blouse with relaxed fit and button-front closure. Everlane brand label visible on inner tag, size S. Lightweight and slightly sheer. No visible stains, pulls, or discoloration.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 8, "waterLiters": 3000 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 14,
     "status": "available",
     "createdAt": "2026-04-03T12:00:00Z",
@@ -210,18 +403,36 @@
   },
   {
     "id": "item-012",
-    "photos": ["/seed/work-jacket.jpg"],
+    "photos": [
+      "/seed/work-jacket.jpg"
+    ],
     "type": "jacket",
-    "color": ["tan", "brown"],
+    "color": [
+      "tan",
+      "brown"
+    ],
     "brand": "Carhartt",
     "size": "XL",
-    "style": ["workwear", "rugged"],
+    "style": [
+      "workwear",
+      "rugged"
+    ],
     "condition": "good",
     "material": "cotton canvas",
     "price": 38,
     "description": "Tan cotton canvas work jacket with blanket-lined interior visible at collar. Carhartt label on chest pocket. Tag reads size XL. Fabric shows natural weathering, all snaps and zippers functional.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 35, "waterLiters": 12000 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
     "favorites": 27,
     "status": "available",
     "createdAt": "2026-04-02T09:00:00Z",
@@ -229,18 +440,35 @@
   },
   {
     "id": "item-013",
-    "photos": ["/seed/bookshelf.jpg"],
+    "photos": [
+      "/seed/bookshelf.jpg"
+    ],
     "type": "furniture",
-    "color": ["brown"],
+    "color": [
+      "brown"
+    ],
     "brand": "Unknown",
     "size": "36x12x48",
-    "style": ["rustic", "home"],
+    "style": [
+      "rustic",
+      "home"
+    ],
     "condition": "good",
     "material": "solid wood",
     "price": 25,
     "description": "Four-shelf wooden bookshelf in dark brown finish. Approximately 36 inches wide by 48 inches tall. Solid wood construction. Minor surface scratches on shelves, structurally sound with no wobble.",
-    "store": { "id": "store-1", "name": "Habitat for Humanity ReStore", "address": "2513 S Rural Rd, Tempe, AZ 85282", "lat": 33.4055, "lng": -111.9265 },
-    "carbonSavings": { "co2Kg": 47, "waterLiters": 5000 },
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 47,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 25
+    },
     "favorites": 5,
     "status": "available",
     "createdAt": "2026-04-03T08:00:00Z",
@@ -248,18 +476,34 @@
   },
   {
     "id": "item-014",
-    "photos": ["/seed/power-cords.jpg"],
+    "photos": [
+      "/seed/power-cords.jpg"
+    ],
     "type": "electronics",
-    "color": ["black"],
+    "color": [
+      "black"
+    ],
     "brand": "Various",
     "size": "6ft",
-    "style": ["utility"],
+    "style": [
+      "utility"
+    ],
     "condition": "good",
     "material": "copper/plastic",
     "price": 5,
     "description": "Bundle of three black extension cords, approximately 6 feet each. Standard three-prong grounded plugs. Plastic sheathing intact on all cords, no visible fraying or exposed wiring.",
-    "store": { "id": "store-1", "name": "Habitat for Humanity ReStore", "address": "2513 S Rural Rd, Tempe, AZ 85282", "lat": 33.4055, "lng": -111.9265 },
-    "carbonSavings": { "co2Kg": 20, "waterLiters": 1500 },
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 20,
+      "waterLiters": 1500,
+      "shippingCo2Kg": 5
+    },
     "favorites": 2,
     "status": "available",
     "createdAt": "2026-04-03T09:00:00Z",
@@ -267,18 +511,36 @@
   },
   {
     "id": "item-015",
-    "photos": ["/seed/running-shoes.jpg"],
+    "photos": [
+      "/seed/running-shoes.jpg"
+    ],
     "type": "shoes",
-    "color": ["gray", "green"],
+    "color": [
+      "gray",
+      "green"
+    ],
     "brand": "Nike",
     "size": "9",
-    "style": ["athletic", "casual"],
+    "style": [
+      "athletic",
+      "casual"
+    ],
     "condition": "good",
     "material": "mesh/rubber",
     "price": 18,
     "description": "Gray mesh running shoes with green accent details on sole and heel. Nike branding on tongue and heel tab. Size 9 visible on inner tag. Outsole shows light wear, upper mesh is clean with no tears.",
-    "store": { "id": "store-1", "name": "Habitat for Humanity ReStore", "address": "2513 S Rural Rd, Tempe, AZ 85282", "lat": 33.4055, "lng": -111.9265 },
-    "carbonSavings": { "co2Kg": 14, "waterLiters": 4500 },
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
     "favorites": 8,
     "status": "available",
     "createdAt": "2026-04-02T15:00:00Z",
@@ -286,18 +548,36 @@
   },
   {
     "id": "item-016",
-    "photos": ["/seed/ceramic-lamp.jpg"],
+    "photos": [
+      "/seed/ceramic-lamp.jpg"
+    ],
     "type": "home",
-    "color": ["white", "blue"],
+    "color": [
+      "white",
+      "blue"
+    ],
     "brand": "Unknown",
     "size": "14in",
-    "style": ["modern", "home"],
+    "style": [
+      "modern",
+      "home"
+    ],
     "condition": "excellent",
     "material": "ceramic",
     "price": 12,
     "description": "White ceramic table lamp base with blue geometric pattern. Approximately 14 inches tall, includes white fabric shade. Wiring and switch appear intact. No chips or cracks visible in ceramic.",
-    "store": { "id": "store-1", "name": "Habitat for Humanity ReStore", "address": "2513 S Rural Rd, Tempe, AZ 85282", "lat": 33.4055, "lng": -111.9265 },
-    "carbonSavings": { "co2Kg": 8, "waterLiters": 2000 },
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 2000,
+      "shippingCo2Kg": 3
+    },
     "favorites": 6,
     "status": "available",
     "createdAt": "2026-04-03T11:30:00Z",
@@ -305,18 +585,35 @@
   },
   {
     "id": "item-017",
-    "photos": ["/seed/work-boots.jpg"],
+    "photos": [
+      "/seed/work-boots.jpg"
+    ],
     "type": "boots",
-    "color": ["brown"],
+    "color": [
+      "brown"
+    ],
     "brand": "Timberland",
     "size": "11",
-    "style": ["workwear", "rugged"],
+    "style": [
+      "workwear",
+      "rugged"
+    ],
     "condition": "fair",
     "material": "leather/rubber",
     "price": 22,
     "description": "Brown leather work boots with rubber lug sole. Timberland PRO label visible on tongue, steel toe cap. Size 11 stamped on inner tag. Leather shows wear marks and scuffing, sole tread still has depth.",
-    "store": { "id": "store-1", "name": "Habitat for Humanity ReStore", "address": "2513 S Rural Rd, Tempe, AZ 85282", "lat": 33.4055, "lng": -111.9265 },
-    "carbonSavings": { "co2Kg": 14, "waterLiters": 4500 },
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 2.2
+    },
     "favorites": 4,
     "status": "available",
     "createdAt": "2026-04-02T10:00:00Z",
@@ -324,18 +621,35 @@
   },
   {
     "id": "item-018",
-    "photos": ["/seed/desk-chair.jpg"],
+    "photos": [
+      "/seed/desk-chair.jpg"
+    ],
     "type": "furniture",
-    "color": ["black"],
+    "color": [
+      "black"
+    ],
     "brand": "Unknown",
     "size": "Standard",
-    "style": ["modern", "office"],
+    "style": [
+      "modern",
+      "office"
+    ],
     "condition": "good",
     "material": "mesh/metal",
     "price": 30,
     "description": "Black mesh-back office chair with padded fabric seat and adjustable height lever. Five-star base with casters. Mesh material intact with no tears, pneumatic height adjustment functional.",
-    "store": { "id": "store-1", "name": "Habitat for Humanity ReStore", "address": "2513 S Rural Rd, Tempe, AZ 85282", "lat": 33.4055, "lng": -111.9265 },
-    "carbonSavings": { "co2Kg": 47, "waterLiters": 5000 },
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 47,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 25
+    },
     "favorites": 11,
     "status": "available",
     "createdAt": "2026-04-03T13:00:00Z",
@@ -343,18 +657,36 @@
   },
   {
     "id": "item-019",
-    "photos": ["/seed/picture-frames.jpg"],
+    "photos": [
+      "/seed/picture-frames.jpg"
+    ],
     "type": "home",
-    "color": ["brown", "gold"],
+    "color": [
+      "brown",
+      "gold"
+    ],
     "brand": "Unknown",
     "size": "Various",
-    "style": ["classic", "home"],
+    "style": [
+      "classic",
+      "home"
+    ],
     "condition": "good",
     "material": "wood/glass",
     "price": 8,
     "description": "Set of four wooden picture frames with gold-tone inner trim. Sizes range from 4x6 to 8x10 inches. Glass intact in all frames, hanging hardware attached. Minor finish wear on corners.",
-    "store": { "id": "store-1", "name": "Habitat for Humanity ReStore", "address": "2513 S Rural Rd, Tempe, AZ 85282", "lat": 33.4055, "lng": -111.9265 },
-    "carbonSavings": { "co2Kg": 8, "waterLiters": 2000 },
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 2000,
+      "shippingCo2Kg": 3
+    },
     "favorites": 3,
     "status": "available",
     "createdAt": "2026-04-02T12:00:00Z",
@@ -362,18 +694,35 @@
   },
   {
     "id": "item-020",
-    "photos": ["/seed/metallica-tee.jpg"],
+    "photos": [
+      "/seed/metallica-tee.jpg"
+    ],
     "type": "t-shirt",
-    "color": ["black"],
+    "color": [
+      "black"
+    ],
     "brand": "Unknown",
     "size": "L",
-    "style": ["vintage", "streetwear"],
+    "style": [
+      "vintage",
+      "streetwear"
+    ],
     "condition": "good",
     "material": "cotton",
     "price": 12,
     "description": "Black cotton crew-neck t-shirt with Metallica 'Master of Puppets' album artwork printed on front. Tag reads size L. Print shows vintage-style fading, likely from age. No holes or stains visible.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 28,
     "status": "available",
     "createdAt": "2026-04-03T10:00:00Z",
@@ -381,18 +730,36 @@
   },
   {
     "id": "item-021",
-    "photos": ["/seed/sundress.jpg"],
+    "photos": [
+      "/seed/sundress.jpg"
+    ],
     "type": "dress",
-    "color": ["yellow", "white"],
+    "color": [
+      "yellow",
+      "white"
+    ],
     "brand": "H&M",
     "size": "S",
-    "style": ["feminine", "casual"],
+    "style": [
+      "feminine",
+      "casual"
+    ],
     "condition": "excellent",
     "material": "cotton",
     "price": 14,
     "description": "Sleeveless A-line sundress in bright yellow with white daisy print pattern. H&M label on inner tag, size S. Lightweight cotton fabric with adjustable shoulder straps. No visible wear or staining.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 22, "waterLiters": 8000 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 22,
+      "waterLiters": 8000,
+      "shippingCo2Kg": 1
+    },
     "favorites": 19,
     "status": "available",
     "createdAt": "2026-04-03T14:30:00Z",
@@ -400,18 +767,35 @@
   },
   {
     "id": "item-022",
-    "photos": ["/seed/crop-top.jpg"],
+    "photos": [
+      "/seed/crop-top.jpg"
+    ],
     "type": "top",
-    "color": ["white"],
+    "color": [
+      "white"
+    ],
     "brand": "Brandy Melville",
     "size": "S",
-    "style": ["casual", "trendy"],
+    "style": [
+      "casual",
+      "trendy"
+    ],
     "condition": "good",
     "material": "cotton/spandex",
     "price": 8,
     "description": "White ribbed crop top with square neckline and wide shoulder straps. Brandy Melville tag visible at collar. Cotton/spandex blend with good stretch. No pilling or discoloration detected.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 16,
     "status": "available",
     "createdAt": "2026-04-03T15:00:00Z",
@@ -419,18 +803,35 @@
   },
   {
     "id": "item-023",
-    "photos": ["/seed/highwaist-jeans.jpg"],
+    "photos": [
+      "/seed/highwaist-jeans.jpg"
+    ],
     "type": "jeans",
-    "color": ["blue"],
+    "color": [
+      "blue"
+    ],
     "brand": "Levi's",
     "size": "26",
-    "style": ["classic", "trendy"],
+    "style": [
+      "classic",
+      "trendy"
+    ],
     "condition": "excellent",
     "material": "denim",
     "price": 28,
     "description": "High-waisted straight-leg jeans in medium wash denim. Levi's Ribcage label visible on back waistband. Size 26 on tag. Minimal signs of wear, no fading at knees or thighs.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 33.4, "waterLiters": 10000 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
     "favorites": 35,
     "status": "available",
     "createdAt": "2026-04-03T09:30:00Z",
@@ -438,18 +839,35 @@
   },
   {
     "id": "item-024",
-    "photos": ["/seed/blazer.jpg"],
+    "photos": [
+      "/seed/blazer.jpg"
+    ],
     "type": "jacket",
-    "color": ["navy"],
+    "color": [
+      "navy"
+    ],
     "brand": "Zara",
     "size": "S",
-    "style": ["classic", "professional"],
+    "style": [
+      "classic",
+      "professional"
+    ],
     "condition": "excellent",
     "material": "polyester blend",
     "price": 32,
     "description": "Single-breasted blazer in deep navy. Zara label on inner lining, size S. Polyester blend fabric, fully lined interior. Two front flap pockets, no loose threads or visible wear.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 35, "waterLiters": 12000 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
     "favorites": 22,
     "status": "available",
     "createdAt": "2026-04-03T16:00:00Z",
@@ -457,18 +875,36 @@
   },
   {
     "id": "item-025",
-    "photos": ["/seed/asu-tee.jpg"],
+    "photos": [
+      "/seed/asu-tee.jpg"
+    ],
     "type": "t-shirt",
-    "color": ["maroon", "gold"],
+    "color": [
+      "maroon",
+      "gold"
+    ],
     "brand": "Champion",
     "size": "M",
-    "style": ["collegiate", "casual"],
+    "style": [
+      "collegiate",
+      "casual"
+    ],
     "condition": "good",
     "material": "cotton",
     "price": 10,
     "description": "Maroon cotton t-shirt with gold 'ASU Sun Devils' graphic on front. Champion brand tag visible at collar, size M. Screen print is intact with no cracking. Fabric is soft from washing.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 38,
     "status": "available",
     "createdAt": "2026-04-03T12:30:00Z",
@@ -476,18 +912,35 @@
   },
   {
     "id": "item-026",
-    "photos": ["/seed/maxi-skirt.jpg"],
+    "photos": [
+      "/seed/maxi-skirt.jpg"
+    ],
     "type": "skirt",
-    "color": ["black"],
+    "color": [
+      "black"
+    ],
     "brand": "Free People",
     "size": "M",
-    "style": ["boho", "feminine"],
+    "style": [
+      "boho",
+      "feminine"
+    ],
     "condition": "good",
     "material": "rayon",
     "price": 14,
     "description": "Black full-length maxi skirt with side slit. Free People label on inner waistband, size M. Rayon fabric with elastic waistband. Lightweight and flowing, no snags or damage visible.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 11, "waterLiters": 4000 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 11,
+      "waterLiters": 4000,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 13,
     "status": "available",
     "createdAt": "2026-04-02T17:00:00Z",
@@ -495,18 +948,35 @@
   },
   {
     "id": "item-027",
-    "photos": ["/seed/dark-jeans.jpg"],
+    "photos": [
+      "/seed/dark-jeans.jpg"
+    ],
     "type": "jeans",
-    "color": ["navy"],
+    "color": [
+      "navy"
+    ],
     "brand": "Wrangler",
     "size": "34",
-    "style": ["classic", "rugged"],
+    "style": [
+      "classic",
+      "rugged"
+    ],
     "condition": "good",
     "material": "denim",
     "price": 12,
     "description": "Dark wash straight-leg jeans with Wrangler branded leather patch on back waistband. Tag reads size 34. Heavy denim with classic five-pocket styling. Minor fading at creases, no rips.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 33.4, "waterLiters": 10000 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
     "favorites": 7,
     "status": "available",
     "createdAt": "2026-04-02T13:00:00Z",
@@ -514,18 +984,35 @@
   },
   {
     "id": "item-028",
-    "photos": ["/seed/slim-jeans.jpg"],
+    "photos": [
+      "/seed/slim-jeans.jpg"
+    ],
     "type": "jeans",
-    "color": ["light blue"],
+    "color": [
+      "light blue"
+    ],
     "brand": "Gap",
     "size": "30",
-    "style": ["casual", "modern"],
+    "style": [
+      "casual",
+      "modern"
+    ],
     "condition": "good",
     "material": "denim",
     "price": 10,
     "description": "Light wash slim-fit jeans with slight stretch. Gap label on inner waistband, size 30 on tag. Comfortable stretch denim, no holes, stains, or significant fading visible.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 33.4, "waterLiters": 10000 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
     "favorites": 5,
     "status": "available",
     "createdAt": "2026-04-03T07:30:00Z",
@@ -533,18 +1020,35 @@
   },
   {
     "id": "item-029",
-    "photos": ["/seed/white-tee.jpg"],
+    "photos": [
+      "/seed/white-tee.jpg"
+    ],
     "type": "t-shirt",
-    "color": ["white"],
+    "color": [
+      "white"
+    ],
     "brand": "Hanes",
     "size": "XL",
-    "style": ["basic", "casual"],
+    "style": [
+      "basic",
+      "casual"
+    ],
     "condition": "good",
     "material": "cotton",
     "price": 5,
     "description": "White heavyweight crew-neck t-shirt. Hanes Beefy-T tag visible at collar, size XL. Thick cotton fabric with tagless neck label. Clean with no yellowing or stains.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 3,
     "status": "available",
     "createdAt": "2026-04-03T08:00:00Z",
@@ -552,18 +1056,36 @@
   },
   {
     "id": "item-030",
-    "photos": ["/seed/flannel.jpg"],
+    "photos": [
+      "/seed/flannel.jpg"
+    ],
     "type": "shirt",
-    "color": ["red", "black"],
+    "color": [
+      "red",
+      "black"
+    ],
     "brand": "Unknown",
     "size": "L",
-    "style": ["casual", "rugged"],
+    "style": [
+      "casual",
+      "rugged"
+    ],
     "condition": "good",
     "material": "cotton flannel",
     "price": 8,
     "description": "Red and black buffalo plaid button-front shirt in cotton flannel. No visible brand tag. Size L on care label. All buttons intact, fabric is soft with no holes or thin spots.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 11,
     "status": "available",
     "createdAt": "2026-04-02T16:00:00Z",
@@ -571,18 +1093,35 @@
   },
   {
     "id": "item-031",
-    "photos": ["/seed/hoodie.jpg"],
+    "photos": [
+      "/seed/hoodie.jpg"
+    ],
     "type": "hoodie",
-    "color": ["gray"],
+    "color": [
+      "gray"
+    ],
     "brand": "Champion",
     "size": "L",
-    "style": ["streetwear", "casual"],
+    "style": [
+      "streetwear",
+      "casual"
+    ],
     "condition": "good",
     "material": "cotton/polyester",
     "price": 15,
     "description": "Heather gray pullover hoodie with kangaroo pocket. Champion 'C' logo embroidered on left chest. Tag reads size L. Cotton/polyester blend fleece, ribbed cuffs and hem. No staining or holes.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 12, "waterLiters": 5000 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
     "favorites": 20,
     "status": "available",
     "createdAt": "2026-04-03T11:00:00Z",
@@ -590,18 +1129,35 @@
   },
   {
     "id": "item-032",
-    "photos": ["/seed/black-jeans.jpg"],
+    "photos": [
+      "/seed/black-jeans.jpg"
+    ],
     "type": "jeans",
-    "color": ["black"],
+    "color": [
+      "black"
+    ],
     "brand": "Old Navy",
     "size": "32",
-    "style": ["casual", "modern"],
+    "style": [
+      "casual",
+      "modern"
+    ],
     "condition": "good",
     "material": "denim",
     "price": 8,
     "description": "Black slim-fit jeans with no visible fading. Old Navy tag on inner waistband, size 32. Standard five-pocket design with stretch denim. No knee wear or damage detected.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 33.4, "waterLiters": 10000 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
     "favorites": 6,
     "status": "available",
     "createdAt": "2026-04-02T10:30:00Z",
@@ -609,18 +1165,35 @@
   },
   {
     "id": "item-033",
-    "photos": ["/seed/cardigan.jpg"],
+    "photos": [
+      "/seed/cardigan.jpg"
+    ],
     "type": "sweater",
-    "color": ["cream"],
+    "color": [
+      "cream"
+    ],
     "brand": "H&M",
     "size": "M",
-    "style": ["cozy", "feminine"],
+    "style": [
+      "cozy",
+      "feminine"
+    ],
     "condition": "good",
     "material": "acrylic/wool blend",
     "price": 12,
     "description": "Oversized open-front cardigan in cream/off-white with chunky knit pattern. H&M label visible, size M. Acrylic/wool blend with large tortoiseshell buttons. No pulls, holes, or pilling detected.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 12, "waterLiters": 5000 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
     "favorites": 17,
     "status": "available",
     "createdAt": "2026-04-03T13:30:00Z",
@@ -628,18 +1201,35 @@
   },
   {
     "id": "item-034",
-    "photos": ["/seed/romper.jpg"],
+    "photos": [
+      "/seed/romper.jpg"
+    ],
     "type": "dress",
-    "color": ["olive"],
+    "color": [
+      "olive"
+    ],
     "brand": "Urban Outfitters",
     "size": "S",
-    "style": ["boho", "casual"],
+    "style": [
+      "boho",
+      "casual"
+    ],
     "condition": "excellent",
     "material": "linen blend",
     "price": 16,
     "description": "Olive green sleeveless romper with adjustable shoulder straps and two front pockets. Urban Outfitters tag visible, size S. Linen blend fabric with relaxed fit. No stains or wear marks.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 22, "waterLiters": 8000 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 22,
+      "waterLiters": 8000,
+      "shippingCo2Kg": 1
+    },
     "favorites": 23,
     "status": "available",
     "createdAt": "2026-04-03T16:30:00Z",
@@ -647,18 +1237,35 @@
   },
   {
     "id": "item-035",
-    "photos": ["/seed/navy-tee.jpg"],
+    "photos": [
+      "/seed/navy-tee.jpg"
+    ],
     "type": "t-shirt",
-    "color": ["navy"],
+    "color": [
+      "navy"
+    ],
     "brand": "Gildan",
     "size": "M",
-    "style": ["basic", "casual"],
+    "style": [
+      "basic",
+      "casual"
+    ],
     "condition": "good",
     "material": "cotton",
     "price": 4,
     "description": "Solid navy crew-neck t-shirt. Gildan Softstyle label on inner collar, size M. Lightweight cotton fabric, standard fit. Clean with no fading, holes, or damage.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 1,
     "status": "available",
     "createdAt": "2026-04-02T08:00:00Z",
@@ -666,18 +1273,35 @@
   },
   {
     "id": "item-036",
-    "photos": ["/seed/denim-shorts.jpg"],
+    "photos": [
+      "/seed/denim-shorts.jpg"
+    ],
     "type": "shorts",
-    "color": ["blue"],
+    "color": [
+      "blue"
+    ],
     "brand": "Levi's",
     "size": "28",
-    "style": ["casual", "vintage"],
+    "style": [
+      "casual",
+      "vintage"
+    ],
     "condition": "good",
     "material": "denim",
     "price": 7,
     "description": "Light wash denim cut-off shorts with raw hem edge. Levi's red tab on back pocket, size 28 on waist tag. Mid-rise with classic five-pocket design. Light fading consistent with wash.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 8, "waterLiters": 3000 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 9,
     "status": "sold",
     "createdAt": "2026-04-02T09:30:00Z",
@@ -685,18 +1309,35 @@
   },
   {
     "id": "item-037",
-    "photos": ["/seed/white-buttondown.jpg"],
+    "photos": [
+      "/seed/white-buttondown.jpg"
+    ],
     "type": "shirt",
-    "color": ["white"],
+    "color": [
+      "white"
+    ],
     "brand": "Brooks Brothers",
     "size": "L",
-    "style": ["classic", "professional"],
+    "style": [
+      "classic",
+      "professional"
+    ],
     "condition": "excellent",
     "material": "cotton",
     "price": 12,
     "description": "White non-iron dress shirt with button-down collar. Brooks Brothers label on inner neck, tag reads size L. Crisp cotton fabric with no yellowing, collar wear, or staining visible.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 10,
     "status": "available",
     "createdAt": "2026-04-03T10:15:00Z",
@@ -704,18 +1345,36 @@
   },
   {
     "id": "item-038",
-    "photos": ["/seed/converse.jpg"],
+    "photos": [
+      "/seed/converse.jpg"
+    ],
     "type": "shoes",
-    "color": ["white", "red"],
+    "color": [
+      "white",
+      "red"
+    ],
     "brand": "Converse",
     "size": "9",
-    "style": ["classic", "casual"],
+    "style": [
+      "classic",
+      "casual"
+    ],
     "condition": "good",
     "material": "canvas/rubber",
     "price": 15,
     "description": "White canvas low-top sneakers with red and blue Converse All Star heel patch. Size 9 marked on inner sole. Rubber toe cap shows minor scuffing. Laces included, overall clean condition.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 14, "waterLiters": 4500 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
     "favorites": 18,
     "status": "available",
     "createdAt": "2026-04-02T13:30:00Z",
@@ -723,18 +1382,35 @@
   },
   {
     "id": "item-039",
-    "photos": ["/seed/tote-bag.jpg"],
+    "photos": [
+      "/seed/tote-bag.jpg"
+    ],
     "type": "bag",
-    "color": ["tan"],
+    "color": [
+      "tan"
+    ],
     "brand": "Unknown",
     "size": "One Size",
-    "style": ["casual", "minimal"],
+    "style": [
+      "casual",
+      "minimal"
+    ],
     "condition": "good",
     "material": "canvas",
     "price": 6,
     "description": "Natural tan canvas tote bag with double shoulder straps. No visible brand marking. Single interior pocket, approximate dimensions 15x16 inches. Clean with no staining or fraying on handles.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 10, "waterLiters": 3500 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 10,
+      "waterLiters": 3500,
+      "shippingCo2Kg": 1.2
+    },
     "favorites": 4,
     "status": "available",
     "createdAt": "2026-04-03T07:00:00Z",
@@ -742,18 +1418,35 @@
   },
   {
     "id": "item-040",
-    "photos": ["/seed/jumpsuit.jpg"],
+    "photos": [
+      "/seed/jumpsuit.jpg"
+    ],
     "type": "dress",
-    "color": ["blue"],
+    "color": [
+      "blue"
+    ],
     "brand": "Old Navy",
     "size": "M",
-    "style": ["casual", "trendy"],
+    "style": [
+      "casual",
+      "trendy"
+    ],
     "condition": "good",
     "material": "denim",
     "price": 20,
     "description": "Blue denim jumpsuit with front button closure and self-tie waist belt. Old Navy label visible, size M. Relaxed fit with rolled cuff detail at ankles. No fading or damage visible.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 22, "waterLiters": 8000 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 22,
+      "waterLiters": 8000,
+      "shippingCo2Kg": 1
+    },
     "favorites": 15,
     "status": "available",
     "createdAt": "2026-04-03T14:45:00Z",
@@ -761,18 +1454,35 @@
   },
   {
     "id": "item-041",
-    "photos": ["/seed/leggings.jpg"],
+    "photos": [
+      "/seed/leggings.jpg"
+    ],
     "type": "pants",
-    "color": ["black"],
+    "color": [
+      "black"
+    ],
     "brand": "Lululemon",
     "size": "S",
-    "style": ["athletic", "casual"],
+    "style": [
+      "athletic",
+      "casual"
+    ],
     "condition": "excellent",
     "material": "nylon/lycra",
     "price": 18,
     "description": "Black high-waisted full-length leggings. Lululemon logo visible on back waistband. Size S equivalent based on size dot. Nylon/Lycra blend with four-way stretch. No pilling or sheerness detected.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 12, "waterLiters": 3800 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 3800,
+      "shippingCo2Kg": 1
+    },
     "favorites": 26,
     "status": "available",
     "createdAt": "2026-04-03T15:30:00Z",
@@ -780,18 +1490,37 @@
   },
   {
     "id": "item-042",
-    "photos": ["/seed/tiedye-tee.jpg"],
+    "photos": [
+      "/seed/tiedye-tee.jpg"
+    ],
     "type": "t-shirt",
-    "color": ["purple", "blue", "pink"],
+    "color": [
+      "purple",
+      "blue",
+      "pink"
+    ],
     "brand": "Unknown",
     "size": "L",
-    "style": ["vintage", "boho"],
+    "style": [
+      "vintage",
+      "boho"
+    ],
     "condition": "good",
     "material": "cotton",
     "price": 8,
     "description": "Tie-dye crew-neck t-shirt in swirling purple, blue, and pink tones. No brand tag visible, appears handmade. Size L estimated from measurements. Soft cotton, colors are vibrant and unfaded.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 14,
     "status": "available",
     "createdAt": "2026-04-02T15:30:00Z",
@@ -799,18 +1528,35 @@
   },
   {
     "id": "item-043",
-    "photos": ["/seed/chambray.jpg"],
+    "photos": [
+      "/seed/chambray.jpg"
+    ],
     "type": "shirt",
-    "color": ["blue"],
+    "color": [
+      "blue"
+    ],
     "brand": "J.Crew",
     "size": "M",
-    "style": ["classic", "casual"],
+    "style": [
+      "classic",
+      "casual"
+    ],
     "condition": "excellent",
     "material": "cotton chambray",
     "price": 14,
     "description": "Medium blue chambray button-down shirt with single chest pocket. J.Crew label on inner tag, size M. Soft cotton chambray weave, all buttons present and intact. No visible wear or staining.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 8,
     "status": "available",
     "createdAt": "2026-04-03T06:30:00Z",
@@ -818,18 +1564,35 @@
   },
   {
     "id": "item-044",
-    "photos": ["/seed/red-tee.jpg"],
+    "photos": [
+      "/seed/red-tee.jpg"
+    ],
     "type": "t-shirt",
-    "color": ["red"],
+    "color": [
+      "red"
+    ],
     "brand": "Nike",
     "size": "L",
-    "style": ["athletic", "casual"],
+    "style": [
+      "athletic",
+      "casual"
+    ],
     "condition": "good",
     "material": "cotton/polyester",
     "price": 7,
     "description": "Bold red crew-neck t-shirt with white Nike swoosh logo on chest. Dri-FIT performance label visible on tag, size L. Lightweight cotton/polyester blend. No fading, stains, or damage.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 5,
     "status": "available",
     "createdAt": "2026-04-02T14:00:00Z",
@@ -837,18 +1600,35 @@
   },
   {
     "id": "item-045",
-    "photos": ["/seed/gray-tee.jpg"],
+    "photos": [
+      "/seed/gray-tee.jpg"
+    ],
     "type": "t-shirt",
-    "color": ["gray"],
+    "color": [
+      "gray"
+    ],
     "brand": "Hanes",
     "size": "M",
-    "style": ["basic", "casual"],
+    "style": [
+      "basic",
+      "casual"
+    ],
     "condition": "good",
     "material": "cotton",
     "price": 4,
     "description": "Heather gray crew-neck t-shirt. Hanes ComfortSoft label on collar, size M. Lightweight cotton fabric, soft from washing. No stains, holes, or visible wear.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 6.5, "waterLiters": 2700 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 2,
     "status": "available",
     "createdAt": "2026-04-02T07:00:00Z",
@@ -856,18 +1636,35 @@
   },
   {
     "id": "item-046",
-    "photos": ["/seed/wrangler-jeans.jpg"],
+    "photos": [
+      "/seed/wrangler-jeans.jpg"
+    ],
     "type": "jeans",
-    "color": ["blue"],
+    "color": [
+      "blue"
+    ],
     "brand": "Wrangler",
     "size": "36",
-    "style": ["classic", "casual"],
+    "style": [
+      "classic",
+      "casual"
+    ],
     "condition": "fair",
     "material": "denim",
     "price": 9,
     "description": "Medium blue relaxed-fit jeans. Wrangler patch visible on back waistband, tag reads size 36. Softened denim with minor fading at knee creases. No rips, holes, or structural damage.",
-    "store": { "id": "store-3", "name": "Savers", "address": "1152 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9220 },
-    "carbonSavings": { "co2Kg": 33.4, "waterLiters": 10000 },
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
     "favorites": 3,
     "status": "available",
     "createdAt": "2026-04-02T11:30:00Z",
@@ -875,18 +1672,35 @@
   },
   {
     "id": "item-047",
-    "photos": ["/seed/denim-skirt.jpg"],
+    "photos": [
+      "/seed/denim-skirt.jpg"
+    ],
     "type": "skirt",
-    "color": ["blue"],
+    "color": [
+      "blue"
+    ],
     "brand": "Levi's",
     "size": "S",
-    "style": ["casual", "vintage"],
+    "style": [
+      "casual",
+      "vintage"
+    ],
     "condition": "good",
     "material": "denim",
     "price": 11,
     "description": "Medium wash denim mini skirt with A-line cut and raw hem. Levi's tab visible on back, size S on tag. Five-pocket styling with button and zip closure. No excessive wear or damage.",
-    "store": { "id": "store-2", "name": "Buffalo Exchange", "address": "420 S Mill Ave, Tempe, AZ 85281", "lat": 33.4235, "lng": -111.9400 },
-    "carbonSavings": { "co2Kg": 11, "waterLiters": 4000 },
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 11,
+      "waterLiters": 4000,
+      "shippingCo2Kg": 0.8
+    },
     "favorites": 12,
     "status": "available",
     "createdAt": "2026-04-03T17:00:00Z",
@@ -894,18 +1708,35 @@
   },
   {
     "id": "item-048",
-    "photos": ["/seed/pullover.jpg"],
+    "photos": [
+      "/seed/pullover.jpg"
+    ],
     "type": "sweater",
-    "color": ["burgundy"],
+    "color": [
+      "burgundy"
+    ],
     "brand": "Uniqlo",
     "size": "M",
-    "style": ["minimal", "casual"],
+    "style": [
+      "minimal",
+      "casual"
+    ],
     "condition": "excellent",
     "material": "merino wool",
     "price": 16,
     "description": "Crewneck pullover sweater in deep burgundy. Uniqlo label visible on inner tag, size M. Extra-fine merino wool, lightweight with smooth texture. No pilling, pulls, or moth damage detected.",
-    "store": { "id": "store-4", "name": "Goodwill Tempe", "address": "1625 E Apache Blvd, Tempe, AZ 85281", "lat": 33.4148, "lng": -111.9130 },
-    "carbonSavings": { "co2Kg": 12, "waterLiters": 5000 },
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
     "favorites": 7,
     "status": "available",
     "createdAt": "2026-04-02T12:30:00Z",
@@ -913,18 +1744,35 @@
   },
   {
     "id": "item-049",
-    "photos": ["/seed/kitchen-mixer.jpg"],
+    "photos": [
+      "/seed/kitchen-mixer.jpg"
+    ],
     "type": "electronics",
-    "color": ["red"],
+    "color": [
+      "red"
+    ],
     "brand": "KitchenAid",
     "size": "Standard",
-    "style": ["home", "utility"],
+    "style": [
+      "home",
+      "utility"
+    ],
     "condition": "good",
     "material": "metal/plastic",
     "price": 45,
     "description": "Red KitchenAid Classic hand mixer with five speed settings. Model number visible on base. Includes two standard beater attachments. Power cord intact, minor surface scratches on housing.",
-    "store": { "id": "store-1", "name": "Habitat for Humanity ReStore", "address": "2513 S Rural Rd, Tempe, AZ 85282", "lat": 33.4055, "lng": -111.9265 },
-    "carbonSavings": { "co2Kg": 20, "waterLiters": 1500 },
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 20,
+      "waterLiters": 1500,
+      "shippingCo2Kg": 5
+    },
     "favorites": 9,
     "status": "available",
     "createdAt": "2026-04-03T12:15:00Z",
@@ -932,18 +1780,35 @@
   },
   {
     "id": "item-050",
-    "photos": ["/seed/end-table.jpg"],
+    "photos": [
+      "/seed/end-table.jpg"
+    ],
     "type": "furniture",
-    "color": ["brown"],
+    "color": [
+      "brown"
+    ],
     "brand": "Unknown",
     "size": "18x18x24",
-    "style": ["rustic", "home"],
+    "style": [
+      "rustic",
+      "home"
+    ],
     "condition": "fair",
     "material": "solid wood",
     "price": 15,
     "description": "Wooden end table with single lower shelf. Approximately 18x18x24 inches. Dark brown finish with visible ring marks on top surface. Joints are tight with no wobble.",
-    "store": { "id": "store-1", "name": "Habitat for Humanity ReStore", "address": "2513 S Rural Rd, Tempe, AZ 85282", "lat": 33.4055, "lng": -111.9265 },
-    "carbonSavings": { "co2Kg": 47, "waterLiters": 5000 },
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 47,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 25
+    },
     "favorites": 6,
     "status": "sold",
     "createdAt": "2026-04-02T08:30:00Z",
