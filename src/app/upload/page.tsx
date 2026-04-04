@@ -11,20 +11,19 @@ function UploadContent() {
   const preSelectedStoreId = searchParams.get("store") || undefined;
   const [step, setStep] = useState<"upload" | "review">("upload");
   const [extractedData, setExtractedData] = useState<Record<string, unknown>>({});
-  const [photoPath, setPhotoPath] = useState("");
+  const [photoPaths, setPhotoPaths] = useState<string[]>([]);
   const [error, setError] = useState("");
 
-  function handleProcessed(result: Record<string, unknown>, path: string) {
+  function handleProcessed(result: Record<string, unknown>, paths: string[]) {
     setExtractedData(result);
-    setPhotoPath(path);
+    setPhotoPaths(paths);
     setStep("review");
     setError("");
   }
 
   function handleError(msg: string) {
     setError(msg);
-    // If we have a photo path, still move to review so they can fill in manually
-    if (photoPath) setStep("review");
+    if (photoPaths.length > 0) setStep("review");
   }
 
   return (
@@ -37,7 +36,7 @@ function UploadContent() {
         <h1 className="text-2xl font-bold text-gray-900">Add New Item</h1>
         <p className="text-sm text-gray-400 mt-1">
           {step === "upload"
-            ? "Upload a photo and our AI will extract the details"
+            ? "Upload photos and our AI will extract the details"
             : "Review and edit the AI-generated details"}
         </p>
       </div>
@@ -62,7 +61,7 @@ function UploadContent() {
       {step === "upload" ? (
         <PhotoUpload onProcessed={handleProcessed} onError={handleError} />
       ) : (
-        <ItemForm initialData={extractedData} photoPath={photoPath} preSelectedStoreId={preSelectedStoreId} />
+        <ItemForm initialData={extractedData} photoPaths={photoPaths} preSelectedStoreId={preSelectedStoreId} />
       )}
     </div>
   );

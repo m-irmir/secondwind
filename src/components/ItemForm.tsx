@@ -10,15 +10,16 @@ const TYPES = [
   "shirt", "t-shirt", "top", "blouse", "pants", "jeans",
   "dress", "jacket", "coat", "sweater", "hoodie", "shoes",
   "boots", "skirt", "shorts", "accessories", "bag",
+  "furniture", "electronics", "home",
 ];
 
 interface ItemFormProps {
   initialData?: Record<string, unknown>;
-  photoPath: string;
+  photoPaths: string[];
   preSelectedStoreId?: string;
 }
 
-export default function ItemForm({ initialData, photoPath, preSelectedStoreId }: ItemFormProps) {
+export default function ItemForm({ initialData, photoPaths, preSelectedStoreId }: ItemFormProps) {
   const router = useRouter();
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -48,7 +49,7 @@ export default function ItemForm({ initialData, photoPath, preSelectedStoreId }:
     const carbonSavings = getCarbonSavings(formData.type);
 
     const item = {
-      photos: [photoPath],
+      photos: photoPaths,
       type: formData.type,
       color: formData.color.split(",").map((c) => c.trim()).filter(Boolean),
       brand: formData.brand || "Unknown",
@@ -72,6 +73,8 @@ export default function ItemForm({ initialData, photoPath, preSelectedStoreId }:
       if (res.ok) {
         setSubmitted(true);
         setTimeout(() => router.push("/"), 1500);
+      } else {
+        throw new Error("Save failed");
       }
     } catch {
       alert("Failed to create item");
@@ -94,9 +97,16 @@ export default function ItemForm({ initialData, photoPath, preSelectedStoreId }:
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
-      {/* Photo preview */}
-      <div className="rounded-xl overflow-hidden bg-gray-50">
-        <img src={photoPath} alt="Item" className="w-full max-h-48 object-contain" />
+      {/* Photo previews */}
+      <div className={`rounded-xl overflow-hidden bg-gray-50 ${photoPaths.length > 1 ? "grid grid-cols-2 gap-1" : ""}`}>
+        {photoPaths.map((p, i) => (
+          <img
+            key={i}
+            src={p}
+            alt={i === 0 ? "Item" : `Tag ${i}`}
+            className={`w-full object-cover ${photoPaths.length === 1 ? "max-h-48 object-contain" : "aspect-square"}`}
+          />
+        ))}
       </div>
 
       <div className="grid grid-cols-2 gap-4">

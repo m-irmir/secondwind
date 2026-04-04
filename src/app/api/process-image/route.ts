@@ -5,35 +5,48 @@ import { extractItemData } from "@/lib/gemini";
 
 export async function POST(request: NextRequest) {
   const formData = await request.formData();
-  const file = formData.get("image") as File | null;
+  const files = formData.getAll("images") as File[];
 
-  if (!file) {
-    return NextResponse.json({ error: "No image provided" }, { status: 400 });
+  if (files.length === 0) {
+    return NextResponse.json({ error: "No images provided" }, { status: 400 });
   }
 
-  // Save the uploaded image
-  const bytes = await file.arrayBuffer();
-  const buffer = Buffer.from(bytes);
-  const filename = `${Date.now()}-${file.name.replace(/[^a-zA-Z0-9.-]/g, "_")}`;
-  const uploadDir = path.join(process.cwd(), "public", "uploads");
-  await fs.mkdir(uploadDir, { recursive: true });
-  await fs.writeFile(path.join(uploadDir, filename), buffer);
+  const photoPaths: string[] = [];
+  const images: { base64: string; mimeType: string }[] = [];
+
+  for (const file of files) {
+    const bytes = await file.arrayBuffer();
+    const buffer = Buffer.from(bytes);
+    const base64 = buffer.toString("base64");
+
+    // Try saving to disk (works locally), fall back to data URL (Vercel)
+    try {
+      const filename = `${Date.now()}-${file.name.replace(/[^a-zA-Z0-9.-]/g, "_")}`;
+      const uploadDir = path.join(process.cwd(), "public", "uploads");
+      await fs.mkdir(uploadDir, { recursive: true });
+      await fs.writeFile(path.join(uploadDir, filename), buffer);
+      photoPaths.push(`/uploads/${filename}`);
+    } catch {
+      photoPaths.push(`data:${file.type};base64,${base64}`);
+    }
+
+    images.push({ base64, mimeType: file.type });
+  }
 
   // Process with Gemini
   try {
-    const base64 = buffer.toString("base64");
-    const result = await extractItemData(base64, file.type);
+    const result = await extractItemData(images);
     return NextResponse.json({
       ...result,
-      photoPath: `/uploads/${filename}`,
+      photoPaths,
     });
   } catch (error) {
     const message = error instanceof Error ? error.message : "Processing failed";
-    // Return the saved photo path even if Gemini fails, so the user can fill in manually
+    // Return photo paths even if Gemini fails, so user can fill in manually
     return NextResponse.json(
       {
         error: message,
-        photoPath: `/uploads/${filename}`,
+        photoPaths,
       },
       { status: 422 }
     );
