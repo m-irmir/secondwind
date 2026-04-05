@@ -8,7 +8,7 @@ export default function CarbonBadge({ savings }: { savings: CarbonSavings }) {
   return (
     <div className="bg-gradient-to-r from-indigo-600 to-violet-600 rounded-xl p-5 text-white space-y-4">
       <p className="text-xs font-medium uppercase tracking-widest text-indigo-200">
-        Manufacturing a new version of this item would produce
+        Manufacturing a new version of this item would require
       </p>
 
       <div className="grid grid-cols-2 gap-4">
@@ -36,13 +36,13 @@ export default function CarbonBadge({ savings }: { savings: CarbonSavings }) {
           </span>
           <span className="text-sm text-indigo-200 ml-1">liters</span>
           <p className="text-xs text-indigo-300 mt-0.5">
-            That&apos;s <span className="text-white font-semibold">{waterGallons.toLocaleString()} gallons</span>
+            Which is <span className="text-white font-semibold">{waterGallons.toLocaleString()} gallons</span>
           </p>
         </div>
       </div>
 
       <p className="text-sm font-medium text-indigo-100 border-t border-indigo-500 pt-3">
-        Buying secondhand means none of this gets produced.
+        Buying secondhand skips all of this pollution.
       </p>
     </div>
   );
