@@ -2394,17 +2394,24 @@
       "/uploads/item-067.webp"
     ],
     "type": "shoes",
-    "color": "Brown",
+    "color": [
+      "Brown"
+    ],
     "brand": "Birkenstock",
     "size": "8",
-    "style": "Sandals",
+    "style": [
+      "sandals"
+    ],
     "condition": "New",
     "material": "Leather/Cork",
     "price": 34.99,
     "description": "Birkenstock Gizeh thong sandals in brown with classic cork footbed. New in box, unworn condition. Adjustable buckle strap and contoured arch support.",
     "store": {
       "id": "store-2",
-      "name": "Buffalo Exchange"
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2422,17 +2429,24 @@
       "/uploads/item-068.webp"
     ],
     "type": "shoes",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "brand": "Birkenstock",
     "size": "7",
-    "style": "Sandals",
+    "style": [
+      "sandals"
+    ],
     "condition": "New",
     "material": "Leather/Cork",
     "price": 32.99,
     "description": "Birkenstock Mayari cross-strap sandals in black. New in box with original packaging. Cork-latex footbed with suede lining.",
     "store": {
       "id": "store-3",
-      "name": "Savers"
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2450,17 +2464,24 @@
       "/uploads/item-069.webp"
     ],
     "type": "shoes",
-    "color": "Brown",
+    "color": [
+      "Brown"
+    ],
     "brand": "Birkenstock",
     "size": "10",
-    "style": "Sandals",
+    "style": [
+      "sandals"
+    ],
     "condition": "New",
     "material": "Leather/Cork",
     "price": 36.99,
     "description": "Men's Birkenstock Arizona two-strap sandals in brown. New condition with adjustable metal buckle closures and contoured cork footbed.",
     "store": {
       "id": "store-4",
-      "name": "Goodwill"
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2478,17 +2499,24 @@
       "/uploads/item-070.webp"
     ],
     "type": "shoes",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "brand": "Naot",
     "size": "9",
-    "style": "Casual",
+    "style": [
+      "casual"
+    ],
     "condition": "New",
     "material": "Leather",
     "price": 28.99,
     "description": "Naot Papaki comfort walking shoes in black. New in box. Padded leather footbed with anatomic arch support and lightweight sole.",
     "store": {
       "id": "store-2",
-      "name": "Buffalo Exchange"
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2506,17 +2534,24 @@
       "/uploads/item-071.webp"
     ],
     "type": "shoes",
-    "color": "Gray",
+    "color": [
+      "Gray"
+    ],
     "brand": "Naot",
     "size": "7.5",
-    "style": "Heels",
+    "style": [
+      "heels"
+    ],
     "condition": "New",
     "material": "Leather",
     "price": 29.99,
     "description": "Naot Temper heels in gray leather. New in box. Low block heel with padded footbed and adjustable strap closure.",
     "store": {
       "id": "store-3",
-      "name": "Savers"
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2534,17 +2569,24 @@
       "/uploads/item-072.jpg"
     ],
     "type": "shoes",
-    "color": "Tan",
+    "color": [
+      "Tan"
+    ],
     "brand": "Alexandre Birman",
     "size": "38 EU",
-    "style": "Sandals",
+    "style": [
+      "sandals"
+    ],
     "condition": "Pre-owned",
     "material": "Leather",
     "price": 45.99,
     "description": "Alexandre Birman Clarita braided flat sandals in tan leather, size 38 EU. Italian-made with signature bow detail and woven leather straps.",
     "store": {
       "id": "store-2",
-      "name": "Buffalo Exchange"
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2562,17 +2604,24 @@
       "/uploads/item-073.jpg"
     ],
     "type": "shoes",
-    "color": "Tan",
+    "color": [
+      "Tan"
+    ],
     "brand": "Franco Sarto",
     "size": "8",
-    "style": "Sandals",
+    "style": [
+      "sandals"
+    ],
     "condition": "Pre-owned",
     "material": "Fabric/Jute",
     "price": 14.99,
     "description": "Franco Sarto espadrille wedge sandals in tan, women's size 8. Jute-wrapped platform sole with open toe and ankle strap.",
     "store": {
       "id": "store-4",
-      "name": "Goodwill"
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2590,17 +2639,25 @@
       "/uploads/item-074.jpg"
     ],
     "type": "shoes",
-    "color": "Gray/White",
+    "color": [
+      "Gray",
+      "White"
+    ],
     "brand": "Wolf & Shepherd",
     "size": "6",
-    "style": "Sneakers",
+    "style": [
+      "sneakers"
+    ],
     "condition": "New",
     "material": "Knit/Synthetic",
     "price": 39.99,
     "description": "Wolf & Shepherd sneakers in heather gray and white. New condition. Lightweight knit upper with cushioned sole.",
     "store": {
       "id": "store-2",
-      "name": "Buffalo Exchange"
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2618,17 +2675,24 @@
       "/uploads/item-075.jpg"
     ],
     "type": "shoes",
-    "color": "Silver",
+    "color": [
+      "Silver"
+    ],
     "brand": "Nine West",
     "size": "7.5",
-    "style": "Heels",
+    "style": [
+      "heels"
+    ],
     "condition": "Pre-owned",
     "material": "Synthetic",
     "price": 12.99,
     "description": "Nine West holographic heels in silver iridescent finish, women's size 7.5. Pointed toe with stiletto heel. Light wear on soles.",
     "store": {
       "id": "store-3",
-      "name": "Savers"
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2646,17 +2710,24 @@
       "/uploads/item-076.jpg"
     ],
     "type": "shoes",
-    "color": "Black",
+    "color": [
+      "Black"
+    ],
     "brand": "Simmi London",
     "size": "8",
-    "style": "Heels",
+    "style": [
+      "heels"
+    ],
     "condition": "Pre-owned",
     "material": "Synthetic",
     "price": 15.99,
     "description": "Simmi London pointed toe heels in black. Stiletto heel with sleek silhouette. Minor sole wear consistent with light use.",
     "store": {
       "id": "store-4",
-      "name": "Goodwill"
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2674,17 +2745,24 @@
       "/uploads/item-077.jpg"
     ],
     "type": "shoes",
-    "color": "Brown",
+    "color": [
+      "Brown"
+    ],
     "brand": "Naot",
     "size": "9",
-    "style": "Sandals",
+    "style": [
+      "sandals"
+    ],
     "condition": "New",
     "material": "Leather",
     "price": 31.99,
     "description": "Naot Lagoon leather sandals in brown. New in box. Multi-strap design with padded anatomic footbed and cork midsole.",
     "store": {
       "id": "store-3",
-      "name": "Savers"
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2702,17 +2780,25 @@
       "/uploads/item-078.jpg"
     ],
     "type": "shoes",
-    "color": "Nude/Beige",
+    "color": [
+      "Nude",
+      "Beige"
+    ],
     "brand": "Heart in D",
     "size": "6.5",
-    "style": "Boots",
+    "style": [
+      "boots"
+    ],
     "condition": "Pre-owned",
     "material": "Faux Leather",
     "price": 18.99,
     "description": "Heart in D ankle boots in nude faux leather, size 6.5. Block heel with side zip closure. Some creasing at toe consistent with wear.",
     "store": {
       "id": "store-4",
-      "name": "Goodwill"
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2730,17 +2816,24 @@
       "/uploads/item-079.jpg"
     ],
     "type": "shoes",
-    "color": "Silver",
+    "color": [
+      "Silver"
+    ],
     "brand": "Ann Marino",
     "size": "8.5",
-    "style": "Heels",
+    "style": [
+      "heels"
+    ],
     "condition": "Pre-owned",
     "material": "Synthetic",
     "price": 11.99,
     "description": "Ann Marino strappy heeled sandals in silver, women's 8.5. Open toe with low heel and metallic finish.",
     "store": {
       "id": "store-2",
-      "name": "Buffalo Exchange"
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2758,17 +2851,24 @@
       "/uploads/item-080.jpg"
     ],
     "type": "shoes",
-    "color": "Silver",
+    "color": [
+      "Silver"
+    ],
     "brand": "Propet",
     "size": "12",
-    "style": "Sneakers",
+    "style": [
+      "sneakers"
+    ],
     "condition": "Pre-owned",
     "material": "Mesh/Synthetic",
     "price": 19.99,
     "description": "Propet TravelFit Prestige women's walking shoes in silver, size 12 width D. Mesh upper with elastic lace closure and padded collar.",
     "store": {
       "id": "store-1",
-      "name": "Habitat for Humanity ReStore"
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
     },
     "carbonSavings": {
       "co2Kg": 8.5,
@@ -2786,17 +2886,24 @@
       "/uploads/item-081.jpg"
     ],
     "type": "home",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "brand": "Teppie",
     "size": "One Size",
-    "style": "Decorative",
+    "style": [
+      "decorative"
+    ],
     "condition": "Good",
     "material": "Glass",
     "price": 16.99,
     "description": "Handcrafted blown glass vase in blue swirl pattern with dichroic accents. Approximately 8 inches tall. Signed by artist Teppie, dated 2010.",
     "store": {
       "id": "store-1",
-      "name": "Habitat for Humanity ReStore"
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
     },
     "carbonSavings": {
       "co2Kg": 12,
@@ -2814,17 +2921,24 @@
       "/uploads/item-082.jpg"
     ],
     "type": "home",
-    "color": "Silver",
+    "color": [
+      "Silver"
+    ],
     "brand": "Godinger",
     "size": "One Size",
-    "style": "Decorative",
+    "style": [
+      "decorative"
+    ],
     "condition": "Good",
     "material": "Silver Plate",
     "price": 8.99,
     "description": "Godinger silver-plated candle holder, approximately 8 inches tall. Single taper style with ornate base. Minor tarnishing consistent with age.",
     "store": {
       "id": "store-1",
-      "name": "Habitat for Humanity ReStore"
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
     },
     "carbonSavings": {
       "co2Kg": 12,
@@ -2842,17 +2956,25 @@
       "/uploads/item-083.webp"
     ],
     "type": "home",
-    "color": "White/Blue",
+    "color": [
+      "White",
+      "Blue"
+    ],
     "brand": "Mikasa",
     "size": "One Size",
-    "style": "Kitchenware",
+    "style": [
+      "kitchenware"
+    ],
     "condition": "Good",
     "material": "Porcelain",
     "price": 12.99,
     "description": "Mikasa Intaglio Santa Fe coffee pot with lid, pattern CAC24. White porcelain with blue-gray southwestern geometric border. Approximately 8 inches tall. No chips or cracks visible.",
     "store": {
       "id": "store-1",
-      "name": "Habitat for Humanity ReStore"
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
     },
     "carbonSavings": {
       "co2Kg": 12,
@@ -2870,17 +2992,25 @@
       "/uploads/item-084.jpg"
     ],
     "type": "home",
-    "color": "Clear/Blue",
+    "color": [
+      "Clear",
+      "Blue"
+    ],
     "brand": "Unbranded",
     "size": "One Size",
-    "style": "Decorative",
+    "style": [
+      "decorative"
+    ],
     "condition": "Good",
     "material": "Glass/Pewter",
     "price": 14.99,
     "description": "Mexican blown glass apothecary jar with ribbed body and ornate pewter lid. Clear glass with subtle blue tint. Decorative canister suitable for display.",
     "store": {
       "id": "store-1",
-      "name": "Habitat for Humanity ReStore"
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
     },
     "carbonSavings": {
       "co2Kg": 12,
@@ -2898,17 +3028,24 @@
       "/uploads/item-085.jpg"
     ],
     "type": "home",
-    "color": "Blue",
+    "color": [
+      "Blue"
+    ],
     "brand": "Teppie",
     "size": "One Size",
-    "style": "Decorative",
+    "style": [
+      "decorative"
+    ],
     "condition": "Good",
     "material": "Glass",
     "price": 18.99,
     "description": "Handcrafted art glass vase in iridized blue finish. Smooth curved form with metallic sheen. Signed by artist Teppie, dated 2010.",
     "store": {
       "id": "store-1",
-      "name": "Habitat for Humanity ReStore"
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
     },
     "carbonSavings": {
       "co2Kg": 12,
