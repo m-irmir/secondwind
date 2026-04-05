@@ -52,6 +52,7 @@ async function writeItemsToBlob(items: Item[]): Promise<void> {
   const blob = await put(BLOB_ITEMS_KEY, JSON.stringify(items, null, 2), {
     access: "public",
     addRandomSuffix: false,
+    allowOverwrite: true,
     contentType: "application/json",
   });
   cachedBlobUrl = blob.url;
