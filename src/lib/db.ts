@@ -40,7 +40,7 @@ async function readItemsFromBlob(): Promise<Item[]> {
     return (await res.json()) as Item[];
   }
 
-  // Blob doesn't exist yet — seed from bundled items.json
+  // Blob doesn't exist yet; seed from bundled items.json
   const seedRaw = await fs.readFile(ITEMS_PATH, "utf-8");
   const seedItems: Item[] = JSON.parse(seedRaw);
   await writeItemsToBlob(seedItems);

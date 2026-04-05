@@ -25,7 +25,7 @@ function BrowseFeed() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6 space-y-6">
-      {/* Impact banner — static placeholder (127 items sold across 4 Tempe stores) */}
+      {/* Impact banner: static placeholder (127 items sold across 4 Tempe stores) */}
       <div className="bg-gradient-to-r from-indigo-600 to-violet-600 rounded-2xl p-6 text-white">
         <p className="text-xs font-medium uppercase tracking-widest text-indigo-200 mb-3">
           Community impact so far

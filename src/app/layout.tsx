@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SecondWind — Secondhand, Digitized",
+  title: "SecondWind: Secondhand, Digitized",
   description:
     "AI-powered secondhand inventory. Browse finds near you and save the planet while you're at it.",
 };

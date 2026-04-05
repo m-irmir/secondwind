@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Wind, Search, UserCircle, Info, ShoppingBag } from "lucide-react";
+import { Wind, Search, UserCircle, Info, ShoppingBag, Play } from "lucide-react";
 import { useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 
@@ -67,6 +67,18 @@ export default function Header() {
           >
             <ShoppingBag className="w-5 h-5" />
             <span className="hidden sm:inline">Browse</span>
+          </Link>
+
+          <Link
+            href="/feed"
+            className={`flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
+              pathname === "/feed"
+                ? "text-indigo-600 bg-indigo-50"
+                : "text-gray-500 hover:text-indigo-600 hover:bg-indigo-50"
+            }`}
+          >
+            <Play className="w-5 h-5" />
+            <span className="hidden sm:inline">Feed</span>
           </Link>
 
           <Link

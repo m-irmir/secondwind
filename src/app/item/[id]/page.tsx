@@ -210,7 +210,7 @@ export default function ItemDetail() {
 
       {/* Disclaimer */}
       <p className="text-xs text-center text-gray-300">
-        Items are in-store — availability may change
+        Items are in-store; availability may change
       </p>
     </div>
   );

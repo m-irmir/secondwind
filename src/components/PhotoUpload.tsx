@@ -241,7 +241,7 @@ export default function PhotoUpload({ onProcessed, onError }: PhotoUploadProps) 
         </div>
       )}
 
-      {/* Hidden file inputs — camera capture */}
+      {/* Hidden file inputs: camera capture */}
       <input
         ref={fileInputRef}
         type="file"
@@ -266,7 +266,7 @@ export default function PhotoUpload({ onProcessed, onError }: PhotoUploadProps) 
         }}
         className="hidden"
       />
-      {/* Hidden file inputs — file browser (no capture attr) */}
+      {/* Hidden file inputs: file browser (no capture attr) */}
       <input
         ref={fileBrowseRef}
         type="file"

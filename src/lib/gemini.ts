@@ -14,7 +14,7 @@ Return ONLY a JSON object with these fields:
 - condition: string (one of: "excellent", "good", "fair" based on visible wear, scratches, stains, damage)
 - material: string (if identifiable from tags or visual inspection: "cotton", "denim", "polyester", "wool", "silk", "leather", "linen", "wood", "metal", "plastic", "glass", "ceramic", etc. Otherwise: "Unknown")
 - description: string (2-4 sentence description leading with color and item type, noting visible features, construction details, brand markings, condition observations, and any identifying details from tags or labels)
-Return ONLY valid JSON — no markdown, no explanation.`;
+Return ONLY valid JSON; no markdown, no explanation.`;
 
 export async function extractItemData(
   images: { base64: string; mimeType: string }[]

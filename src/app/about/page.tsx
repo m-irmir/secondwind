@@ -279,7 +279,7 @@ export default function AboutPage() {
             {/* New */}
             <div>
               <h3 className="text-sm font-bold text-coral-400 uppercase tracking-wide mb-5 flex items-center gap-2">
-                <Globe className="w-4 h-4" /> Buying new — ~15 kg CO₂
+                <Globe className="w-4 h-4" /> Buying new: ~15 kg CO₂
               </h3>
               <div className="space-y-1">
                 {[
@@ -344,7 +344,7 @@ export default function AboutPage() {
             {/* Secondhand */}
             <div>
               <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wide mb-5 flex items-center gap-2">
-                <Recycle className="w-4 h-4" /> Buying secondhand — ~0 kg CO₂
+                <Recycle className="w-4 h-4" /> Buying secondhand: ~0 kg CO₂
               </h3>
               <div className="space-y-1">
                 {[
@@ -410,14 +410,14 @@ export default function AboutPage() {
           <h2 className="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">
             People already want to buy secondhand.
             <br />
-            <span className="text-indigo-600">Let's help them.</span>
+            <span className="text-indigo-600">Let's make it easier.</span>
           </h2>
           <div className="mt-8">
             <Link
               href="/"
               className="inline-block px-7 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition-colors"
             >
-              See it live
+              Start Browsing
             </Link>
           </div>
         </div>

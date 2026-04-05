@@ -5,7 +5,7 @@
 // consumer buys secondhand, that entire footprint is avoided because no new
 // item needs to be manufactured to replace it.
 //
-// Sources (apparel only — home goods use a qualitative "diverted from landfill" message):
+// Sources (apparel only; home goods use a qualitative "diverted from landfill" message):
 //   - Jeans 33.4 kg CO₂: Levi Strauss lifecycle assessment (2019)
 //   - T-shirt 2,700 L water: Water Footprint Network & WWF cotton report
 //   - General apparel: WRAP UK "Valuing Our Clothes" (2017), ThredUp Resale Report (2023)

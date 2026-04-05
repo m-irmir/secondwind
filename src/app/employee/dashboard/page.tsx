@@ -135,7 +135,7 @@ export default function EmployeeDashboard() {
                 <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate">
                     {item.brand !== "Unknown" ? `${item.brand} ` : ""}
-                    {item.type} — {item.size}
+                    {item.type}: {item.size}
                   </p>
                   <p className="text-xs text-gray-400 truncate">{item.description}</p>
                 </div>
