@@ -1,54 +1,49 @@
 import { CarbonSavings } from "@/lib/types";
-import { Droplets, Zap, Truck, Recycle } from "lucide-react";
+import { Droplets, Factory, Car } from "lucide-react";
 
 export default function CarbonBadge({ savings }: { savings: CarbonSavings }) {
+  const milesDriven = Math.round(savings.co2Kg * 2.73);
+  const waterGallons = Math.round(savings.waterLiters / 3.785);
+
   return (
-    <div className="p-4 bg-gradient-to-r from-indigo-50 to-violet-50 rounded-xl border border-indigo-100 space-y-3">
-      <p className="text-xs font-medium text-gray-500 uppercase tracking-wide">
-        If you bought this new instead...
+    <div className="bg-gradient-to-r from-indigo-600 to-violet-600 rounded-xl p-5 text-white space-y-4">
+      <p className="text-xs font-medium uppercase tracking-widest text-indigo-200">
+        Manufacturing a new version of this item would produce
       </p>
-      <div className="flex gap-4">
-        <div className="flex items-center gap-2 flex-1">
-          <div className="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center flex-shrink-0">
-            <Zap className="w-4 h-4 text-indigo-600" />
+
+      <div className="grid grid-cols-2 gap-4">
+        <div>
+          <div className="flex items-center gap-2 mb-1">
+            <Factory className="w-4 h-4 text-indigo-300" />
+            <span className="text-xs text-indigo-200">Factory emissions</span>
           </div>
-          <div>
-            <div className="text-lg font-bold text-gray-900">{savings.co2Kg} kg</div>
-            <div className="text-xs text-gray-500">CO&#8322; emitted</div>
-          </div>
+          <span className="text-2xl font-extrabold">{savings.co2Kg} kg</span>
+          <span className="text-sm text-indigo-200 ml-1">CO₂</span>
+          <p className="text-xs text-indigo-300 mt-0.5">
+            Same as driving a car <span className="text-white font-semibold">{milesDriven} miles</span>
+          </p>
         </div>
-        <div className="w-px bg-indigo-200" />
-        <div className="flex items-center gap-2 flex-1">
-          <div className="w-8 h-8 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0">
-            <Droplets className="w-4 h-4 text-violet-600" />
+
+        <div>
+          <div className="flex items-center gap-2 mb-1">
+            <Droplets className="w-4 h-4 text-indigo-300" />
+            <span className="text-xs text-indigo-200">Water consumption</span>
           </div>
-          <div>
-            <div className="text-lg font-bold text-gray-900">
-              {savings.waterLiters >= 1000
-                ? `${(savings.waterLiters / 1000).toFixed(1)}k`
-                : savings.waterLiters}{" "}
-              L
-            </div>
-            <div className="text-xs text-gray-500">water used</div>
-          </div>
-        </div>
-        <div className="w-px bg-indigo-200" />
-        <div className="flex items-center gap-2 flex-1">
-          <div className="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center flex-shrink-0">
-            <Truck className="w-4 h-4 text-amber-600" />
-          </div>
-          <div>
-            <div className="text-lg font-bold text-gray-900">{savings.shippingCo2Kg} kg</div>
-            <div className="text-xs text-gray-500">shipping CO&#8322;</div>
-          </div>
+          <span className="text-2xl font-extrabold">
+            {savings.waterLiters >= 1000
+              ? `${(savings.waterLiters / 1000).toFixed(1)}k`
+              : savings.waterLiters}
+          </span>
+          <span className="text-sm text-indigo-200 ml-1">liters</span>
+          <p className="text-xs text-indigo-300 mt-0.5">
+            That&apos;s <span className="text-white font-semibold">{waterGallons.toLocaleString()} gallons</span>
+          </p>
         </div>
       </div>
-      <div className="flex items-center gap-1.5 pt-1">
-        <Recycle className="w-3.5 h-3.5 text-gray-400 flex-shrink-0" />
-        <p className="text-xs text-gray-400">
-          Buying secondhand skips all of this.
-        </p>
-      </div>
+
+      <p className="text-sm font-medium text-indigo-100 border-t border-indigo-500 pt-3">
+        Buying secondhand means none of this gets produced.
+      </p>
     </div>
   );
 }
