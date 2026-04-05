@@ -56,9 +56,14 @@ export default function FeedPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/api/items?sort=newest")
+    fetch("/api/items")
       .then((r) => r.json())
-      .then((data) => {
+      .then((data: Item[]) => {
+        // Shuffle for a fresh feed every visit
+        for (let i = data.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [data[i], data[j]] = [data[j], data[i]];
+        }
         setItems(data);
         setLoading(false);
       })

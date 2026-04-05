@@ -58,6 +58,16 @@ async function writeItemsToBlob(items: Item[]): Promise<void> {
   cachedBlobUrl = blob.url;
 }
 
+/** Force-overwrite the blob with the bundled items.json (call after updating seed data) */
+export async function reseedBlob(): Promise<number> {
+  const seedRaw = await fs.readFile(ITEMS_PATH, "utf-8");
+  const seedItems: Item[] = JSON.parse(seedRaw);
+  if (useBlob) {
+    await writeItemsToBlob(seedItems);
+  }
+  return seedItems.length;
+}
+
 export async function getItems(): Promise<Item[]> {
   if (useBlob) {
     return readItemsFromBlob();
