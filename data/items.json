@@ -2,8 +2,7 @@
   {
     "id": "item-001",
     "photos": [
-      "/uploads/item-001.jpg",
-      "/uploads/item-001-2.jpg"
+      "/uploads/item-001.jpg"
     ],
     "type": "jacket",
     "color": [
@@ -12,13 +11,187 @@
     "brand": "Orvis",
     "size": "M",
     "style": [
-      "casual",
-      "outdoor"
+      "zip-up"
     ],
     "condition": "good",
     "material": "polyester fleece",
     "price": 9.99,
-    "description": "Orvis full-zip fleece jacket in a rich blue. Soft, warm, and perfect for layering on cool Arizona evenings.",
+    "description": "Blue jacket by Orvis. Polyester fleece construction. Full-zip closure. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 8,
+    "status": "available",
+    "createdAt": "2026-03-02T04:24:35.775Z",
+    "updatedAt": "2026-03-02T04:24:35.775Z"
+  },
+  {
+    "id": "item-002",
+    "photos": [
+      "/uploads/item-002.jpg"
+    ],
+    "type": "jeans",
+    "color": [
+      "blue"
+    ],
+    "brand": "Maeve",
+    "size": "29",
+    "style": [
+      "wide-leg"
+    ],
+    "condition": "good",
+    "material": "denim",
+    "price": 9.99,
+    "description": "Blue jeans by Maeve. Denim construction. Two-button placket collar. Light wear consistent with gentle use, no stains or holes. Size 29.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-03-02T11:24:04.465Z",
+    "updatedAt": "2026-03-02T11:24:04.465Z"
+  },
+  {
+    "id": "item-003",
+    "photos": [
+      "/uploads/item-003.jpg"
+    ],
+    "type": "shorts",
+    "color": [
+      "blue"
+    ],
+    "brand": "Mad Pelican",
+    "size": "XL",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 5.99,
+    "description": "Blue shorts by Mad Pelican. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size XL.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 7,
+    "status": "available",
+    "createdAt": "2026-03-02T21:21:02.405Z",
+    "updatedAt": "2026-03-02T21:21:02.405Z"
+  },
+  {
+    "id": "item-004",
+    "photos": [
+      "/uploads/item-004.jpg"
+    ],
+    "type": "shorts",
+    "color": [
+      "blue"
+    ],
+    "brand": "Mad Pelican",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 5.99,
+    "description": "Blue shorts by Mad Pelican. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 13,
+    "status": "available",
+    "createdAt": "2026-03-02T02:06:14.023Z",
+    "updatedAt": "2026-03-02T02:06:14.023Z"
+  },
+  {
+    "id": "item-005",
+    "photos": [
+      "/uploads/item-005.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "blue"
+    ],
+    "brand": "Lole",
+    "size": "Fits",
+    "style": [
+      "zip-up"
+    ],
+    "condition": "good",
+    "material": "polyester fleece",
+    "price": 9.99,
+    "description": "Blue sweater by Lole. Polyester fleece construction. Light wear consistent with gentle use, no stains or holes. Size Fits.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 5,
+    "status": "available",
+    "createdAt": "2026-03-02T04:01:27.794Z",
+    "updatedAt": "2026-03-02T04:01:27.794Z"
+  },
+  {
+    "id": "item-006",
+    "photos": [
+      "/uploads/item-006.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "brown"
+    ],
+    "brand": "Roundtree & Yorke",
+    "size": "M",
+    "style": [
+      "vintage"
+    ],
+    "condition": "fair",
+    "material": "camel hair",
+    "price": 14.99,
+    "description": "Brown jacket by Roundtree & Yorke. Camel hair construction. Some signs of wear including minor fading and pilling. Size M.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -33,29 +206,29 @@
     },
     "favorites": 8,
     "status": "available",
-    "createdAt": "2026-03-11T19:51:06.370Z",
-    "updatedAt": "2026-03-11T19:51:06.370Z"
+    "createdAt": "2026-03-03T07:20:44.384Z",
+    "updatedAt": "2026-03-03T07:20:44.384Z"
   },
   {
-    "id": "item-002",
+    "id": "item-007",
     "photos": [
-      "/uploads/item-002.jpg",
-      "/uploads/item-002-2.jpg"
+      "/uploads/item-007.jpg"
     ],
-    "type": "jacket",
+    "type": "shorts",
     "color": [
-      "gray"
+      "blue",
+      "white",
+      "multicolor"
     ],
-    "brand": "Columbia",
-    "size": "M",
+    "brand": "Gap",
+    "size": "31",
     "style": [
-      "lightweight",
-      "windbreaker"
+      "casual"
     ],
     "condition": "good",
-    "material": "nylon",
-    "price": 7.99,
-    "description": "Columbia lightweight wind jacket. Packable and ready for anything.",
+    "material": "cotton blend",
+    "price": 5.99,
+    "description": "Blue and white shorts by Gap. Cotton blend construction. Striped pattern. Light wear consistent with gentle use, no stains or holes. Size 31.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -64,145 +237,33 @@
       "lng": -111.922
     },
     "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
     },
-    "favorites": 0,
+    "favorites": 6,
     "status": "available",
-    "createdAt": "2026-03-11T11:44:16.266Z",
-    "updatedAt": "2026-03-11T11:44:16.266Z"
+    "createdAt": "2026-03-02T17:49:43.468Z",
+    "updatedAt": "2026-03-02T17:49:43.468Z"
   },
   {
-    "id": "item-003",
+    "id": "item-008",
     "photos": [
-      "/uploads/item-003.jpg",
-      "/uploads/item-003-2.jpg"
+      "/uploads/item-008.jpg"
     ],
-    "type": "jacket",
-    "color": [
-      "tan",
-      "brown"
-    ],
-    "brand": "Roundtree & Yorke",
-    "size": "L",
-    "style": [
-      "blazer",
-      "vintage"
-    ],
-    "condition": "good",
-    "material": "camel hair",
-    "price": 14.99,
-    "description": "Vintage 100% camel hair sport coat. Timeless luxury, beautifully constructed.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 10,
-    "status": "available",
-    "createdAt": "2026-03-13T07:01:56.306Z",
-    "updatedAt": "2026-03-13T07:01:56.306Z"
-  },
-  {
-    "id": "item-004",
-    "photos": [
-      "/uploads/item-004.jpg",
-      "/uploads/item-004-2.jpg"
-    ],
-    "type": "jacket",
-    "color": [
-      "black"
-    ],
-    "brand": "The North Face",
-    "size": "M",
-    "style": [
-      "fleece",
-      "casual"
-    ],
-    "condition": "good",
-    "material": "polyester fleece",
-    "price": 7.55,
-    "description": "The North Face Hazen fleece jacket. Iconic brand, warm and comfortable.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 4,
-    "status": "available",
-    "createdAt": "2026-03-12T15:34:29.428Z",
-    "updatedAt": "2026-03-12T15:34:29.428Z"
-  },
-  {
-    "id": "item-005",
-    "photos": [
-      "/uploads/item-005.jpg",
-      "/uploads/item-005-2.jpg"
-    ],
-    "type": "jacket",
-    "color": [
-      "green"
-    ],
-    "brand": "Royal Matrix",
-    "size": "M",
-    "style": [
-      "denim",
-      "casual"
-    ],
-    "condition": "excellent",
-    "material": "denim",
-    "price": 21.99,
-    "description": "Green denim jacket. Bold pop of color. Brand new with tags.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 7,
-    "status": "available",
-    "createdAt": "2026-03-14T06:26:11.906Z",
-    "updatedAt": "2026-03-14T06:26:11.906Z"
-  },
-  {
-    "id": "item-006",
-    "photos": [
-      "/uploads/item-006.jpg"
-    ],
-    "type": "jacket",
+    "type": "sweater",
     "color": [
       "gray"
     ],
-    "brand": "The North Face",
-    "size": "S",
+    "brand": "Wren + Rowe",
+    "size": "M",
     "style": [
-      "zip-up"
+      "casual"
     ],
     "condition": "good",
-    "material": "polyester",
-    "price": 12.99,
-    "description": "The North Face zip-up jacket in heathered gray. Versatile layering piece.",
+    "material": "cotton blend",
+    "price": 15.56,
+    "description": "Gray sweater by Wren + Rowe. Cotton blend construction. Open-front construction. Light wear consistent with gentle use, no stains or holes. Size M.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -211,34 +272,139 @@
       "lng": -111.913
     },
     "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
     },
-    "favorites": 13,
+    "favorites": 4,
     "status": "available",
-    "createdAt": "2026-03-14T12:16:47.731Z",
-    "updatedAt": "2026-03-14T12:16:47.731Z"
+    "createdAt": "2026-03-03T11:58:16.240Z",
+    "updatedAt": "2026-03-03T11:58:16.240Z"
   },
   {
-    "id": "item-007",
+    "id": "item-009",
     "photos": [
-      "/uploads/item-007.jpg"
+      "/uploads/item-009.jpg"
+    ],
+    "type": "shorts",
+    "color": [
+      "blue"
+    ],
+    "brand": "Parker",
+    "size": "32",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 5.99,
+    "description": "Blue shorts by Parker. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 32.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 12,
+    "status": "available",
+    "createdAt": "2026-03-03T23:43:05.309Z",
+    "updatedAt": "2026-03-03T23:43:05.309Z"
+  },
+  {
+    "id": "item-010",
+    "photos": [
+      "/uploads/item-010.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "gray"
+    ],
+    "brand": "Wren + Rowe",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Gray sweater by Wren + Rowe. Cotton blend construction. Open-front construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-04T04:22:46.999Z",
+    "updatedAt": "2026-03-04T04:22:46.999Z"
+  },
+  {
+    "id": "item-011",
+    "photos": [
+      "/uploads/item-011.jpg"
     ],
     "type": "jacket",
     "color": [
       "blue"
     ],
-    "brand": "Wild Fable",
+    "brand": "Hummel",
+    "size": "M",
+    "style": [
+      "zip-up"
+    ],
+    "condition": "good",
+    "material": "polyester",
+    "price": 12.99,
+    "description": "Blue jacket by Hummel. Polyester construction. Full-zip closure. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-04T19:49:35.386Z",
+    "updatedAt": "2026-03-04T19:49:35.386Z"
+  },
+  {
+    "id": "item-012",
+    "photos": [
+      "/uploads/item-012.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "blue",
+      "green"
+    ],
+    "brand": "Royal Matrix",
     "size": "XS",
     "style": [
-      "cropped",
-      "denim"
+      "casual"
     ],
     "condition": "good",
     "material": "denim",
-    "price": 8.99,
-    "description": "Cropped denim jacket with raw hem. Trendy and fun.",
+    "price": 12.99,
+    "description": "Blue and green jacket by Royal Matrix. Denim construction. Light wear consistent with gentle use, no stains or holes. Size XS.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -253,189 +419,8 @@
     },
     "favorites": 3,
     "status": "available",
-    "createdAt": "2026-03-14T23:58:01.190Z",
-    "updatedAt": "2026-03-14T23:58:01.190Z"
-  },
-  {
-    "id": "item-008",
-    "photos": [
-      "/uploads/item-008.jpg"
-    ],
-    "type": "jacket",
-    "color": [
-      "tan",
-      "brown"
-    ],
-    "brand": "Zara",
-    "size": "XS",
-    "style": [
-      "suede",
-      "cropped"
-    ],
-    "condition": "good",
-    "material": "faux suede",
-    "price": 14.99,
-    "description": "Zara faux suede crop jacket. Warm tones, flattering silhouette.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 10,
-    "status": "available",
-    "createdAt": "2026-03-14T22:13:53.995Z",
-    "updatedAt": "2026-03-14T22:13:53.995Z"
-  },
-  {
-    "id": "item-009",
-    "photos": [
-      "/uploads/item-009.jpg"
-    ],
-    "type": "jacket",
-    "color": [
-      "khaki",
-      "tan"
-    ],
-    "brand": "Nautica",
-    "size": "XL",
-    "style": [
-      "zip-up"
-    ],
-    "condition": "good",
-    "material": "cotton blend",
-    "price": 9.99,
-    "description": "Nautica khaki zip-up jacket. Clean, preppy, versatile.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 1,
-    "status": "available",
-    "createdAt": "2026-03-14T22:02:10.636Z",
-    "updatedAt": "2026-03-14T22:02:10.636Z"
-  },
-  {
-    "id": "item-010",
-    "photos": [
-      "/uploads/item-010.jpg"
-    ],
-    "type": "jacket",
-    "color": [
-      "black"
-    ],
-    "brand": "H Florence",
-    "size": "L",
-    "style": [
-      "leather",
-      "coat"
-    ],
-    "condition": "good",
-    "material": "leather",
-    "price": 24.99,
-    "description": "Genuine leather coat by H Florence. Rich, structured, and timeless.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 7,
-    "status": "available",
-    "createdAt": "2026-03-15T07:25:13.509Z",
-    "updatedAt": "2026-03-15T07:25:13.509Z"
-  },
-  {
-    "id": "item-011",
-    "photos": [
-      "/uploads/item-011.jpg"
-    ],
-    "type": "jacket",
-    "color": [
-      "black"
-    ],
-    "brand": "The North Face",
-    "size": "M",
-    "style": [
-      "fleece",
-      "zip-up"
-    ],
-    "condition": "good",
-    "material": "polyester fleece",
-    "price": 11.99,
-    "description": "The North Face women's black fleece. A closet essential that never goes out of style.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 0,
-    "status": "available",
-    "createdAt": "2026-03-14T14:50:12.871Z",
-    "updatedAt": "2026-03-14T14:50:12.871Z"
-  },
-  {
-    "id": "item-012",
-    "photos": [
-      "/uploads/item-012.jpg"
-    ],
-    "type": "jacket",
-    "color": [
-      "gray"
-    ],
-    "brand": "The North Face",
-    "size": "M",
-    "style": [
-      "fleece",
-      "polartec"
-    ],
-    "condition": "good",
-    "material": "Polartec fleece",
-    "price": 14.99,
-    "description": "The North Face Polartec lightweight fleece. Premium warmth-to-weight ratio.",
-    "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 12,
-    "status": "available",
-    "createdAt": "2026-03-16T03:46:15.940Z",
-    "updatedAt": "2026-03-16T03:46:15.940Z"
+    "createdAt": "2026-03-04T06:29:26.959Z",
+    "updatedAt": "2026-03-04T06:29:26.959Z"
   },
   {
     "id": "item-013",
@@ -444,199 +429,53 @@
     ],
     "type": "jacket",
     "color": [
-      "black"
+      "blue",
+      "green"
     ],
-    "brand": "Weatherproof",
-    "size": "XL",
+    "brand": "Royal Matrix",
+    "size": "M",
     "style": [
       "casual"
     ],
     "condition": "good",
-    "material": "polyester",
-    "price": 8.99,
-    "description": "Weatherproof Garment Company women's jacket. Reliable layering for any season.",
+    "material": "denim",
+    "price": 21.99,
+    "description": "Blue and green jacket by Royal Matrix. Denim construction. Light wear consistent with gentle use, no stains or holes. Size M.",
     "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
     },
     "carbonSavings": {
       "co2Kg": 35,
       "waterLiters": 12000,
       "shippingCo2Kg": 1.5
     },
-    "favorites": 13,
+    "favorites": 3,
     "status": "available",
-    "createdAt": "2026-03-16T13:18:33.459Z",
-    "updatedAt": "2026-03-16T13:18:33.459Z"
+    "createdAt": "2026-03-04T12:36:06.784Z",
+    "updatedAt": "2026-03-04T12:36:06.784Z"
   },
   {
     "id": "item-014",
     "photos": [
       "/uploads/item-014.jpg"
     ],
-    "type": "jacket",
-    "color": [
-      "navy"
-    ],
-    "brand": "Gap",
-    "size": "M",
-    "style": [
-      "longline",
-      "button-up"
-    ],
-    "condition": "good",
-    "material": "cotton blend",
-    "price": 10.99,
-    "description": "Gap longline button-up jacket. Classic Americana with a longer, modern cut.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 11,
-    "status": "available",
-    "createdAt": "2026-03-17T06:18:37.439Z",
-    "updatedAt": "2026-03-17T06:18:37.439Z"
-  },
-  {
-    "id": "item-015",
-    "photos": [
-      "/uploads/item-015.jpg"
-    ],
-    "type": "jacket",
-    "color": [
-      "brown"
-    ],
-    "brand": "Karen Scott",
-    "size": "L",
-    "style": [
-      "corduroy",
-      "zip-up"
-    ],
-    "condition": "good",
-    "material": "corduroy",
-    "price": 7.99,
-    "description": "Karen Scott corduroy jacket. Cozy fall texture, full zip, great condition.",
-    "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 8,
-    "status": "available",
-    "createdAt": "2026-03-17T22:50:12.282Z",
-    "updatedAt": "2026-03-17T22:50:12.282Z"
-  },
-  {
-    "id": "item-016",
-    "photos": [
-      "/uploads/item-016.jpg"
-    ],
-    "type": "jacket",
-    "color": [
-      "black",
-      "white"
-    ],
-    "brand": "Hummel",
-    "size": "L",
-    "style": [
-      "track",
-      "sporty"
-    ],
-    "condition": "good",
-    "material": "polyester",
-    "price": 9.99,
-    "description": "Hummel full-zip track jacket. European sportswear heritage at a steal.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 11,
-    "status": "available",
-    "createdAt": "2026-03-17T09:32:02.557Z",
-    "updatedAt": "2026-03-17T09:32:02.557Z"
-  },
-  {
-    "id": "item-017",
-    "photos": [
-      "/uploads/item-017.jpg"
-    ],
-    "type": "jacket",
-    "color": [
-      "navy"
-    ],
-    "brand": "Pebble Beach",
-    "size": "XXL",
-    "style": [
-      "performance",
-      "golf"
-    ],
-    "condition": "good",
-    "material": "polyester",
-    "price": 8.99,
-    "description": "Pebble Beach performance zip-up. Golf-ready, but honestly looks good anywhere.",
-    "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
-    },
-    "carbonSavings": {
-      "co2Kg": 35,
-      "waterLiters": 12000,
-      "shippingCo2Kg": 1.5
-    },
-    "favorites": 10,
-    "status": "available",
-    "createdAt": "2026-03-16T23:52:17.231Z",
-    "updatedAt": "2026-03-16T23:52:17.231Z"
-  },
-  {
-    "id": "item-018",
-    "photos": [
-      "/uploads/item-018.jpg",
-      "/uploads/item-018-2.jpg"
-    ],
     "type": "shirt",
     "color": [
-      "multicolor"
+      "blue"
     ],
-    "brand": "Tommy Bahama",
-    "size": "L",
+    "brand": "Fintech",
+    "size": "50",
     "style": [
-      "tropical",
-      "dress"
+      "athletic"
     ],
-    "condition": "good",
-    "material": "100% silk",
-    "price": 12.99,
-    "description": "Tommy Bahama 100% silk dress shirt. Island vibes meet dressed-up style.",
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 6.99,
+    "description": "Blue shirt by Fintech. Cotton blend construction. UPF 50+ sun protection. No visible wear, appears unworn. Size 50.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -651,64 +490,62 @@
     },
     "favorites": 2,
     "status": "available",
-    "createdAt": "2026-03-17T08:29:48.364Z",
-    "updatedAt": "2026-03-17T08:29:48.364Z"
+    "createdAt": "2026-03-04T08:46:52.955Z",
+    "updatedAt": "2026-03-04T08:46:52.955Z"
   },
   {
-    "id": "item-019",
+    "id": "item-015",
     "photos": [
-      "/uploads/item-019.jpg"
+      "/uploads/item-015.jpg"
     ],
-    "type": "shirt",
+    "type": "sweater",
     "color": [
-      "black"
+      "blue"
     ],
-    "brand": "Lululemon",
-    "size": "4",
+    "brand": "Y.D. Zhuliu",
+    "size": "XL",
     "style": [
-      "athletic",
-      "minimal"
-    ],
-    "condition": "good",
-    "material": "technical fabric",
-    "price": 14.99,
-    "description": "Lululemon To The Point tee in black. Sleek, comfortable, effortlessly cool.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 6.5,
-      "waterLiters": 2700,
-      "shippingCo2Kg": 0.8
-    },
-    "favorites": 4,
-    "status": "available",
-    "createdAt": "2026-03-18T13:37:02.234Z",
-    "updatedAt": "2026-03-18T13:37:02.234Z"
-  },
-  {
-    "id": "item-020",
-    "photos": [
-      "/uploads/item-020.jpg"
-    ],
-    "type": "shirt",
-    "color": [
-      "green"
-    ],
-    "brand": "Melrose Place",
-    "size": "M",
-    "style": [
-      "henley",
       "casual"
     ],
-    "condition": "excellent",
-    "material": "cotton",
-    "price": 6.99,
-    "description": "Mint green henley shirt. Fresh color, relaxed fit, everyday wear.",
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sweater by Y.D. Zhuliu. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size XL.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-04T12:31:28.718Z",
+    "updatedAt": "2026-03-04T12:31:28.718Z"
+  },
+  {
+    "id": "item-016",
+    "photos": [
+      "/uploads/item-016.jpg"
+    ],
+    "type": "shorts",
+    "color": [
+      "blue"
+    ],
+    "brand": "Mad Pelican",
+    "size": "XXL",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 5.99,
+    "description": "Blue shorts by Mad Pelican. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size XXL.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -717,34 +554,243 @@
       "lng": -111.913
     },
     "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-03-05T10:17:25.262Z",
+    "updatedAt": "2026-03-05T10:17:25.262Z"
+  },
+  {
+    "id": "item-017",
+    "photos": [
+      "/uploads/item-017.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "blue"
+    ],
+    "brand": "Fintech",
+    "size": "M",
+    "style": [
+      "athletic"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 6.99,
+    "description": "Blue shirt by Fintech. Cotton blend construction. UPF 50+ sun protection. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
       "co2Kg": 6.5,
       "waterLiters": 2700,
       "shippingCo2Kg": 0.8
     },
-    "favorites": 12,
+    "favorites": 14,
     "status": "available",
-    "createdAt": "2026-03-18T05:15:00.676Z",
-    "updatedAt": "2026-03-18T05:15:00.676Z"
+    "createdAt": "2026-03-06T11:24:56.386Z",
+    "updatedAt": "2026-03-06T11:24:56.386Z"
+  },
+  {
+    "id": "item-018",
+    "photos": [
+      "/uploads/item-018.jpg"
+    ],
+    "type": "dress",
+    "color": [
+      "black"
+    ],
+    "brand": "Karl Lagerfeld",
+    "size": "4",
+    "style": [
+      "casual"
+    ],
+    "condition": "fair",
+    "material": "cotton blend",
+    "price": 14.99,
+    "description": "Black dress by Karl Lagerfeld. Cotton blend construction. Some signs of wear including minor fading and pilling. Size 4.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 22,
+      "waterLiters": 8000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 8,
+    "status": "available",
+    "createdAt": "2026-03-06T17:20:52.756Z",
+    "updatedAt": "2026-03-06T17:20:52.756Z"
+  },
+  {
+    "id": "item-019",
+    "photos": [
+      "/uploads/item-019.jpg"
+    ],
+    "type": "jeans",
+    "color": [
+      "blue"
+    ],
+    "brand": "Levi Strauss",
+    "size": "M",
+    "style": [
+      "slim"
+    ],
+    "condition": "good",
+    "material": "denim",
+    "price": 8.99,
+    "description": "Blue jeans by Levi Strauss. Denim construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 5,
+    "status": "available",
+    "createdAt": "2026-03-06T17:27:57.519Z",
+    "updatedAt": "2026-03-06T17:27:57.519Z"
+  },
+  {
+    "id": "item-020",
+    "photos": [
+      "/uploads/item-020.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "blue"
+    ],
+    "brand": "Wild Fable",
+    "size": "XS",
+    "style": [
+      "cropped"
+    ],
+    "condition": "good",
+    "material": "denim",
+    "price": 12.99,
+    "description": "Blue jacket by Wild Fable. Denim construction. Raw hem finish. Light wear consistent with gentle use, no stains or holes. Size XS.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-03-05T21:30:38.044Z",
+    "updatedAt": "2026-03-05T21:30:38.044Z"
   },
   {
     "id": "item-021",
     "photos": [
       "/uploads/item-021.jpg"
     ],
-    "type": "blouse",
+    "type": "shorts",
     "color": [
-      "black"
+      "blue"
     ],
-    "brand": "Halogen",
-    "size": "S",
+    "brand": "Chaps",
+    "size": "31",
     "style": [
-      "pleated",
-      "dressy"
+      "casual"
     ],
     "condition": "good",
-    "material": "polyester blend",
-    "price": 8.99,
-    "description": "Halogen pleated flowy black blouse. Elegant for work, comfortable for weekend brunch.",
+    "material": "cotton blend",
+    "price": 5.99,
+    "description": "Blue shorts by Chaps. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 31.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 13,
+    "status": "available",
+    "createdAt": "2026-03-06T16:42:43.794Z",
+    "updatedAt": "2026-03-06T16:42:43.794Z"
+  },
+  {
+    "id": "item-022",
+    "photos": [
+      "/uploads/item-022.jpg"
+    ],
+    "type": "shorts",
+    "color": [
+      "blue"
+    ],
+    "brand": "Mad Pelican",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 5.99,
+    "description": "Blue shorts by Mad Pelican. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 12,
+    "status": "available",
+    "createdAt": "2026-03-06T08:40:13.366Z",
+    "updatedAt": "2026-03-06T08:40:13.366Z"
+  },
+  {
+    "id": "item-023",
+    "photos": [
+      "/uploads/item-023.jpg"
+    ],
+    "type": "shorts",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Izod",
+    "size": "8",
+    "style": [
+      "athletic"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 5.99,
+    "description": "Multicolor shorts by Izod. Cotton blend construction. Plaid pattern. No visible wear, appears unworn. Size 8.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -757,66 +803,30 @@
       "waterLiters": 3000,
       "shippingCo2Kg": 0.8
     },
-    "favorites": 14,
+    "favorites": 1,
     "status": "available",
-    "createdAt": "2026-03-18T08:15:41.509Z",
-    "updatedAt": "2026-03-18T08:15:41.509Z"
+    "createdAt": "2026-03-07T10:03:54.281Z",
+    "updatedAt": "2026-03-07T10:03:54.281Z"
   },
   {
-    "id": "item-022",
+    "id": "item-024",
     "photos": [
-      "/uploads/item-022.jpg"
+      "/uploads/item-024.jpg"
     ],
-    "type": "shirt",
+    "type": "sweater",
     "color": [
-      "gray"
+      "blue"
     ],
     "brand": "Adidas",
     "size": "XL",
     "style": [
       "athletic",
-      "golf"
-    ],
-    "condition": "good",
-    "material": "polyester",
-    "price": 11.99,
-    "description": "Adidas Climacool half-zip golf pullover. Moisture-wicking performance at a fraction of retail.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 6.5,
-      "waterLiters": 2700,
-      "shippingCo2Kg": 0.8
-    },
-    "favorites": 10,
-    "status": "available",
-    "createdAt": "2026-03-19T15:02:34.266Z",
-    "updatedAt": "2026-03-19T15:02:34.266Z"
-  },
-  {
-    "id": "item-023",
-    "photos": [
-      "/uploads/item-023.jpg"
-    ],
-    "type": "shirt",
-    "color": [
-      "blue"
-    ],
-    "brand": "Goodfellow",
-    "size": "L",
-    "style": [
-      "polo",
-      "casual"
+      "zip-up"
     ],
     "condition": "good",
     "material": "cotton blend",
-    "price": 4.99,
-    "description": "Lightweight men's polo in classic blue. Simple, versatile, done.",
+    "price": 9.99,
+    "description": "Blue sweater by Adidas. Cotton blend construction. Half-zip closure. Light wear consistent with gentle use, no stains or holes. Size XL.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -825,70 +835,68 @@
       "lng": -111.913
     },
     "carbonSavings": {
-      "co2Kg": 6.5,
-      "waterLiters": 2700,
-      "shippingCo2Kg": 0.8
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
     },
-    "favorites": 4,
+    "favorites": 8,
     "status": "available",
-    "createdAt": "2026-03-20T06:58:50.601Z",
-    "updatedAt": "2026-03-20T06:58:50.601Z"
-  },
-  {
-    "id": "item-024",
-    "photos": [
-      "/uploads/item-024.jpg"
-    ],
-    "type": "shirt",
-    "color": [
-      "navy"
-    ],
-    "brand": "Fintech",
-    "size": "M",
-    "style": [
-      "athletic",
-      "UPF"
-    ],
-    "condition": "excellent",
-    "material": "polyester",
-    "price": 7.99,
-    "description": "UV 50+ sun defender short-sleeve shirt. Built for Arizona sun. New with tags.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 6.5,
-      "waterLiters": 2700,
-      "shippingCo2Kg": 0.8
-    },
-    "favorites": 10,
-    "status": "available",
-    "createdAt": "2026-03-20T22:42:33.598Z",
-    "updatedAt": "2026-03-20T22:42:33.598Z"
+    "createdAt": "2026-03-06T23:10:01.543Z",
+    "updatedAt": "2026-03-06T23:10:01.543Z"
   },
   {
     "id": "item-025",
     "photos": [
       "/uploads/item-025.jpg"
     ],
-    "type": "shirt",
+    "type": "jacket",
     "color": [
-      "navy"
+      "blue"
     ],
-    "brand": "Stockh LM",
-    "size": "S",
+    "brand": "H Florence",
+    "size": "42",
     "style": [
-      "blazer",
-      "jersey"
+      "casual"
     ],
     "condition": "good",
-    "material": "jersey knit",
+    "material": "leather",
     "price": 12.99,
-    "description": "Stockh LM Petra jersey blazer in navy. Office-ready, stretch-comfortable.",
+    "description": "Blue jacket by H Florence. Leather construction. Light wear consistent with gentle use, no stains or holes. Size 42.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-03-07T03:29:47.352Z",
+    "updatedAt": "2026-03-07T03:29:47.352Z"
+  },
+  {
+    "id": "item-026",
+    "photos": [
+      "/uploads/item-026.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "blue"
+    ],
+    "brand": "Tommy Bahama",
+    "size": "M",
+    "style": [
+      "formal"
+    ],
+    "condition": "good",
+    "material": "100% silk",
+    "price": 12.99,
+    "description": "Blue shirt by Tommy Bahama. 100% silk construction. Light wear consistent with gentle use, no stains or holes. Size M.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -901,46 +909,10 @@
       "waterLiters": 2700,
       "shippingCo2Kg": 0.8
     },
-    "favorites": 10,
+    "favorites": 2,
     "status": "available",
-    "createdAt": "2026-03-21T00:07:26.218Z",
-    "updatedAt": "2026-03-21T00:07:26.218Z"
-  },
-  {
-    "id": "item-026",
-    "photos": [
-      "/uploads/item-026.jpg"
-    ],
-    "type": "shirt",
-    "color": [
-      "red"
-    ],
-    "brand": "Antigua",
-    "size": "L",
-    "style": [
-      "polo",
-      "golf"
-    ],
-    "condition": "good",
-    "material": "polyester",
-    "price": 6.99,
-    "description": "Antigua golf polo in a bold red. Performance fabric, sharp look.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 6.5,
-      "waterLiters": 2700,
-      "shippingCo2Kg": 0.8
-    },
-    "favorites": 6,
-    "status": "available",
-    "createdAt": "2026-03-20T04:23:47.655Z",
-    "updatedAt": "2026-03-20T04:23:47.655Z"
+    "createdAt": "2026-03-08T10:54:05.012Z",
+    "updatedAt": "2026-03-08T10:54:05.012Z"
   },
   {
     "id": "item-027",
@@ -954,85 +926,188 @@
     "brand": "Antigua",
     "size": "M",
     "style": [
-      "polo",
-      "golf"
+      "athletic"
     ],
     "condition": "good",
-    "material": "polyester",
+    "material": "cotton blend",
     "price": 6.99,
-    "description": "Women's Antigua golf polo in red. Sporty, breathable, and bright.",
+    "description": "Red shirt by Antigua. Cotton blend construction. Two-button placket collar. Light wear consistent with gentle use, no stains or holes. Size M.",
     "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
       "lat": 33.4148,
-      "lng": -111.913
+      "lng": -111.922
     },
     "carbonSavings": {
       "co2Kg": 6.5,
       "waterLiters": 2700,
       "shippingCo2Kg": 0.8
     },
-    "favorites": 14,
+    "favorites": 0,
     "status": "available",
-    "createdAt": "2026-03-22T00:53:21.584Z",
-    "updatedAt": "2026-03-22T00:53:21.584Z"
+    "createdAt": "2026-03-08T06:16:05.418Z",
+    "updatedAt": "2026-03-08T06:16:05.418Z"
   },
   {
     "id": "item-028",
     "photos": [
       "/uploads/item-028.jpg"
     ],
-    "type": "shirt",
+    "type": "jacket",
     "color": [
-      "cream"
+      "blue"
     ],
-    "brand": "Sincerely Jules",
-    "size": "S",
+    "brand": "The North Face",
+    "size": "M",
     "style": [
-      "crop",
-      "turtleneck"
+      "casual"
     ],
     "condition": "good",
-    "material": "knit",
-    "price": 8.99,
-    "description": "Sincerely Jules crop turtleneck sweater. Cozy meets trendy in a cropped silhouette.",
+    "material": "polyester fleece",
+    "price": 7.55,
+    "description": "Blue jacket by The North Face. Polyester fleece construction. Light wear consistent with gentle use, no stains or holes. Size M.",
     "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
     },
     "carbonSavings": {
-      "co2Kg": 6.5,
-      "waterLiters": 2700,
-      "shippingCo2Kg": 0.8
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
     },
-    "favorites": 4,
+    "favorites": 10,
     "status": "available",
-    "createdAt": "2026-03-22T04:30:58.352Z",
-    "updatedAt": "2026-03-22T04:30:58.352Z"
+    "createdAt": "2026-03-09T04:59:54.909Z",
+    "updatedAt": "2026-03-09T04:59:54.909Z"
   },
   {
     "id": "item-029",
     "photos": [
       "/uploads/item-029.jpg"
     ],
-    "type": "shirt",
+    "type": "jacket",
     "color": [
       "blue"
     ],
-    "brand": "Fintech",
-    "size": "S",
+    "brand": "The North Face",
+    "size": "Small",
     "style": [
-      "athletic",
-      "UPF"
+      "zip-up"
     ],
-    "condition": "excellent",
+    "condition": "good",
     "material": "polyester",
+    "price": 12.99,
+    "description": "Blue jacket by The North Face. Polyester construction. Light wear consistent with gentle use, no stains or holes. Size Small.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 10,
+    "status": "available",
+    "createdAt": "2026-03-08T05:44:24.491Z",
+    "updatedAt": "2026-03-08T05:44:24.491Z"
+  },
+  {
+    "id": "item-030",
+    "photos": [
+      "/uploads/item-030.jpg"
+    ],
+    "type": "jeans",
+    "color": [
+      "blue"
+    ],
+    "brand": "Levi's",
+    "size": "16",
+    "style": [
+      "slim"
+    ],
+    "condition": "good",
+    "material": "denim",
+    "price": 8.99,
+    "description": "Blue jeans by Levi's. Denim construction. Light wear consistent with gentle use, no stains or holes. Size 16.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 5,
+    "status": "available",
+    "createdAt": "2026-03-09T04:13:50.775Z",
+    "updatedAt": "2026-03-09T04:13:50.775Z"
+  },
+  {
+    "id": "item-031",
+    "photos": [
+      "/uploads/item-031.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "blue"
+    ],
+    "brand": "Weatherproof",
+    "size": "XL",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "polyester",
+    "price": 12.99,
+    "description": "Blue jacket by Weatherproof. Polyester construction. Light wear consistent with gentle use, no stains or holes. Size XL.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-09T16:14:36.112Z",
+    "updatedAt": "2026-03-09T16:14:36.112Z"
+  },
+  {
+    "id": "item-032",
+    "photos": [
+      "/uploads/item-032.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "green",
+      "pink"
+    ],
+    "brand": "Melrose Place",
+    "size": "Medium",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
     "price": 6.99,
-    "description": "UV-protective long-sleeve sun shirt. Year-round Arizona essential.",
+    "description": "Green and pink shirt by Melrose Place. Cotton blend construction. Three-button henley placket. Light wear consistent with gentle use, no stains or holes. Size Medium.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1045,211 +1120,64 @@
       "waterLiters": 2700,
       "shippingCo2Kg": 0.8
     },
-    "favorites": 0,
+    "favorites": 11,
     "status": "available",
-    "createdAt": "2026-03-21T23:29:55.556Z",
-    "updatedAt": "2026-03-21T23:29:55.556Z"
-  },
-  {
-    "id": "item-030",
-    "photos": [
-      "/uploads/item-030.jpg"
-    ],
-    "type": "pants",
-    "color": [
-      "black"
-    ],
-    "brand": "Nike",
-    "size": "XS",
-    "style": [
-      "leggings",
-      "athletic"
-    ],
-    "condition": "good",
-    "material": "nylon/spandex",
-    "price": 9.99,
-    "description": "Nike Pro leggings in black. Compression fit, sweat-wicking, gym-tested.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 3800,
-      "shippingCo2Kg": 1
-    },
-    "favorites": 8,
-    "status": "available",
-    "createdAt": "2026-03-22T04:53:40.393Z",
-    "updatedAt": "2026-03-22T04:53:40.393Z"
-  },
-  {
-    "id": "item-031",
-    "photos": [
-      "/uploads/item-031.jpg",
-      "/uploads/item-031-2.jpg"
-    ],
-    "type": "sweater",
-    "color": [
-      "gray"
-    ],
-    "brand": "Wren + Rowe",
-    "size": "M",
-    "style": [
-      "cardigan",
-      "open-front"
-    ],
-    "condition": "excellent",
-    "material": "knit blend",
-    "price": 15.56,
-    "description": "Open-front drape cardigan. Effortlessly elegant layering piece.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
-    },
-    "favorites": 4,
-    "status": "available",
-    "createdAt": "2026-03-22T21:07:38.831Z",
-    "updatedAt": "2026-03-22T21:07:38.831Z"
-  },
-  {
-    "id": "item-032",
-    "photos": [
-      "/uploads/item-032.jpg"
-    ],
-    "type": "sweater",
-    "color": [
-      "navy"
-    ],
-    "brand": "Tommy Hilfiger",
-    "size": "M",
-    "style": [
-      "pullover",
-      "zip-neck"
-    ],
-    "condition": "good",
-    "material": "cotton blend",
-    "price": 11.99,
-    "description": "Tommy Hilfiger zip-neck pullover. Classic American sportswear, cozy feel.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
-    },
-    "favorites": 13,
-    "status": "available",
-    "createdAt": "2026-03-23T11:54:22.542Z",
-    "updatedAt": "2026-03-23T11:54:22.542Z"
+    "createdAt": "2026-03-09T03:32:30.493Z",
+    "updatedAt": "2026-03-09T03:32:30.493Z"
   },
   {
     "id": "item-033",
     "photos": [
       "/uploads/item-033.jpg"
     ],
-    "type": "sweater",
+    "type": "jeans",
     "color": [
-      "navy"
+      "blue"
     ],
-    "brand": "LOFT",
-    "size": "L",
+    "brand": "Forever 21",
+    "size": "26",
     "style": [
-      "teddy",
-      "open-front"
+      "casual"
     ],
     "condition": "good",
-    "material": "polyester sherpa",
-    "price": 10.99,
-    "description": "LOFT teddy-textured open-front cardigan. Impossibly soft and cozy.",
+    "material": "denim",
+    "price": 8.99,
+    "description": "Blue jeans by Forever 21. Denim construction. Light wear consistent with gentle use, no stains or holes. Size 26.",
     "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
     },
     "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
     },
-    "favorites": 7,
+    "favorites": 8,
     "status": "available",
-    "createdAt": "2026-03-24T00:00:27.252Z",
-    "updatedAt": "2026-03-24T00:00:27.252Z"
+    "createdAt": "2026-03-10T03:04:39.801Z",
+    "updatedAt": "2026-03-10T03:04:39.801Z"
   },
   {
     "id": "item-034",
     "photos": [
       "/uploads/item-034.jpg"
     ],
-    "type": "sweater",
+    "type": "jacket",
     "color": [
-      "gray"
+      "blue"
     ],
-    "brand": "Eddie Bauer",
+    "brand": "Gap",
     "size": "M",
     "style": [
-      "hoodie",
-      "cardigan"
+      "casual"
     ],
     "condition": "good",
-    "material": "cotton blend",
-    "price": 9.99,
-    "description": "Eddie Bauer cardigan hoodie. Hoodie comfort meets cardigan style.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
-    },
-    "favorites": 13,
-    "status": "available",
-    "createdAt": "2026-03-23T00:52:37.025Z",
-    "updatedAt": "2026-03-23T00:52:37.025Z"
-  },
-  {
-    "id": "item-035",
-    "photos": [
-      "/uploads/item-035.jpg"
-    ],
-    "type": "sweater",
-    "color": [
-      "cream"
-    ],
-    "brand": "Nation Ltd.",
-    "size": "S",
-    "style": [
-      "ruffle",
-      "cardigan"
-    ],
-    "condition": "good",
-    "material": "cotton/alpaca blend",
-    "price": 16.99,
-    "description": "Nation Ltd. ruffle cardigan in cotton and alpaca. Luxe texture, feminine silhouette.",
+    "material": "polyester",
+    "price": 12.99,
+    "description": "Blue jacket by Gap. Polyester construction. Button-front closure. Light wear consistent with gentle use, no stains or holes. Size M.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -1258,142 +1186,174 @@
       "lng": -111.94
     },
     "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
     },
-    "favorites": 0,
+    "favorites": 3,
     "status": "available",
-    "createdAt": "2026-03-23T10:38:39.279Z",
-    "updatedAt": "2026-03-23T10:38:39.279Z"
+    "createdAt": "2026-03-10T00:01:45.286Z",
+    "updatedAt": "2026-03-10T00:01:45.286Z"
+  },
+  {
+    "id": "item-035",
+    "photos": [
+      "/uploads/item-035.jpg"
+    ],
+    "type": "jeans",
+    "color": [
+      "blue"
+    ],
+    "brand": "Levi’s Jeans",
+    "size": "8",
+    "style": [
+      "slim"
+    ],
+    "condition": "good",
+    "material": "denim",
+    "price": 8.99,
+    "description": "Blue jeans by Levi’s Jeans. Denim construction. Light wear consistent with gentle use, no stains or holes. Size 8.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 7,
+    "status": "available",
+    "createdAt": "2026-03-09T13:49:01.636Z",
+    "updatedAt": "2026-03-09T13:49:01.636Z"
   },
   {
     "id": "item-036",
     "photos": [
       "/uploads/item-036.jpg"
     ],
-    "type": "sweater",
+    "type": "jeans",
     "color": [
-      "navy"
+      "blue"
     ],
-    "brand": "Nautica",
-    "size": "S",
+    "brand": "Joe's Jeans",
+    "size": "33",
     "style": [
-      "half-zip",
-      "pullover"
+      "casual"
     ],
     "condition": "good",
-    "material": "cotton blend",
+    "material": "denim",
     "price": 8.99,
-    "description": "Nautica half-zip pullover. Preppy weekend essential.",
+    "description": "Blue jeans by Joe's Jeans. Denim construction. Light wear consistent with gentle use, no stains or holes. Size 33.",
     "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
       "lat": 33.4148,
-      "lng": -111.922
+      "lng": -111.913
     },
     "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
     },
-    "favorites": 6,
+    "favorites": 13,
     "status": "available",
-    "createdAt": "2026-03-25T03:41:46.776Z",
-    "updatedAt": "2026-03-25T03:41:46.776Z"
+    "createdAt": "2026-03-11T01:03:45.026Z",
+    "updatedAt": "2026-03-11T01:03:45.026Z"
   },
   {
     "id": "item-037",
     "photos": [
       "/uploads/item-037.jpg"
     ],
-    "type": "sweater",
+    "type": "shorts",
     "color": [
-      "gray"
+      "blue"
     ],
-    "brand": "Shambhala",
-    "size": "M",
+    "brand": "Even Tide",
+    "size": "40",
     "style": [
-      "cardigan",
       "casual"
     ],
     "condition": "good",
     "material": "cotton blend",
-    "price": 7.99,
-    "description": "Shambhala cardigan in light grey heather. Soft, simple, goes with everything.",
+    "price": 5.99,
+    "description": "Blue shorts by Even Tide. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 40.",
     "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
     },
     "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
     },
-    "favorites": 4,
+    "favorites": 3,
     "status": "available",
-    "createdAt": "2026-03-24T08:40:23.659Z",
-    "updatedAt": "2026-03-24T08:40:23.659Z"
+    "createdAt": "2026-03-11T11:35:41.320Z",
+    "updatedAt": "2026-03-11T11:35:41.320Z"
   },
   {
     "id": "item-038",
     "photos": [
       "/uploads/item-038.jpg"
     ],
-    "type": "sweater",
+    "type": "jeans",
     "color": [
-      "black"
+      "black",
+      "multicolor"
     ],
-    "brand": "Fever",
-    "size": "XL",
+    "brand": "Switch",
+    "size": "M",
     "style": [
-      "open-front",
-      "cardigan"
+      "casual"
     ],
     "condition": "good",
-    "material": "knit",
-    "price": 6.99,
-    "description": "Fever black open-front cardigan. A wardrobe staple that works year-round.",
+    "material": "denim",
+    "price": 8.99,
+    "description": "Black jeans by Switch. Denim construction. Light wear consistent with gentle use, no stains or holes. Size M.",
     "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
     },
     "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
     },
-    "favorites": 9,
+    "favorites": 7,
     "status": "available",
-    "createdAt": "2026-03-24T11:27:57.490Z",
-    "updatedAt": "2026-03-24T11:27:57.490Z"
+    "createdAt": "2026-03-11T04:22:24.189Z",
+    "updatedAt": "2026-03-11T04:22:24.189Z"
   },
   {
     "id": "item-039",
     "photos": [
       "/uploads/item-039.jpg"
     ],
-    "type": "sweater",
+    "type": "shorts",
     "color": [
-      "multicolor"
+      "blue"
     ],
-    "brand": "Sleefs",
-    "size": "L",
+    "brand": "Fintech",
+    "size": "M",
     "style": [
-      "hoodie",
-      "active"
+      "athletic"
     ],
     "condition": "good",
-    "material": "polyester blend",
-    "price": 12.99,
-    "description": "Sleefs Juice active hoodie. Loud print, comfy fit, made for standing out.",
+    "material": "cotton blend",
+    "price": 5.99,
+    "description": "Blue shorts by Fintech. Cotton blend construction. UPF 50+ sun protection. Light wear consistent with gentle use, no stains or holes. Size M.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1402,70 +1362,33 @@
       "lng": -111.922
     },
     "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
     },
-    "favorites": 3,
+    "favorites": 10,
     "status": "available",
-    "createdAt": "2026-03-25T18:06:29.489Z",
-    "updatedAt": "2026-03-25T18:06:29.489Z"
+    "createdAt": "2026-03-11T14:11:17.374Z",
+    "updatedAt": "2026-03-11T14:11:17.374Z"
   },
   {
     "id": "item-040",
     "photos": [
       "/uploads/item-040.jpg"
     ],
-    "type": "sweater",
+    "type": "shirt",
     "color": [
-      "gray"
+      "blue"
     ],
-    "brand": "Greg Norman",
-    "size": "XXL",
+    "brand": "Fintech",
+    "size": "M",
     "style": [
-      "zip-up",
-      "golf"
-    ],
-    "condition": "good",
-    "material": "polyester",
-    "price": 8.99,
-    "description": "Greg Norman full-zip sweatshirt. Golf-course polish meets everyday comfort.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
-    },
-    "favorites": 9,
-    "status": "available",
-    "createdAt": "2026-03-25T06:04:19.174Z",
-    "updatedAt": "2026-03-25T06:04:19.174Z"
-  },
-  {
-    "id": "item-041",
-    "photos": [
-      "/uploads/item-041.jpg"
-    ],
-    "type": "sweater",
-    "color": [
-      "gray"
-    ],
-    "brand": "Y.D. Zhuliu",
-    "size": "XL",
-    "style": [
-      "hoodie",
-      "graphic"
+      "athletic"
     ],
     "condition": "good",
     "material": "cotton blend",
-    "price": 7.99,
-    "description": "Graphic hoodie with \"Pursue Every Perfect Detail\" print. Cozy and statement-making.",
+    "price": 6.99,
+    "description": "Blue shirt by Fintech. Cotton blend construction. UPF 50+ sun protection. Light wear consistent with gentle use, no stains or holes. Size M.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1474,14 +1397,49 @@
       "lng": -111.913
     },
     "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
     },
-    "favorites": 7,
+    "favorites": 3,
     "status": "available",
-    "createdAt": "2026-03-26T00:11:39.558Z",
-    "updatedAt": "2026-03-26T00:11:39.558Z"
+    "createdAt": "2026-03-11T18:43:26.723Z",
+    "updatedAt": "2026-03-11T18:43:26.723Z"
+  },
+  {
+    "id": "item-041",
+    "photos": [
+      "/uploads/item-041.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "blue"
+    ],
+    "brand": "Zara",
+    "size": "XS",
+    "style": [
+      "cropped"
+    ],
+    "condition": "good",
+    "material": "faux suede",
+    "price": 12.99,
+    "description": "Blue jacket by Zara. Faux suede construction. Button-front closure. Light wear consistent with gentle use, no stains or holes. Size XS.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 13,
+    "status": "available",
+    "createdAt": "2026-03-11T06:46:10.240Z",
+    "updatedAt": "2026-03-11T06:46:10.240Z"
   },
   {
     "id": "item-042",
@@ -1492,53 +1450,15 @@
     "color": [
       "blue"
     ],
-    "brand": "L.L. Bean",
-    "size": "L",
+    "brand": "Tommy Hilfiger",
+    "size": "M",
     "style": [
-      "sweatshirt",
-      "casual"
+      "zip-up"
     ],
     "condition": "good",
-    "material": "cotton",
+    "material": "cotton blend",
     "price": 9.99,
-    "description": "L.L. Bean women's sweatshirt. Built to last, comfy as it gets, and under $10.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 12,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 1
-    },
-    "favorites": 3,
-    "status": "available",
-    "createdAt": "2026-03-25T13:25:31.262Z",
-    "updatedAt": "2026-03-25T13:25:31.262Z"
-  },
-  {
-    "id": "item-043",
-    "photos": [
-      "/uploads/item-043.jpg",
-      "/uploads/item-043-2.jpg"
-    ],
-    "type": "jeans",
-    "color": [
-      "blue"
-    ],
-    "brand": "Maeve by Anthropologie",
-    "size": "29",
-    "style": [
-      "wide-leg",
-      "flare"
-    ],
-    "condition": "good",
-    "material": "denim",
-    "price": 9.99,
-    "description": "Anthropologie Maeve wide flare-leg jeans. Retro silhouette, modern fit.",
+    "description": "Blue sweater by Tommy Hilfiger. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -1547,722 +1467,208 @@
       "lng": -111.94
     },
     "carbonSavings": {
-      "co2Kg": 33.4,
-      "waterLiters": 10000,
-      "shippingCo2Kg": 1.2
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
     },
-    "favorites": 10,
+    "favorites": 14,
     "status": "available",
-    "createdAt": "2026-03-25T23:02:23.351Z",
-    "updatedAt": "2026-03-25T23:02:23.351Z"
+    "createdAt": "2026-03-12T18:01:34.194Z",
+    "updatedAt": "2026-03-12T18:01:34.194Z"
+  },
+  {
+    "id": "item-043",
+    "photos": [
+      "/uploads/item-043.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "black"
+    ],
+    "brand": "The North Face",
+    "size": "M",
+    "style": [
+      "zip-up"
+    ],
+    "condition": "good",
+    "material": "polyester fleece",
+    "price": 12.99,
+    "description": "Black jacket by The North Face. Polyester fleece construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-03-12T14:08:22.979Z",
+    "updatedAt": "2026-03-12T14:08:22.979Z"
   },
   {
     "id": "item-044",
     "photos": [
       "/uploads/item-044.jpg"
     ],
-    "type": "jeans",
-    "color": [
-      "blue"
-    ],
-    "brand": "Levi's",
-    "size": "30",
-    "style": [
-      "skinny",
-      "wedgie"
-    ],
-    "condition": "good",
-    "material": "denim",
-    "price": 11.99,
-    "description": "Levi's Wedgie Skinny jeans. The iconic fit that flatters everyone.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 33.4,
-      "waterLiters": 10000,
-      "shippingCo2Kg": 1.2
-    },
-    "favorites": 12,
-    "status": "available",
-    "createdAt": "2026-03-26T03:34:50.863Z",
-    "updatedAt": "2026-03-26T03:34:50.863Z"
-  },
-  {
-    "id": "item-045",
-    "photos": [
-      "/uploads/item-045.jpg"
-    ],
-    "type": "jeans",
-    "color": [
-      "blue"
-    ],
-    "brand": "Forever 21",
-    "size": "26",
-    "style": [
-      "skinny"
-    ],
-    "condition": "good",
-    "material": "denim",
-    "price": 5.99,
-    "description": "Forever 21 jeans in classic dark wash. Budget-friendly and still looks great.",
-    "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
-    },
-    "carbonSavings": {
-      "co2Kg": 33.4,
-      "waterLiters": 10000,
-      "shippingCo2Kg": 1.2
-    },
-    "favorites": 9,
-    "status": "available",
-    "createdAt": "2026-03-28T02:01:39.824Z",
-    "updatedAt": "2026-03-28T02:01:39.824Z"
-  },
-  {
-    "id": "item-046",
-    "photos": [
-      "/uploads/item-046.jpg"
-    ],
-    "type": "jeans",
-    "color": [
-      "blue"
-    ],
-    "brand": "Joe's Jeans",
-    "size": "33",
-    "style": [
-      "straight-leg"
-    ],
-    "condition": "good",
-    "material": "premium denim",
-    "price": 14.99,
-    "description": "Joe's Jeans in premium dark wash. Designer denim at a thrift store price.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 33.4,
-      "waterLiters": 10000,
-      "shippingCo2Kg": 1.2
-    },
-    "favorites": 2,
-    "status": "available",
-    "createdAt": "2026-03-28T14:49:21.011Z",
-    "updatedAt": "2026-03-28T14:49:21.011Z"
-  },
-  {
-    "id": "item-047",
-    "photos": [
-      "/uploads/item-047.jpg"
-    ],
-    "type": "jeans",
-    "color": [
-      "black"
-    ],
-    "brand": "Switch",
-    "size": "36/34",
-    "style": [
-      "splatter",
-      "streetwear"
-    ],
-    "condition": "good",
-    "material": "denim",
-    "price": 9.99,
-    "description": "Switch Remarkable jeans with bleach splatter detail. Streetwear-ready statement denim.",
-    "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
-    },
-    "carbonSavings": {
-      "co2Kg": 33.4,
-      "waterLiters": 10000,
-      "shippingCo2Kg": 1.2
-    },
-    "favorites": 5,
-    "status": "available",
-    "createdAt": "2026-03-27T05:02:29.778Z",
-    "updatedAt": "2026-03-27T05:02:29.778Z"
-  },
-  {
-    "id": "item-048",
-    "photos": [
-      "/uploads/item-048.jpg"
-    ],
-    "type": "jeans",
-    "color": [
-      "blue"
-    ],
-    "brand": "Mellow Denim",
-    "size": "7 (Juniors)",
-    "style": [
-      "skinny",
-      "clean"
-    ],
-    "condition": "excellent",
-    "material": "denim",
-    "price": 7.99,
-    "description": "Non-distressed skinny jeans. Clean, classic, new with tags.",
-    "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
-    },
-    "carbonSavings": {
-      "co2Kg": 33.4,
-      "waterLiters": 10000,
-      "shippingCo2Kg": 1.2
-    },
-    "favorites": 4,
-    "status": "available",
-    "createdAt": "2026-03-28T22:27:40.393Z",
-    "updatedAt": "2026-03-28T22:27:40.393Z"
-  },
-  {
-    "id": "item-049",
-    "photos": [
-      "/uploads/item-049.jpg"
-    ],
-    "type": "jeans",
-    "color": [
-      "blue"
-    ],
-    "brand": "Parker",
-    "size": "32",
-    "style": [
-      "shorts",
-      "denim"
-    ],
-    "condition": "good",
-    "material": "denim",
-    "price": 6.99,
-    "description": "Parker denim shorts. Cut-off style with just the right amount of wear.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 33.4,
-      "waterLiters": 10000,
-      "shippingCo2Kg": 1.2
-    },
-    "favorites": 12,
-    "status": "available",
-    "createdAt": "2026-03-29T14:31:34.988Z",
-    "updatedAt": "2026-03-29T14:31:34.988Z"
-  },
-  {
-    "id": "item-050",
-    "photos": [
-      "/uploads/item-050.jpg"
-    ],
     "type": "pants",
     "color": [
-      "gray",
-      "black"
+      "green"
     ],
-    "brand": "Selected Homme",
-    "size": "34/32",
+    "brand": "Tillman",
+    "size": "54in",
     "style": [
-      "straight-leg",
-      "two-tone"
+      "casual"
     ],
     "condition": "good",
     "material": "cotton blend",
-    "price": 9.99,
-    "description": "Selected Homme two-toned straight-leg pants. Scandinavian minimalism.",
+    "price": 7.99,
+    "description": "Green pants by Tillman. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 54in.",
     "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
     },
     "carbonSavings": {
       "co2Kg": 12,
       "waterLiters": 3800,
       "shippingCo2Kg": 1
     },
-    "favorites": 9,
-    "status": "available",
-    "createdAt": "2026-03-30T01:53:28.596Z",
-    "updatedAt": "2026-03-30T01:53:28.596Z"
-  },
-  {
-    "id": "item-051",
-    "photos": [
-      "/uploads/item-051.jpg"
-    ],
-    "type": "shorts",
-    "color": [
-      "blue",
-      "white"
-    ],
-    "brand": "Gap",
-    "size": "31",
-    "style": [
-      "pinstripe",
-      "casual"
-    ],
-    "condition": "good",
-    "material": "cotton",
-    "price": 5.99,
-    "description": "Gap pinstripe casual shorts. Easy summer staple.",
-    "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
-    },
-    "carbonSavings": {
-      "co2Kg": 8,
-      "waterLiters": 3000,
-      "shippingCo2Kg": 0.8
-    },
-    "favorites": 1,
-    "status": "available",
-    "createdAt": "2026-03-29T15:07:07.846Z",
-    "updatedAt": "2026-03-29T15:07:07.846Z"
-  },
-  {
-    "id": "item-052",
-    "photos": [
-      "/uploads/item-052.jpg"
-    ],
-    "type": "shorts",
-    "color": [
-      "blue"
-    ],
-    "brand": "H&M",
-    "size": "32",
-    "style": [
-      "distressed",
-      "denim"
-    ],
-    "condition": "good",
-    "material": "denim",
-    "price": 6.99,
-    "description": "H&M distressed denim shorts. Lived-in look for warm Tempe days.",
-    "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
-    },
-    "carbonSavings": {
-      "co2Kg": 8,
-      "waterLiters": 3000,
-      "shippingCo2Kg": 0.8
-    },
-    "favorites": 7,
-    "status": "available",
-    "createdAt": "2026-03-30T19:27:28.569Z",
-    "updatedAt": "2026-03-30T19:27:28.569Z"
-  },
-  {
-    "id": "item-053",
-    "photos": [
-      "/uploads/item-053.jpg"
-    ],
-    "type": "shorts",
-    "color": [
-      "plaid"
-    ],
-    "brand": "Izod",
-    "size": "8",
-    "style": [
-      "golf",
-      "stretch"
-    ],
-    "condition": "excellent",
-    "material": "polyester blend",
-    "price": 7.99,
-    "description": "Izod plaid golf shorts with stretch. New, lightweight, ready for the course.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 8,
-      "waterLiters": 3000,
-      "shippingCo2Kg": 0.8
-    },
-    "favorites": 14,
-    "status": "available",
-    "createdAt": "2026-03-31T01:33:05.954Z",
-    "updatedAt": "2026-03-31T01:33:05.954Z"
-  },
-  {
-    "id": "item-054",
-    "photos": [
-      "/uploads/item-054.jpg"
-    ],
-    "type": "shorts",
-    "color": [
-      "khaki"
-    ],
-    "brand": "Chaps",
-    "size": "31",
-    "style": [
-      "casual",
-      "classic"
-    ],
-    "condition": "good",
-    "material": "cotton",
-    "price": 5.99,
-    "description": "Chaps casual shorts in khaki. Timeless, comfortable, reliable.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 8,
-      "waterLiters": 3000,
-      "shippingCo2Kg": 0.8
-    },
-    "favorites": 3,
-    "status": "available",
-    "createdAt": "2026-03-30T09:34:13.231Z",
-    "updatedAt": "2026-03-30T09:34:13.231Z"
-  },
-  {
-    "id": "item-055",
-    "photos": [
-      "/uploads/item-055.jpg"
-    ],
-    "type": "dress",
-    "color": [
-      "black"
-    ],
-    "brand": "Karl Lagerfeld",
-    "size": "4",
-    "style": [
-      "lace",
-      "cocktail"
-    ],
-    "condition": "good",
-    "material": "lace/polyester",
-    "price": 19.99,
-    "description": "Karl Lagerfeld black lace cocktail dress. Designer elegance at a secondhand price.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 22,
-      "waterLiters": 8000,
-      "shippingCo2Kg": 1
-    },
-    "favorites": 2,
-    "status": "available",
-    "createdAt": "2026-03-31T12:33:20.640Z",
-    "updatedAt": "2026-03-31T12:33:20.640Z"
-  },
-  {
-    "id": "item-056",
-    "photos": [
-      "/uploads/item-056.jpg",
-      "/uploads/item-056-2.jpg"
-    ],
-    "type": "shoes",
-    "color": [
-      "brown"
-    ],
-    "brand": "Birkenstock",
-    "size": "Various",
-    "style": [
-      "sandals"
-    ],
-    "condition": "excellent",
-    "material": "leather, cork",
-    "price": 78,
-    "description": "Birkenstock Gizeh sandals. The gold standard of comfort footwear, new in box.",
-    "store": {
-      "id": "store-1",
-      "name": "Habitat for Humanity ReStore",
-      "address": "2513 S Rural Rd, Tempe, AZ 85282",
-      "lat": 33.4055,
-      "lng": -111.9265
-    },
-    "carbonSavings": {
-      "co2Kg": 14,
-      "waterLiters": 4500,
-      "shippingCo2Kg": 1.8
-    },
-    "favorites": 5,
-    "status": "available",
-    "createdAt": "2026-04-01T03:31:16.576Z",
-    "updatedAt": "2026-04-01T03:31:16.576Z"
-  },
-  {
-    "id": "item-057",
-    "photos": [
-      "/uploads/item-057.jpg",
-      "/uploads/item-057-2.jpg"
-    ],
-    "type": "shoes",
-    "color": [
-      "brown"
-    ],
-    "brand": "Birkenstock",
-    "size": "Various",
-    "style": [
-      "sandals"
-    ],
-    "condition": "excellent",
-    "material": "leather, cork",
-    "price": 75,
-    "description": "Birkenstock Arizona two-strap sandals. Classic design, brand new.",
-    "store": {
-      "id": "store-1",
-      "name": "Habitat for Humanity ReStore",
-      "address": "2513 S Rural Rd, Tempe, AZ 85282",
-      "lat": 33.4055,
-      "lng": -111.9265
-    },
-    "carbonSavings": {
-      "co2Kg": 14,
-      "waterLiters": 4500,
-      "shippingCo2Kg": 1.8
-    },
-    "favorites": 7,
-    "status": "available",
-    "createdAt": "2026-03-30T22:24:33.923Z",
-    "updatedAt": "2026-03-30T22:24:33.923Z"
-  },
-  {
-    "id": "item-058",
-    "photos": [
-      "/uploads/item-058.jpg",
-      "/uploads/item-058-2.jpg"
-    ],
-    "type": "shoes",
-    "color": [
-      "tan"
-    ],
-    "brand": "Alexandre Birman",
-    "size": "38 EU",
-    "style": [
-      "sandals",
-      "designer"
-    ],
-    "condition": "good",
-    "material": "braided leather",
-    "price": 19.99,
-    "description": "Alexandre Birman Clarita braided flat sandals. Italian luxury at a fraction of retail.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 14,
-      "waterLiters": 4500,
-      "shippingCo2Kg": 1.8
-    },
-    "favorites": 8,
-    "status": "available",
-    "createdAt": "2026-04-01T03:51:36.718Z",
-    "updatedAt": "2026-04-01T03:51:36.718Z"
-  },
-  {
-    "id": "item-059",
-    "photos": [
-      "/uploads/item-059.jpg",
-      "/uploads/item-059-2.jpg"
-    ],
-    "type": "bag",
-    "color": [
-      "red"
-    ],
-    "brand": "Michael Kors",
-    "size": "One Size",
-    "style": [
-      "quilted",
-      "designer"
-    ],
-    "condition": "good",
-    "material": "quilted leather",
-    "price": 19.99,
-    "description": "Red quilted Michael Kors handbag. Bold color, iconic designer.",
-    "store": {
-      "id": "store-2",
-      "name": "Buffalo Exchange",
-      "address": "420 S Mill Ave, Tempe, AZ 85281",
-      "lat": 33.4235,
-      "lng": -111.94
-    },
-    "carbonSavings": {
-      "co2Kg": 10,
-      "waterLiters": 3500,
-      "shippingCo2Kg": 1.2
-    },
     "favorites": 10,
     "status": "available",
-    "createdAt": "2026-04-01T21:31:19.243Z",
-    "updatedAt": "2026-04-01T21:31:19.243Z"
+    "createdAt": "2026-03-12T11:58:07.846Z",
+    "updatedAt": "2026-03-12T11:58:07.846Z"
   },
   {
-    "id": "item-060",
+    "id": "item-045",
     "photos": [
-      "/uploads/item-060.jpg",
-      "/uploads/item-060-2.jpg"
+      "/uploads/item-045.jpg"
     ],
-    "type": "electronics",
-    "color": [
-      "black"
-    ],
-    "brand": "Apple",
-    "size": "One Size",
-    "style": [
-      "streaming"
-    ],
-    "condition": "fair",
-    "material": "aluminum",
-    "price": 9.99,
-    "description": "Apple TV 3rd generation. Compact streaming device, still going strong.",
-    "store": {
-      "id": "store-1",
-      "name": "Habitat for Humanity ReStore",
-      "address": "2513 S Rural Rd, Tempe, AZ 85282",
-      "lat": 33.4055,
-      "lng": -111.9265
-    },
-    "carbonSavings": {
-      "co2Kg": 50,
-      "waterLiters": 15000,
-      "shippingCo2Kg": 5
-    },
-    "favorites": 0,
-    "status": "available",
-    "createdAt": "2026-04-01T17:48:03.768Z",
-    "updatedAt": "2026-04-01T17:48:03.768Z"
-  },
-  {
-    "id": "item-061",
-    "photos": [
-      "/uploads/item-061.jpg",
-      "/uploads/item-061-2.jpg"
-    ],
-    "type": "electronics",
-    "color": [
-      "white"
-    ],
-    "brand": "Google",
-    "size": "One Size",
-    "style": [
-      "smart home"
-    ],
-    "condition": "excellent",
-    "material": "plastic",
-    "price": 11.99,
-    "description": "Google Nest Thermostat trim kit. Brand new and sealed.",
-    "store": {
-      "id": "store-1",
-      "name": "Habitat for Humanity ReStore",
-      "address": "2513 S Rural Rd, Tempe, AZ 85282",
-      "lat": 33.4055,
-      "lng": -111.9265
-    },
-    "carbonSavings": {
-      "co2Kg": 50,
-      "waterLiters": 15000,
-      "shippingCo2Kg": 5
-    },
-    "favorites": 5,
-    "status": "available",
-    "createdAt": "2026-04-01T07:14:24.834Z",
-    "updatedAt": "2026-04-01T07:14:24.834Z"
-  },
-  {
-    "id": "item-062",
-    "photos": [
-      "/uploads/item-062.jpg",
-      "/uploads/item-062-2.jpg"
-    ],
-    "type": "home",
-    "color": [
-      "blue",
-      "white"
-    ],
-    "brand": "Teppie (Handcrafted)",
-    "size": "One Size",
-    "style": [
-      "vase",
-      "art glass"
-    ],
-    "condition": "good",
-    "material": "dichroic glass",
-    "price": 24.89,
-    "description": "Handcrafted blue swirl glass vase with dichroic accents. One-of-a-kind art piece.",
-    "store": {
-      "id": "store-1",
-      "name": "Habitat for Humanity ReStore",
-      "address": "2513 S Rural Rd, Tempe, AZ 85282",
-      "lat": 33.4055,
-      "lng": -111.9265
-    },
-    "carbonSavings": {
-      "co2Kg": 15,
-      "waterLiters": 5000,
-      "shippingCo2Kg": 3
-    },
-    "favorites": 8,
-    "status": "available",
-    "createdAt": "2026-04-01T21:14:53.883Z",
-    "updatedAt": "2026-04-01T21:14:53.883Z"
-  },
-  {
-    "id": "item-063",
-    "photos": [
-      "/uploads/item-063.jpg"
-    ],
-    "type": "shorts",
+    "type": "pants",
     "color": [
       "blue"
     ],
-    "brand": "Even Tide",
-    "size": "40",
+    "brand": "Selected Homme",
+    "size": "34",
     "style": [
-      "swim",
       "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 7.99,
+    "description": "Blue pants by Selected Homme. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 34.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 3800,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 8,
+    "status": "available",
+    "createdAt": "2026-03-12T16:02:11.030Z",
+    "updatedAt": "2026-03-12T16:02:11.030Z"
+  },
+  {
+    "id": "item-046",
+    "photos": [
+      "/uploads/item-046.jpg"
+    ],
+    "type": "shorts",
+    "color": [
+      "black"
+    ],
+    "brand": "Mad Pelican",
+    "size": "XXL",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 5.99,
+    "description": "Black shorts by Mad Pelican. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size XXL.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 7,
+    "status": "available",
+    "createdAt": "2026-03-13T15:10:23.353Z",
+    "updatedAt": "2026-03-13T15:10:23.353Z"
+  },
+  {
+    "id": "item-047",
+    "photos": [
+      "/uploads/item-047.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "brown"
+    ],
+    "brand": "Nautica",
+    "size": "XL",
+    "style": [
+      "zip-up"
     ],
     "condition": "good",
     "material": "polyester",
+    "price": 12.99,
+    "description": "Brown jacket by Nautica. Polyester construction. Light wear consistent with gentle use, no stains or holes. Size XL.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-13T12:35:57.959Z",
+    "updatedAt": "2026-03-13T12:35:57.959Z"
+  },
+  {
+    "id": "item-048",
+    "photos": [
+      "/uploads/item-048.jpg"
+    ],
+    "type": "shorts",
+    "color": [
+      "brown"
+    ],
+    "brand": "Chaos",
+    "size": "31",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
     "price": 5.99,
-    "description": "Even Tide men's swim trunks. Pool-ready and priced to move.",
+    "description": "Brown shorts by Chaos. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 31.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -2277,100 +1683,97 @@
     },
     "favorites": 11,
     "status": "available",
-    "createdAt": "2026-04-03T11:34:52.702Z",
-    "updatedAt": "2026-04-03T11:34:52.702Z"
+    "createdAt": "2026-03-13T18:20:47.576Z",
+    "updatedAt": "2026-03-13T18:20:47.576Z"
   },
   {
-    "id": "item-064",
+    "id": "item-049",
     "photos": [
-      "/uploads/item-064.jpg"
-    ],
-    "type": "jeans",
-    "color": [
-      "blue"
-    ],
-    "brand": "Levi's",
-    "size": "16 (28x28)",
-    "style": [
-      "slim",
-      "511"
-    ],
-    "condition": "good",
-    "material": "denim",
-    "price": 6.99,
-    "description": "Levi's 511 slim jeans. Classic slim fit in a versatile wash.",
-    "store": {
-      "id": "store-4",
-      "name": "Goodwill Tempe",
-      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.913
-    },
-    "carbonSavings": {
-      "co2Kg": 33.4,
-      "waterLiters": 10000,
-      "shippingCo2Kg": 1.2
-    },
-    "favorites": 14,
-    "status": "available",
-    "createdAt": "2026-04-02T13:47:39.082Z",
-    "updatedAt": "2026-04-02T13:47:39.082Z"
-  },
-  {
-    "id": "item-065",
-    "photos": [
-      "/uploads/item-065.jpg"
-    ],
-    "type": "shorts",
-    "color": [
-      "blue"
-    ],
-    "brand": "Mad Pelican",
-    "size": "M",
-    "style": [
-      "walking",
-      "casual"
-    ],
-    "condition": "good",
-    "material": "polyester blend",
-    "price": 6.99,
-    "description": "Mad Pelican walking shorts in Aruba Blue. Lightweight and vacation-ready.",
-    "store": {
-      "id": "store-3",
-      "name": "Savers",
-      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
-      "lat": 33.4148,
-      "lng": -111.922
-    },
-    "carbonSavings": {
-      "co2Kg": 8,
-      "waterLiters": 3000,
-      "shippingCo2Kg": 0.8
-    },
-    "favorites": 13,
-    "status": "available",
-    "createdAt": "2026-04-04T08:53:25.413Z",
-    "updatedAt": "2026-04-04T08:53:25.413Z"
-  },
-  {
-    "id": "item-066",
-    "photos": [
-      "/uploads/item-066.jpg"
+      "/uploads/item-049.jpg"
     ],
     "type": "sweater",
     "color": [
-      "gray"
+      "blue"
     ],
-    "brand": "Wren + Rowe",
-    "size": "L",
+    "brand": "LOFT",
+    "size": "M",
     "style": [
-      "cardigan",
-      "open-front"
+      "casual"
     ],
-    "condition": "excellent",
-    "material": "knit blend",
-    "price": 15.56,
-    "description": "Wren + Rowe open-front drape cardigan in Large. Effortless elegance.",
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sweater by LOFT. Cotton blend construction. Open-front construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 11,
+    "status": "available",
+    "createdAt": "2026-03-14T09:29:16.391Z",
+    "updatedAt": "2026-03-14T09:29:16.391Z"
+  },
+  {
+    "id": "item-050",
+    "photos": [
+      "/uploads/item-050.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "blue"
+    ],
+    "brand": "Greg Norman",
+    "size": "XXL",
+    "style": [
+      "zip-up"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sweater by Greg Norman. Cotton blend construction. Full-zip closure. Light wear consistent with gentle use, no stains or holes. Size XXL.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 6,
+    "status": "available",
+    "createdAt": "2026-03-14T06:33:04.403Z",
+    "updatedAt": "2026-03-14T06:33:04.403Z"
+  },
+  {
+    "id": "item-051",
+    "photos": [
+      "/uploads/item-051.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "blue"
+    ],
+    "brand": "Nation Ltd",
+    "size": "Small",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton",
+    "price": 9.99,
+    "description": "Blue sweater by Nation Ltd. Cotton construction. Light wear consistent with gentle use, no stains or holes. Size Small.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -2383,9 +1786,2990 @@
       "waterLiters": 5000,
       "shippingCo2Kg": 1
     },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-13T13:01:10.164Z",
+    "updatedAt": "2026-03-13T13:01:10.164Z"
+  },
+  {
+    "id": "item-052",
+    "photos": [
+      "/uploads/item-052.jpg"
+    ],
+    "type": "jeans",
+    "color": [
+      "blue"
+    ],
+    "brand": "Mellow Denim",
+    "size": "7",
+    "style": [
+      "slim"
+    ],
+    "condition": "excellent",
+    "material": "denim",
+    "price": 8.99,
+    "description": "Blue jeans by Mellow Denim. Denim construction. Intentional distressing detail. No visible wear, appears unworn. Size 7.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 13,
+    "status": "available",
+    "createdAt": "2026-03-13T18:33:27.617Z",
+    "updatedAt": "2026-03-13T18:33:27.617Z"
+  },
+  {
+    "id": "item-053",
+    "photos": [
+      "/uploads/item-053.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "blue"
+    ],
+    "brand": "Eddie Bauer",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sweater by Eddie Bauer. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-14T15:40:07.441Z",
+    "updatedAt": "2026-03-14T15:40:07.441Z"
+  },
+  {
+    "id": "item-054",
+    "photos": [
+      "/uploads/item-054.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "blue"
+    ],
+    "brand": "Karen Scott",
+    "size": "M",
+    "style": [
+      "athletic",
+      "zip-up"
+    ],
+    "condition": "good",
+    "material": "corduroy",
+    "price": 12.99,
+    "description": "Blue jacket by Karen Scott. Corduroy construction. Full-zip closure. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
     "favorites": 0,
     "status": "available",
-    "createdAt": "2026-04-04T12:58:54.121Z",
-    "updatedAt": "2026-04-04T12:58:54.121Z"
+    "createdAt": "2026-03-15T03:38:46.276Z",
+    "updatedAt": "2026-03-15T03:38:46.276Z"
+  },
+  {
+    "id": "item-055",
+    "photos": [
+      "/uploads/item-055.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "blue"
+    ],
+    "brand": "Fintech",
+    "size": "M",
+    "style": [
+      "athletic"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 6.99,
+    "description": "Blue shirt by Fintech. Cotton blend construction. UPF 50+ sun protection. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-14T17:34:09.502Z",
+    "updatedAt": "2026-03-14T17:34:09.502Z"
+  },
+  {
+    "id": "item-056",
+    "photos": [
+      "/uploads/item-056.jpg"
+    ],
+    "type": "shorts",
+    "color": [
+      "blue"
+    ],
+    "brand": "H&M",
+    "size": "32",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "denim",
+    "price": 5.99,
+    "description": "Blue shorts by H&M. Denim construction. Intentional distressing detail. Light wear consistent with gentle use, no stains or holes. Size 32.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-16T06:14:06.528Z",
+    "updatedAt": "2026-03-16T06:14:06.528Z"
+  },
+  {
+    "id": "item-057",
+    "photos": [
+      "/uploads/item-057.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "black"
+    ],
+    "brand": "Lululemon",
+    "size": "4",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 6.99,
+    "description": "Black shirt by Lululemon. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 4.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 12,
+    "status": "available",
+    "createdAt": "2026-03-15T04:41:17.204Z",
+    "updatedAt": "2026-03-15T04:41:17.204Z"
+  },
+  {
+    "id": "item-058",
+    "photos": [
+      "/uploads/item-058.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "blue"
+    ],
+    "brand": "Sleefs",
+    "size": "Large",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sweater by Sleefs. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size Large.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-15T07:54:37.716Z",
+    "updatedAt": "2026-03-15T07:54:37.716Z"
+  },
+  {
+    "id": "item-059",
+    "photos": [
+      "/uploads/item-059.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "blue"
+    ],
+    "brand": "Goodfellow",
+    "size": "Large",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 6.99,
+    "description": "Blue shirt by Goodfellow. Cotton blend construction. Two-button placket collar. Light wear consistent with gentle use, no stains or holes. Size Large.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-16T10:26:42.948Z",
+    "updatedAt": "2026-03-16T10:26:42.948Z"
+  },
+  {
+    "id": "item-060",
+    "photos": [
+      "/uploads/item-060.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "blue"
+    ],
+    "brand": "Pebble Beach",
+    "size": "XXL",
+    "style": [
+      "athletic",
+      "zip-up"
+    ],
+    "condition": "good",
+    "material": "polyester",
+    "price": 12.99,
+    "description": "Blue jacket by Pebble Beach. Polyester construction. Light wear consistent with gentle use, no stains or holes. Size XXL.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-03-15T21:58:34.996Z",
+    "updatedAt": "2026-03-15T21:58:34.996Z"
+  },
+  {
+    "id": "item-061",
+    "photos": [
+      "/uploads/item-061.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "red"
+    ],
+    "brand": "Antigua",
+    "size": "M",
+    "style": [
+      "athletic"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 6.99,
+    "description": "Red shirt by Antigua. Cotton blend construction. Two-button placket collar. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-03-17T03:13:32.788Z",
+    "updatedAt": "2026-03-17T03:13:32.788Z"
+  },
+  {
+    "id": "item-062",
+    "photos": [
+      "/uploads/item-062.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "blue"
+    ],
+    "brand": "Stockh LM",
+    "size": "38",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "polyester",
+    "price": 12.99,
+    "description": "Blue jacket by Stockh LM. Polyester construction. Light wear consistent with gentle use, no stains or holes. Size 38.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-03-16T08:13:03.843Z",
+    "updatedAt": "2026-03-16T08:13:03.843Z"
+  },
+  {
+    "id": "item-063",
+    "photos": [
+      "/uploads/item-063.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "blue"
+    ],
+    "brand": "Nautica",
+    "size": "M",
+    "style": [
+      "zip-up"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sweater by Nautica. Cotton blend construction. Half-zip closure. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-17T07:50:30.646Z",
+    "updatedAt": "2026-03-17T07:50:30.646Z"
+  },
+  {
+    "id": "item-064",
+    "photos": [
+      "/uploads/item-064.jpg"
+    ],
+    "type": "pants",
+    "color": [
+      "blue"
+    ],
+    "brand": "Nike",
+    "size": "XS",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 7.99,
+    "description": "Blue pants by Nike. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size XS.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 3800,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-16T23:54:28.935Z",
+    "updatedAt": "2026-03-16T23:54:28.935Z"
+  },
+  {
+    "id": "item-065",
+    "photos": [
+      "/uploads/item-065.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "black"
+    ],
+    "brand": "Fever",
+    "size": "XL",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Black sweater by Fever. Cotton blend construction. Open-front construction. Light wear consistent with gentle use, no stains or holes. Size XL.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 12,
+    "status": "available",
+    "createdAt": "2026-03-17T08:03:14.587Z",
+    "updatedAt": "2026-03-17T08:03:14.587Z"
+  },
+  {
+    "id": "item-066",
+    "photos": [
+      "/uploads/item-066.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "blue"
+    ],
+    "brand": "Sincerely Jules",
+    "size": "M",
+    "style": [
+      "cropped"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sweater by Sincerely Jules. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 7,
+    "status": "available",
+    "createdAt": "2026-03-17T12:13:40.230Z",
+    "updatedAt": "2026-03-17T12:13:40.230Z"
+  },
+  {
+    "id": "item-067",
+    "photos": [
+      "/uploads/item-067.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "blue"
+    ],
+    "brand": "The North Face",
+    "size": "Medium",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "polyester fleece",
+    "price": 12.99,
+    "description": "Blue jacket by The North Face. Polyester fleece construction. Light wear consistent with gentle use, no stains or holes. Size Medium.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-18T00:40:55.199Z",
+    "updatedAt": "2026-03-18T00:40:55.199Z"
+  },
+  {
+    "id": "item-068",
+    "photos": [
+      "/uploads/item-068.jpg"
+    ],
+    "type": "blouse",
+    "color": [
+      "black"
+    ],
+    "brand": "Halogen",
+    "size": "Small",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 7.99,
+    "description": "Black blouse by Halogen. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size Small.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 8,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 6,
+    "status": "available",
+    "createdAt": "2026-03-18T15:33:46.668Z",
+    "updatedAt": "2026-03-18T15:33:46.668Z"
+  },
+  {
+    "id": "item-069",
+    "photos": [
+      "/uploads/item-069.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "blue"
+    ],
+    "brand": "L.L. Beam",
+    "size": "Large",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sweater by L.L. Beam. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size Large.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 12,
+    "status": "available",
+    "createdAt": "2026-03-19T03:00:27.405Z",
+    "updatedAt": "2026-03-19T03:00:27.405Z"
+  },
+  {
+    "id": "item-070",
+    "photos": [
+      "/uploads/item-070.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Birkenstock",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 78,
+    "description": "Multicolor shoes by Birkenstock. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 8,
+    "status": "available",
+    "createdAt": "2026-03-18T13:33:34.487Z",
+    "updatedAt": "2026-03-18T13:33:34.487Z"
+  },
+  {
+    "id": "item-071",
+    "photos": [
+      "/uploads/item-071.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Birkenstock",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Multicolor shoes by Birkenstock. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 12,
+    "status": "available",
+    "createdAt": "2026-03-18T17:32:36.592Z",
+    "updatedAt": "2026-03-18T17:32:36.592Z"
+  },
+  {
+    "id": "item-072",
+    "photos": [
+      "/uploads/item-072.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "black"
+    ],
+    "brand": "Oofos Unisex",
+    "size": "13",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Black shoes by Oofos Unisex. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 13.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-19T13:26:40.382Z",
+    "updatedAt": "2026-03-19T13:26:40.382Z"
+  },
+  {
+    "id": "item-073",
+    "photos": [
+      "/uploads/item-073.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Birkenstock",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 75,
+    "description": "Multicolor shoes by Birkenstock. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 9,
+    "status": "available",
+    "createdAt": "2026-03-19T21:42:45.630Z",
+    "updatedAt": "2026-03-19T21:42:45.630Z"
+  },
+  {
+    "id": "item-074",
+    "photos": [
+      "/uploads/item-074.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Xelero Genesis",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Multicolor shoes by Xelero Genesis. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 5,
+    "status": "available",
+    "createdAt": "2026-03-20T05:41:55.153Z",
+    "updatedAt": "2026-03-20T05:41:55.153Z"
+  },
+  {
+    "id": "item-075",
+    "photos": [
+      "/uploads/item-075.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Naot",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Multicolor shoes by Naot. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 11,
+    "status": "available",
+    "createdAt": "2026-03-20T10:14:15.150Z",
+    "updatedAt": "2026-03-20T10:14:15.150Z"
+  },
+  {
+    "id": "item-076",
+    "photos": [
+      "/uploads/item-076.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Xelero Women’s",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Multicolor shoes by Xelero Women’s. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-20T18:18:35.932Z",
+    "updatedAt": "2026-03-20T18:18:35.932Z"
+  },
+  {
+    "id": "item-077",
+    "photos": [
+      "/uploads/item-077.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "gray"
+    ],
+    "brand": "Naot",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "leather",
+    "price": 19.99,
+    "description": "Gray shoes by Naot. Leather construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-20T14:15:24.944Z",
+    "updatedAt": "2026-03-20T14:15:24.944Z"
+  },
+  {
+    "id": "item-078",
+    "photos": [
+      "/uploads/item-078.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Naot",
+    "size": "2",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "leather",
+    "price": 78,
+    "description": "Multicolor shoes by Naot. Leather construction. No visible wear, appears unworn. Size 2.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 14,
+    "status": "available",
+    "createdAt": "2026-03-20T13:40:35.151Z",
+    "updatedAt": "2026-03-20T13:40:35.151Z"
+  },
+  {
+    "id": "item-079",
+    "photos": [
+      "/uploads/item-079.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Xelero Matrix",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Multicolor shoes by Xelero Matrix. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 12,
+    "status": "available",
+    "createdAt": "2026-03-21T14:47:21.500Z",
+    "updatedAt": "2026-03-21T14:47:21.500Z"
+  },
+  {
+    "id": "item-080",
+    "photos": [
+      "/uploads/item-080.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Xelero Matrix",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Multicolor shoes by Xelero Matrix. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 13,
+    "status": "available",
+    "createdAt": "2026-03-21T19:00:38.734Z",
+    "updatedAt": "2026-03-21T19:00:38.734Z"
+  },
+  {
+    "id": "item-081",
+    "photos": [
+      "/uploads/item-081.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Adrienne Vittadini",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "fair",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Adrienne Vittadini. Cotton blend construction. Some signs of wear including minor fading and pilling. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 7,
+    "status": "available",
+    "createdAt": "2026-03-22T00:06:37.314Z",
+    "updatedAt": "2026-03-22T00:06:37.314Z"
+  },
+  {
+    "id": "item-082",
+    "photos": [
+      "/uploads/item-082.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Xelero Heidi",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Multicolor shoes by Xelero Heidi. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-22T10:18:04.283Z",
+    "updatedAt": "2026-03-22T10:18:04.283Z"
+  },
+  {
+    "id": "item-083",
+    "photos": [
+      "/uploads/item-083.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Alexandre Birman",
+    "size": "38",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Alexandre Birman. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 38.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-21T20:53:25.746Z",
+    "updatedAt": "2026-03-21T20:53:25.746Z"
+  },
+  {
+    "id": "item-084",
+    "photos": [
+      "/uploads/item-084.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "brown"
+    ],
+    "brand": "Naot",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "leather",
+    "price": 19.99,
+    "description": "Brown shoes by Naot. Leather construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-03-22T03:08:52.160Z",
+    "updatedAt": "2026-03-22T03:08:52.160Z"
+  },
+  {
+    "id": "item-085",
+    "photos": [
+      "/uploads/item-085.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Wheels Up",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Wheels Up. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 12,
+    "status": "available",
+    "createdAt": "2026-03-22T15:25:47.541Z",
+    "updatedAt": "2026-03-22T15:25:47.541Z"
+  },
+  {
+    "id": "item-086",
+    "photos": [
+      "/uploads/item-086.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Ann Marino",
+    "size": "8",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Ann Marino. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 8.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 7,
+    "status": "available",
+    "createdAt": "2026-03-23T05:07:48.716Z",
+    "updatedAt": "2026-03-23T05:07:48.716Z"
+  },
+  {
+    "id": "item-087",
+    "photos": [
+      "/uploads/item-087.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Xelero Steadfast",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Multicolor shoes by Xelero Steadfast. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-22T23:14:24.353Z",
+    "updatedAt": "2026-03-22T23:14:24.353Z"
+  },
+  {
+    "id": "item-088",
+    "photos": [
+      "/uploads/item-088.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Propet TravelFit",
+    "size": "12",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Propet TravelFit. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 12.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 10,
+    "status": "available",
+    "createdAt": "2026-03-24T00:42:47.939Z",
+    "updatedAt": "2026-03-24T00:42:47.939Z"
+  },
+  {
+    "id": "item-089",
+    "photos": [
+      "/uploads/item-089.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Franco Sarto",
+    "size": "8",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Franco Sarto. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 8.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-23T22:36:17.557Z",
+    "updatedAt": "2026-03-23T22:36:17.557Z"
+  },
+  {
+    "id": "item-090",
+    "photos": [
+      "/uploads/item-090.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "black",
+      "white",
+      "multicolor"
+    ],
+    "brand": "Naot",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Black and white shoes by Naot. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-23T06:41:24.755Z",
+    "updatedAt": "2026-03-23T06:41:24.755Z"
+  },
+  {
+    "id": "item-091",
+    "photos": [
+      "/uploads/item-091.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "gray",
+      "white"
+    ],
+    "brand": "Wolf &",
+    "size": "4",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Gray and white shoes by Wolf &. Cotton blend construction. No visible wear, appears unworn. Size 4.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 12,
+    "status": "available",
+    "createdAt": "2026-03-23T19:36:25.470Z",
+    "updatedAt": "2026-03-23T19:36:25.470Z"
+  },
+  {
+    "id": "item-092",
+    "photos": [
+      "/uploads/item-092.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Bobs Shoes",
+    "size": "7",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Bobs Shoes. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 7.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 11,
+    "status": "available",
+    "createdAt": "2026-03-24T18:29:35.683Z",
+    "updatedAt": "2026-03-24T18:29:35.683Z"
+  },
+  {
+    "id": "item-093",
+    "photos": [
+      "/uploads/item-093.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Curfew Women’s",
+    "size": "7",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Curfew Women’s. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 7.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-24T12:41:44.263Z",
+    "updatedAt": "2026-03-24T12:41:44.263Z"
+  },
+  {
+    "id": "item-094",
+    "photos": [
+      "/uploads/item-094.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Men's Dexter",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Men's Dexter. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-03-24T22:38:52.998Z",
+    "updatedAt": "2026-03-24T22:38:52.998Z"
+  },
+  {
+    "id": "item-095",
+    "photos": [
+      "/uploads/item-095.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "black"
+    ],
+    "brand": "Simmi London",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Black shoes by Simmi London. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-25T02:27:55.835Z",
+    "updatedAt": "2026-03-25T02:27:55.835Z"
+  },
+  {
+    "id": "item-096",
+    "photos": [
+      "/uploads/item-096.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Doussprt Athletic",
+    "size": "6",
+    "style": [
+      "athletic"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Doussprt Athletic. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 6.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 8,
+    "status": "available",
+    "createdAt": "2026-03-25T06:06:32.317Z",
+    "updatedAt": "2026-03-25T06:06:32.317Z"
+  },
+  {
+    "id": "item-097",
+    "photos": [
+      "/uploads/item-097.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Nine West",
+    "size": "7",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Nine West. Cotton blend construction. Graphic print on front. Light wear consistent with gentle use, no stains or holes. Size 7.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 9,
+    "status": "available",
+    "createdAt": "2026-03-25T23:04:35.802Z",
+    "updatedAt": "2026-03-25T23:04:35.802Z"
+  },
+  {
+    "id": "item-098",
+    "photos": [
+      "/uploads/item-098.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "black"
+    ],
+    "brand": "Abella Women’s",
+    "size": "8",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Black shoes by Abella Women’s. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 8.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-03-25T08:18:50.709Z",
+    "updatedAt": "2026-03-25T08:18:50.709Z"
+  },
+  {
+    "id": "item-099",
+    "photos": [
+      "/uploads/item-099.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Heart in",
+    "size": "6",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "leather",
+    "price": 19.99,
+    "description": "Blue shoes by Heart in. Leather construction. Light wear consistent with gentle use, no stains or holes. Size 6.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 7,
+    "status": "available",
+    "createdAt": "2026-03-26T17:58:47.432Z",
+    "updatedAt": "2026-03-26T17:58:47.432Z"
+  },
+  {
+    "id": "item-100",
+    "photos": [
+      "/uploads/item-100.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "red"
+    ],
+    "brand": "Unisa Red",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Red shoes by Unisa Red. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 9,
+    "status": "available",
+    "createdAt": "2026-03-26T14:36:33.125Z",
+    "updatedAt": "2026-03-26T14:36:33.125Z"
+  },
+  {
+    "id": "item-101",
+    "photos": [
+      "/uploads/item-101.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "black",
+      "white"
+    ],
+    "brand": "Women's Black",
+    "size": "38",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Black and white shoes by Women's Black. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 38.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-26T03:00:50.415Z",
+    "updatedAt": "2026-03-26T03:00:50.415Z"
+  },
+  {
+    "id": "item-102",
+    "photos": [
+      "/uploads/item-102.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "blue"
+    ],
+    "brand": "Miss Lola",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Blue shoes by Miss Lola. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-03-26T18:36:51.908Z",
+    "updatedAt": "2026-03-26T18:36:51.908Z"
+  },
+  {
+    "id": "item-103",
+    "photos": [
+      "/uploads/item-103.jpg"
+    ],
+    "type": "bag",
+    "color": [
+      "red"
+    ],
+    "brand": "Michael Kors",
+    "size": "10",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 19.99,
+    "description": "Red handbag by Michael Kors. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 10.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 10,
+      "waterLiters": 3500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 6,
+    "status": "available",
+    "createdAt": "2026-03-27T09:32:49.364Z",
+    "updatedAt": "2026-03-27T09:32:49.364Z"
+  },
+  {
+    "id": "item-104",
+    "photos": [
+      "/uploads/item-104.jpg"
+    ],
+    "type": "bag",
+    "color": [
+      "black"
+    ],
+    "brand": "Elaine Turner",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "leather",
+    "price": 14.99,
+    "description": "Black handbag by Elaine Turner. Leather construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 10,
+      "waterLiters": 3500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 11,
+    "status": "available",
+    "createdAt": "2026-03-27T00:18:05.947Z",
+    "updatedAt": "2026-03-27T00:18:05.947Z"
+  },
+  {
+    "id": "item-105",
+    "photos": [
+      "/uploads/item-105.jpg"
+    ],
+    "type": "bag",
+    "color": [
+      "blue"
+    ],
+    "brand": "Sparkle Pastel",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 14.99,
+    "description": "Blue handbag by Sparkle Pastel. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 10,
+      "waterLiters": 3500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 8,
+    "status": "available",
+    "createdAt": "2026-03-28T09:22:08.277Z",
+    "updatedAt": "2026-03-28T09:22:08.277Z"
+  },
+  {
+    "id": "item-106",
+    "photos": [
+      "/uploads/item-106.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Banana Republic",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 14.99,
+    "description": "Blue sunglasses by Banana Republic. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-27T13:23:24.417Z",
+    "updatedAt": "2026-03-27T13:23:24.417Z"
+  },
+  {
+    "id": "item-107",
+    "photos": [
+      "/uploads/item-107.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Jennifer Lopez",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Jennifer Lopez. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 13,
+    "status": "available",
+    "createdAt": "2026-03-27T18:26:30.911Z",
+    "updatedAt": "2026-03-27T18:26:30.911Z"
+  },
+  {
+    "id": "item-108",
+    "photos": [
+      "/uploads/item-108.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Liz Claiborne",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Liz Claiborne. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 9,
+    "status": "available",
+    "createdAt": "2026-03-28T17:12:49.297Z",
+    "updatedAt": "2026-03-28T17:12:49.297Z"
+  },
+  {
+    "id": "item-109",
+    "photos": [
+      "/uploads/item-109.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Jennifer Lopez",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Jennifer Lopez. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 13,
+    "status": "available",
+    "createdAt": "2026-03-28T22:03:20.642Z",
+    "updatedAt": "2026-03-28T22:03:20.642Z"
+  },
+  {
+    "id": "item-110",
+    "photos": [
+      "/uploads/item-110.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Revlon Sunglasses",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Revlon Sunglasses. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-29T12:50:29.185Z",
+    "updatedAt": "2026-03-29T12:50:29.185Z"
+  },
+  {
+    "id": "item-111",
+    "photos": [
+      "/uploads/item-111.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "pink"
+    ],
+    "brand": "Sparkly Silver",
+    "size": "23",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Pink sunglasses by Sparkly Silver. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 23.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-03-28T22:41:42.709Z",
+    "updatedAt": "2026-03-28T22:41:42.709Z"
+  },
+  {
+    "id": "item-112",
+    "photos": [
+      "/uploads/item-112.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Juicy Couture",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Juicy Couture. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 10,
+    "status": "available",
+    "createdAt": "2026-03-29T16:42:27.821Z",
+    "updatedAt": "2026-03-29T16:42:27.821Z"
+  },
+  {
+    "id": "item-113",
+    "photos": [
+      "/uploads/item-113.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Official Genius",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Official Genius. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 10,
+    "status": "available",
+    "createdAt": "2026-03-29T18:29:18.750Z",
+    "updatedAt": "2026-03-29T18:29:18.750Z"
+  },
+  {
+    "id": "item-114",
+    "photos": [
+      "/uploads/item-114.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Browning Snap",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Browning Snap. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-29T12:31:41.940Z",
+    "updatedAt": "2026-03-29T12:31:41.940Z"
+  },
+  {
+    "id": "item-115",
+    "photos": [
+      "/uploads/item-115.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Marlene VanBeek",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Marlene VanBeek. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 10,
+    "status": "available",
+    "createdAt": "2026-03-30T13:14:30.230Z",
+    "updatedAt": "2026-03-30T13:14:30.230Z"
+  },
+  {
+    "id": "item-116",
+    "photos": [
+      "/uploads/item-116.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Feijiesi Jewelry",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Feijiesi Jewelry. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 6,
+    "status": "available",
+    "createdAt": "2026-03-30T17:05:27.237Z",
+    "updatedAt": "2026-03-30T17:05:27.237Z"
+  },
+  {
+    "id": "item-117",
+    "photos": [
+      "/uploads/item-117.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "New York",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by New York. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-30T10:26:37.553Z",
+    "updatedAt": "2026-03-30T10:26:37.553Z"
+  },
+  {
+    "id": "item-118",
+    "photos": [
+      "/uploads/item-118.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": ".925 Sterling",
+    "size": "9",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by .925 Sterling. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 9.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 12,
+    "status": "available",
+    "createdAt": "2026-03-30T12:20:19.331Z",
+    "updatedAt": "2026-03-30T12:20:19.331Z"
+  },
+  {
+    "id": "item-119",
+    "photos": [
+      "/uploads/item-119.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Seattle Seahawks",
+    "size": "7",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Seattle Seahawks. Cotton blend construction. No visible wear, appears unworn. Size 7.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-31T04:16:23.337Z",
+    "updatedAt": "2026-03-31T04:16:23.337Z"
+  },
+  {
+    "id": "item-120",
+    "photos": [
+      "/uploads/item-120.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Outlook Eyewear",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Outlook Eyewear. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 5,
+    "status": "available",
+    "createdAt": "2026-03-31T06:39:25.960Z",
+    "updatedAt": "2026-03-31T06:39:25.960Z"
+  },
+  {
+    "id": "item-121",
+    "photos": [
+      "/uploads/item-121.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Liz Claiborne",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Liz Claiborne. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 5,
+    "status": "available",
+    "createdAt": "2026-03-31T02:41:53.194Z",
+    "updatedAt": "2026-03-31T02:41:53.194Z"
+  },
+  {
+    "id": "item-122",
+    "photos": [
+      "/uploads/item-122.jpg"
+    ],
+    "type": "bag",
+    "color": [
+      "blue"
+    ],
+    "brand": "Claire's Floral",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 14.99,
+    "description": "Blue handbag by Claire's Floral. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 10,
+      "waterLiters": 3500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 7,
+    "status": "available",
+    "createdAt": "2026-03-31T15:47:11.310Z",
+    "updatedAt": "2026-03-31T15:47:11.310Z"
+  },
+  {
+    "id": "item-123",
+    "photos": [
+      "/uploads/item-123.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Jennifer Lopez",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Jennifer Lopez. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-04-01T04:30:56.223Z",
+    "updatedAt": "2026-04-01T04:30:56.223Z"
+  },
+  {
+    "id": "item-124",
+    "photos": [
+      "/uploads/item-124.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "black"
+    ],
+    "brand": "SGP Flocon",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Black sunglasses by SGP Flocon. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-03-31T21:31:32.710Z",
+    "updatedAt": "2026-03-31T21:31:32.710Z"
+  },
+  {
+    "id": "item-125",
+    "photos": [
+      "/uploads/item-125.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Claiborne Sunglasses",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Claiborne Sunglasses. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 9,
+    "status": "available",
+    "createdAt": "2026-04-01T13:51:06.950Z",
+    "updatedAt": "2026-04-01T13:51:06.950Z"
+  },
+  {
+    "id": "item-126",
+    "photos": [
+      "/uploads/item-126.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Claiborne Men's",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Claiborne Men's. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 10,
+    "status": "available",
+    "createdAt": "2026-04-01T09:34:58.658Z",
+    "updatedAt": "2026-04-01T09:34:58.658Z"
+  },
+  {
+    "id": "item-127",
+    "photos": [
+      "/uploads/item-127.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Sparkly Bead",
+    "size": "8",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Sparkly Bead. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 8.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 13,
+    "status": "available",
+    "createdAt": "2026-04-02T19:12:13.266Z",
+    "updatedAt": "2026-04-02T19:12:13.266Z"
+  },
+  {
+    "id": "item-128",
+    "photos": [
+      "/uploads/item-128.jpg"
+    ],
+    "type": "bag",
+    "color": [
+      "blue"
+    ],
+    "brand": "Lindex Drawstring",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "leather",
+    "price": 14.99,
+    "description": "Blue handbag by Lindex Drawstring. Leather construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 10,
+      "waterLiters": 3500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 13,
+    "status": "available",
+    "createdAt": "2026-04-01T22:27:40.042Z",
+    "updatedAt": "2026-04-01T22:27:40.042Z"
+  },
+  {
+    "id": "item-129",
+    "photos": [
+      "/uploads/item-129.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Jennifer Lopez",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Jennifer Lopez. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 10,
+    "status": "available",
+    "createdAt": "2026-04-03T07:13:38.751Z",
+    "updatedAt": "2026-04-03T07:13:38.751Z"
+  },
+  {
+    "id": "item-130",
+    "photos": [
+      "/uploads/item-130.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Civilized N",
+    "size": "16",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Civilized N. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size 16.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 5,
+    "status": "available",
+    "createdAt": "2026-04-02T10:19:23.784Z",
+    "updatedAt": "2026-04-02T10:19:23.784Z"
+  },
+  {
+    "id": "item-131",
+    "photos": [
+      "/uploads/item-131.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "blue"
+    ],
+    "brand": "Dorfman Pacific",
+    "size": "Drawstring",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue sunglasses by Dorfman Pacific. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size Drawstring.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 9,
+    "status": "available",
+    "createdAt": "2026-04-02T21:43:48.704Z",
+    "updatedAt": "2026-04-02T21:43:48.704Z"
+  },
+  {
+    "id": "item-132",
+    "photos": [
+      "/uploads/item-132.jpg"
+    ],
+    "type": "bag",
+    "color": [
+      "blue"
+    ],
+    "brand": "Trans by",
+    "size": "M",
+    "style": [
+      "athletic"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 14.99,
+    "description": "Blue handbag by Trans by. Cotton blend construction. Graphic print on front. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill Tempe",
+      "address": "1625 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.913
+    },
+    "carbonSavings": {
+      "co2Kg": 10,
+      "waterLiters": 3500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 10,
+    "status": "available",
+    "createdAt": "2026-04-03T05:17:36.387Z",
+    "updatedAt": "2026-04-03T05:17:36.387Z"
+  },
+  {
+    "id": "item-133",
+    "photos": [
+      "/uploads/item-133.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "white"
+    ],
+    "brand": "Google",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "cotton blend",
+    "price": 11.99,
+    "description": "White shirt by Google. Cotton blend construction. No visible wear, appears unworn. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-04-03T07:09:29.378Z",
+    "updatedAt": "2026-04-03T07:09:29.378Z"
+  },
+  {
+    "id": "item-134",
+    "photos": [
+      "/uploads/item-134.jpg"
+    ],
+    "type": "electronics",
+    "color": [
+      "blue"
+    ],
+    "brand": "Kurt Kinetic",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue electronic device by Kurt Kinetic. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 50,
+      "waterLiters": 15000,
+      "shippingCo2Kg": 5
+    },
+    "favorites": 8,
+    "status": "available",
+    "createdAt": "2026-04-04T05:07:02.635Z",
+    "updatedAt": "2026-04-04T05:07:02.635Z"
+  },
+  {
+    "id": "item-135",
+    "photos": [
+      "/uploads/item-135.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "blue"
+    ],
+    "brand": "Teppie",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 24.89,
+    "description": "Blue shirt by Teppie. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange",
+      "address": "420 S Mill Ave, Tempe, AZ 85281",
+      "lat": 33.4235,
+      "lng": -111.94
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 6,
+    "status": "available",
+    "createdAt": "2026-04-04T14:33:43.431Z",
+    "updatedAt": "2026-04-04T14:33:43.431Z"
+  },
+  {
+    "id": "item-136",
+    "photos": [
+      "/uploads/item-136.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "blue"
+    ],
+    "brand": "Apple",
+    "size": "M",
+    "style": [
+      "casual"
+    ],
+    "condition": "good",
+    "material": "cotton blend",
+    "price": 9.99,
+    "description": "Blue shirt by Apple. Cotton blend construction. Light wear consistent with gentle use, no stains or holes. Size M.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers",
+      "address": "1152 E Apache Blvd, Tempe, AZ 85281",
+      "lat": 33.4148,
+      "lng": -111.922
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 8,
+    "status": "available",
+    "createdAt": "2026-04-05T05:28:12.988Z",
+    "updatedAt": "2026-04-05T05:28:12.988Z"
   }
 ]
