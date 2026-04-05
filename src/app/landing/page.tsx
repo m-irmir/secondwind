@@ -42,7 +42,7 @@ export default function LandingPage() {
             Secondhand, digitized.
           </h1>
           <p className="mt-5 text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            AI-powered inventory that turns any thrift store into a browsable, searchable online catalog — in seconds,
+            AI-powered inventory that turns any thrift store into a browsable, searchable online catalog - in seconds,
             with zero technical skill required.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
@@ -62,7 +62,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ═══════════════════ THE PROBLEM — hard numbers ═══════════════════ */}
+      {/* ═══════════════════ THE PROBLEM ═══════════════════ */}
       <section className="max-w-6xl mx-auto px-6 py-16 sm:py-20">
         <p className="text-sm font-semibold uppercase tracking-widest text-coral-500 text-center">
           The problem
@@ -123,7 +123,7 @@ export default function LandingPage() {
               </div>
               <p className="text-xl font-black">Gemini extracts everything</p>
               <p className="mt-1 text-xs text-indigo-200">
-                Brand, size, color, material, condition, price — in milliseconds.
+                Brand, size, color, material, condition, price - in milliseconds.
               </p>
             </div>
             <div className="text-center">
@@ -165,7 +165,7 @@ export default function LandingPage() {
           Every item we sell is manufacturing that never happens.
         </h2>
         <p className="mt-3 text-sm text-gray-500 text-center max-w-xl mx-auto">
-          CO₂ and water <span className="font-semibold text-gray-700">avoided</span> per secondhand item sold — peer-reviewed lifecycle data.
+          CO₂ and water <span className="font-semibold text-gray-700">avoided</span> per secondhand item sold, based on peer-reviewed lifecycle data.
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-10">
@@ -193,7 +193,7 @@ export default function LandingPage() {
         </p>
       </section>
 
-      {/* ═══════════════════ SUPPLY CHAIN — lower, condensed ═══════════════════ */}
+      {/* ═══════════════════ SUPPLY CHAIN ═══════════════════ */}
       <section className="bg-gray-950 text-white py-16 sm:py-20">
         <div className="max-w-5xl mx-auto px-6">
           <p className="text-sm font-semibold uppercase tracking-widest text-indigo-400 text-center">
@@ -210,7 +210,7 @@ export default function LandingPage() {
             {/* New */}
             <div>
               <h3 className="text-sm font-bold text-coral-400 uppercase tracking-wide mb-5 flex items-center gap-2">
-                <Globe className="w-4 h-4" /> Buying new — ~15 kg CO₂
+                <Globe className="w-4 h-4" /> Buying new - ~15 kg CO₂
               </h3>
               <div className="space-y-1">
                 {[
@@ -239,7 +239,7 @@ export default function LandingPage() {
             {/* Secondhand */}
             <div>
               <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wide mb-5 flex items-center gap-2">
-                <Recycle className="w-4 h-4" /> Buying secondhand — ~0 kg CO₂
+                <Recycle className="w-4 h-4" /> Buying secondhand - ~0 kg CO₂
               </h3>
               <div className="space-y-1">
                 {[
