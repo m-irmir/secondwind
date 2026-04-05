@@ -19,30 +19,42 @@ export async function getStores(): Promise<Store[]> {
   return JSON.parse(raw);
 }
 
-async function readItemsFromBlob(): Promise<Item[]> {
-  const { head } = await blobSDK();
+// Cache the blob URL after first successful put/list so we don't list every time
+let cachedBlobUrl: string | null = null;
 
-  // Check if the blob exists
-  try {
-    const info = await head(BLOB_ITEMS_KEY);
-    const res = await fetch(info.url);
-    return (await res.json()) as Item[];
-  } catch {
-    // Blob doesn't exist yet — seed from bundled items.json
-    const seedRaw = await fs.readFile(ITEMS_PATH, "utf-8");
-    const seedItems: Item[] = JSON.parse(seedRaw);
-    await writeItemsToBlob(seedItems);
-    return seedItems;
+async function readItemsFromBlob(): Promise<Item[]> {
+  const { list } = await blobSDK();
+
+  // Try cached URL first
+  if (cachedBlobUrl) {
+    const res = await fetch(cachedBlobUrl);
+    if (res.ok) return (await res.json()) as Item[];
+    cachedBlobUrl = null;
   }
+
+  // Find the blob by prefix
+  const { blobs } = await list({ prefix: BLOB_ITEMS_KEY, limit: 1 });
+  if (blobs.length > 0) {
+    cachedBlobUrl = blobs[0].url;
+    const res = await fetch(cachedBlobUrl);
+    return (await res.json()) as Item[];
+  }
+
+  // Blob doesn't exist yet — seed from bundled items.json
+  const seedRaw = await fs.readFile(ITEMS_PATH, "utf-8");
+  const seedItems: Item[] = JSON.parse(seedRaw);
+  await writeItemsToBlob(seedItems);
+  return seedItems;
 }
 
 async function writeItemsToBlob(items: Item[]): Promise<void> {
   const { put } = await blobSDK();
-  await put(BLOB_ITEMS_KEY, JSON.stringify(items, null, 2), {
+  const blob = await put(BLOB_ITEMS_KEY, JSON.stringify(items, null, 2), {
     access: "public",
     addRandomSuffix: false,
     contentType: "application/json",
   });
+  cachedBlobUrl = blob.url;
 }
 
 export async function getItems(): Promise<Item[]> {
