@@ -13,7 +13,7 @@ Return ONLY a JSON object with these fields:
 - style: string[] (2-3 tags from: "casual", "vintage", "streetwear", "formal", "boho", "preppy", "athletic", "minimal", "classic", "punk", "feminine", "rugged", "workwear", "outdoor", "mid-century", "modern", "industrial", "rustic", "retro")
 - condition: string (one of: "excellent", "good", "fair" based on visible wear, scratches, stains, damage)
 - material: string (if identifiable from tags or visual inspection: "cotton", "denim", "polyester", "wool", "silk", "leather", "linen", "wood", "metal", "plastic", "glass", "ceramic", etc. Otherwise: "Unknown")
-- description: string (1-2 sentence description noting visible features, brand markings, condition, and any identifying details from tags or labels)
+- description: string (1 concise sentence. Lead with the item name, e.g. "Hanes Beefy-T short-sleeve t-shirt in olive green." Do NOT start with "A men's" or "A women's". Do NOT restate the condition or that it's secondhand — that's shown elsewhere.)
 - suggestedPrice: number (secondhand price in USD based on brand, condition, type, and typical resale value)
 
 Return ONLY valid JSON — no markdown, no explanation.`;
