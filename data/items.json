@@ -18,7 +18,7 @@
     "condition": "good",
     "material": "polyester fleece",
     "price": 9.99,
-    "description": "Orvis full-zip fleece jacket in a rich blue. Soft, warm, and perfect for layering on cool Arizona evenings.",
+    "description": "Blue full-zip fleece jacket by Orvis. Polyester fleece construction with standing collar and zippered hand pockets. Medium weight, suitable for layering. Minor pilling consistent with regular wear.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -55,7 +55,7 @@
     "condition": "good",
     "material": "nylon",
     "price": 7.99,
-    "description": "Columbia lightweight wind jacket. Packable and ready for anything.",
+    "description": "Gray lightweight wind jacket by Columbia. Nylon shell with packable design and elastic cuffs. Zip-front closure with single chest pocket. Good overall condition with no visible damage.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -93,7 +93,7 @@
     "condition": "good",
     "material": "camel hair",
     "price": 14.99,
-    "description": "Vintage 100% camel hair sport coat. Timeless luxury, beautifully constructed.",
+    "description": "Tan sport coat by Roundtree & Yorke in 100% camel hair. Two-button front closure with notch lapels and interior breast pocket. Size L. Fabric shows soft hand and warm tone consistent with genuine camel hair.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -130,7 +130,7 @@
     "condition": "good",
     "material": "polyester fleece",
     "price": 7.55,
-    "description": "The North Face Hazen fleece jacket. Iconic brand, warm and comfortable.",
+    "description": "Black full-zip fleece jacket by The North Face, Hazen model. Polyester fleece with zippered hand pockets and embroidered logo at left chest. Size M. Good condition with minor wear at cuffs.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -167,7 +167,7 @@
     "condition": "excellent",
     "material": "denim",
     "price": 21.99,
-    "description": "Green denim jacket. Bold pop of color. Brand new with tags.",
+    "description": "Green denim jacket by Royal Matrix. Bright green wash with button-front closure and chest pockets. Size M. Appears new with tags still attached, no visible wear or fading.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -202,7 +202,7 @@
     "condition": "good",
     "material": "polyester",
     "price": 12.99,
-    "description": "The North Face zip-up jacket in heathered gray. Versatile layering piece.",
+    "description": "Heathered gray zip-up jacket by The North Face. Lightweight polyester construction with full zip and standing collar. Size S. Logo embroidered at left chest. Good condition throughout.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -238,7 +238,7 @@
     "condition": "good",
     "material": "denim",
     "price": 8.99,
-    "description": "Cropped denim jacket with raw hem. Trendy and fun.",
+    "description": "Blue cropped denim jacket by Wild Fable. Raw hem at waist with button-front closure and chest pockets. Size XS. Medium blue wash with slight fading at seams.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -275,7 +275,7 @@
     "condition": "good",
     "material": "faux suede",
     "price": 14.99,
-    "description": "Zara faux suede crop jacket. Warm tones, flattering silhouette.",
+    "description": "Tan faux suede crop jacket by Zara. Short-length body with snap or zip closure. Size XS. Soft brushed texture in warm brown tone. Good condition with no visible scuffs or tears.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -311,7 +311,7 @@
     "condition": "good",
     "material": "cotton blend",
     "price": 9.99,
-    "description": "Nautica khaki zip-up jacket. Clean, preppy, versatile.",
+    "description": "Khaki zip-up jacket by Nautica. Cotton blend construction with full zip closure and side pockets. Size XL. Clean, neutral tone with brand logo visible. Good condition.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -347,7 +347,7 @@
     "condition": "good",
     "material": "leather",
     "price": 24.99,
-    "description": "Genuine leather coat by H Florence. Rich, structured, and timeless.",
+    "description": "Black leather coat by H Florence. Genuine leather with structured shoulders and full-length body. Size L. Smooth finish with visible stitching at seams. Good condition with minor creasing consistent with age.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -383,7 +383,7 @@
     "condition": "good",
     "material": "polyester fleece",
     "price": 11.99,
-    "description": "The North Face women's black fleece. A closet essential that never goes out of style.",
+    "description": "Black women's fleece jacket by The North Face. Polyester fleece with full zip closure and embroidered logo. Size M. Soft texture with even pile. Good condition, no visible pilling or damage.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -419,7 +419,7 @@
     "condition": "good",
     "material": "Polartec fleece",
     "price": 14.99,
-    "description": "The North Face Polartec lightweight fleece. Premium warmth-to-weight ratio.",
+    "description": "Gray lightweight fleece by The North Face in Polartec fabric. Half or full zip construction with minimal bulk. Size M. Fine-knit fleece face with smooth backing. Good condition.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -454,7 +454,7 @@
     "condition": "good",
     "material": "polyester",
     "price": 8.99,
-    "description": "Weatherproof Garment Company women's jacket. Reliable layering for any season.",
+    "description": "Black women's jacket by Weatherproof Garment Company. Polyester shell with zip-front closure. Size XL. Simple, clean construction. Brand label visible at collar. Good condition throughout.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -490,7 +490,7 @@
     "condition": "good",
     "material": "cotton blend",
     "price": 10.99,
-    "description": "Gap longline button-up jacket. Classic Americana with a longer, modern cut.",
+    "description": "Navy button-up jacket by Gap. Cotton blend with longline cut extending past the hip. Size M. Four or five button front closure. Good condition with no visible stains or damage.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -526,7 +526,7 @@
     "condition": "good",
     "material": "corduroy",
     "price": 7.99,
-    "description": "Karen Scott corduroy jacket. Cozy fall texture, full zip, great condition.",
+    "description": "Brown corduroy jacket by Karen Scott. Full-zip front with ribbed corduroy texture. Size L. Warm earth tone with visible wale pattern. Good condition, no worn spots.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -563,7 +563,7 @@
     "condition": "good",
     "material": "polyester",
     "price": 9.99,
-    "description": "Hummel full-zip track jacket. European sportswear heritage at a steal.",
+    "description": "Black and white full-zip track jacket by Hummel. Polyester construction with contrast white stripes and chevron logo at chest. Size L. Good condition with no pulls or staining.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -599,7 +599,7 @@
     "condition": "good",
     "material": "polyester",
     "price": 8.99,
-    "description": "Pebble Beach performance zip-up. Golf-ready, but honestly looks good anywhere.",
+    "description": "Navy performance zip-up by Pebble Beach. Polyester with moisture-wicking finish. Size XXL. Quarter or half zip with standing collar. Good condition, no pilling.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -636,7 +636,7 @@
     "condition": "good",
     "material": "100% silk",
     "price": 12.99,
-    "description": "Tommy Bahama 100% silk dress shirt. Island vibes meet dressed-up style.",
+    "description": "Multicolor 100% silk dress shirt by Tommy Bahama. Tropical print pattern with camp collar and button front. Size L. Smooth silk fabric with vivid print. Good condition, no visible snags.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -672,7 +672,7 @@
     "condition": "good",
     "material": "technical fabric",
     "price": 14.99,
-    "description": "Lululemon To The Point tee in black. Sleek, comfortable, effortlessly cool.",
+    "description": "Black technical tee by Lululemon, To The Point style. Lightweight technical fabric with slim fit. Size 4. Subtle logo detail. Good condition with no visible wear.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -708,7 +708,7 @@
     "condition": "excellent",
     "material": "cotton",
     "price": 6.99,
-    "description": "Mint green henley shirt. Fresh color, relaxed fit, everyday wear.",
+    "description": "Mint green henley shirt in cotton. Relaxed fit with button placket at neckline. Size M. Even dye with no fading. Excellent condition, appears minimally worn.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -744,7 +744,7 @@
     "condition": "good",
     "material": "polyester blend",
     "price": 8.99,
-    "description": "Halogen pleated flowy black blouse. Elegant for work, comfortable for weekend brunch.",
+    "description": "Black pleated blouse by Halogen. Polyester blend with flowing drape and pleated front detail. Size S. Lightweight, semi-sheer fabric. Good condition, no snags or pulls visible.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -780,7 +780,7 @@
     "condition": "good",
     "material": "polyester",
     "price": 11.99,
-    "description": "Adidas Climacool half-zip golf pullover. Moisture-wicking performance at a fraction of retail.",
+    "description": "Gray Climacool half-zip pullover by Adidas. Polyester with moisture-wicking technology. Size XL. Standing collar with embroidered three-stripe logo. Good condition.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -816,7 +816,7 @@
     "condition": "good",
     "material": "cotton blend",
     "price": 4.99,
-    "description": "Lightweight men's polo in classic blue. Simple, versatile, done.",
+    "description": "Blue men's polo shirt by Goodfellow. Cotton blend with two-button placket and ribbed collar. Size L. Even medium blue color. Good condition, no fading or staining.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -852,7 +852,7 @@
     "condition": "excellent",
     "material": "polyester",
     "price": 7.99,
-    "description": "UV 50+ sun defender short-sleeve shirt. Built for Arizona sun. New with tags.",
+    "description": "Navy UV 50+ sun defender shirt by Fintech. Short-sleeve polyester with sun protection rating. Size M. Lightweight technical fabric. Excellent condition, new with tags attached.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -888,7 +888,7 @@
     "condition": "good",
     "material": "jersey knit",
     "price": 12.99,
-    "description": "Stockh LM Petra jersey blazer in navy. Office-ready, stretch-comfortable.",
+    "description": "Navy jersey blazer by Stockh LM, Petra style. Knit jersey construction with stretch. Size S. Single-button closure with notch lapels. Good condition.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -924,7 +924,7 @@
     "condition": "good",
     "material": "polyester",
     "price": 6.99,
-    "description": "Antigua golf polo in a bold red. Performance fabric, sharp look.",
+    "description": "Red golf polo by Antigua. Polyester performance fabric with ribbed collar. Size L. Bright red color with small brand logo. Good condition, no fading.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -960,7 +960,7 @@
     "condition": "good",
     "material": "polyester",
     "price": 6.99,
-    "description": "Women's Antigua golf polo in red. Sporty, breathable, and bright.",
+    "description": "Red women's golf polo by Antigua. Polyester moisture-wicking fabric with short sleeves. Size M. Vibrant red tone with embroidered logo detail. Good condition.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -996,7 +996,7 @@
     "condition": "good",
     "material": "knit",
     "price": 8.99,
-    "description": "Sincerely Jules crop turtleneck sweater. Cozy meets trendy in a cropped silhouette.",
+    "description": "Cream crop turtleneck by Sincerely Jules. Knit construction with ribbed turtleneck and cropped hem. Size S. Off-white color with visible knit texture. Good condition.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -1032,7 +1032,7 @@
     "condition": "excellent",
     "material": "polyester",
     "price": 6.99,
-    "description": "UV-protective long-sleeve sun shirt. Year-round Arizona essential.",
+    "description": "Blue UV-protective long-sleeve shirt by Fintech. Polyester with sun protection rating. Size S. Lightweight technical fabric with mesh ventilation. Excellent condition, appears new.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1068,7 +1068,7 @@
     "condition": "good",
     "material": "nylon/spandex",
     "price": 9.99,
-    "description": "Nike Pro leggings in black. Compression fit, sweat-wicking, gym-tested.",
+    "description": "Black Pro leggings by Nike. Nylon/spandex compression fit with wide waistband and Nike swoosh at leg. Size XS. Good condition with no pilling or transparency issues.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -1105,7 +1105,7 @@
     "condition": "excellent",
     "material": "knit blend",
     "price": 15.56,
-    "description": "Open-front drape cardigan. Effortlessly elegant layering piece.",
+    "description": "Gray open-front drape cardigan by Wren + Rowe. Knit blend construction with long sleeves and cascading front panels. Size M. Heathered gray tone. Excellent condition, no visible wear.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -1141,7 +1141,7 @@
     "condition": "good",
     "material": "cotton blend",
     "price": 11.99,
-    "description": "Tommy Hilfiger zip-neck pullover. Classic American sportswear, cozy feel.",
+    "description": "Navy zip-neck pullover by Tommy Hilfiger. Cotton blend with quarter-zip closure and ribbed trim. Size M. Embroidered flag logo at chest. Good condition, soft to the touch.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1177,7 +1177,7 @@
     "condition": "good",
     "material": "polyester sherpa",
     "price": 10.99,
-    "description": "LOFT teddy-textured open-front cardigan. Impossibly soft and cozy.",
+    "description": "Navy teddy-textured open-front cardigan by LOFT. Polyester sherpa fabric with deep pile. Size L. Cozy texture with no closure. Good condition, no matting of pile.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1213,7 +1213,7 @@
     "condition": "good",
     "material": "cotton blend",
     "price": 9.99,
-    "description": "Eddie Bauer cardigan hoodie. Hoodie comfort meets cardigan style.",
+    "description": "Gray cardigan hoodie by Eddie Bauer. Cotton blend with zip front and attached hood. Size M. Heathered gray with ribbed cuffs and hem. Good condition.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1249,7 +1249,7 @@
     "condition": "good",
     "material": "cotton/alpaca blend",
     "price": 16.99,
-    "description": "Nation Ltd. ruffle cardigan in cotton and alpaca. Luxe texture, feminine silhouette.",
+    "description": "Cream ruffle cardigan by Nation Ltd. Cotton and alpaca blend with ruffle trim at front edges. Size S. Soft, textured knit in off-white. Good condition.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -1285,7 +1285,7 @@
     "condition": "good",
     "material": "cotton blend",
     "price": 8.99,
-    "description": "Nautica half-zip pullover. Preppy weekend essential.",
+    "description": "Navy half-zip pullover by Nautica. Cotton blend with ribbed standing collar. Size S. Small embroidered logo. Good condition, no pilling or fading.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1321,7 +1321,7 @@
     "condition": "good",
     "material": "cotton blend",
     "price": 7.99,
-    "description": "Shambhala cardigan in light grey heather. Soft, simple, goes with everything.",
+    "description": "Light gray heather cardigan by Shambhala. Cotton blend with button front closure. Size M. Soft knit construction with even color. Good condition throughout.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1357,7 +1357,7 @@
     "condition": "good",
     "material": "knit",
     "price": 6.99,
-    "description": "Fever black open-front cardigan. A wardrobe staple that works year-round.",
+    "description": "Black open-front cardigan by Fever. Knit construction with long sleeves and no closure. Size XL. Lightweight layer in solid black. Good condition, no pulls.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1393,7 +1393,7 @@
     "condition": "good",
     "material": "polyester blend",
     "price": 12.99,
-    "description": "Sleefs Juice active hoodie. Loud print, comfy fit, made for standing out.",
+    "description": "Multicolor active hoodie by Sleefs, Juice style. Polyester blend with bold all-over print pattern. Size L. Kangaroo pocket with drawstring hood. Good condition.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1429,7 +1429,7 @@
     "condition": "good",
     "material": "polyester",
     "price": 8.99,
-    "description": "Greg Norman full-zip sweatshirt. Golf-course polish meets everyday comfort.",
+    "description": "Gray full-zip sweatshirt by Greg Norman. Polyester construction with zip front and standing collar. Size XXL. Heathered gray with small logo. Good condition.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1465,7 +1465,7 @@
     "condition": "good",
     "material": "cotton blend",
     "price": 7.99,
-    "description": "Graphic hoodie with \"Pursue Every Perfect Detail\" print. Cozy and statement-making.",
+    "description": "Gray graphic hoodie by Y.D. Zhuliu. Cotton blend with 'Pursue Every Perfect Detail' text print on front. Size XL. Drawstring hood and kangaroo pocket. Good condition.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1501,7 +1501,7 @@
     "condition": "good",
     "material": "cotton",
     "price": 9.99,
-    "description": "L.L. Bean women's sweatshirt. Built to last, comfy as it gets, and under $10.",
+    "description": "Blue women's sweatshirt by L.L. Bean. Cotton construction with crew neck and relaxed fit. Size L. Medium blue tone with embroidered logo. Good condition, soft and broken in.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1538,7 +1538,7 @@
     "condition": "good",
     "material": "denim",
     "price": 9.99,
-    "description": "Anthropologie Maeve wide flare-leg jeans. Retro silhouette, modern fit.",
+    "description": "Blue wide flare-leg jeans by Maeve for Anthropologie. Denim with high-rise waist and dramatic flare below knee. Size 29. Medium blue wash. Good condition, no distressing.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -1574,7 +1574,7 @@
     "condition": "good",
     "material": "denim",
     "price": 11.99,
-    "description": "Levi's Wedgie Skinny jeans. The iconic fit that flatters everyone.",
+    "description": "Blue Wedgie Skinny jeans by Levi's. Denim with high-rise waist and skinny leg. Size 30. Classic medium blue wash with Levi's red tab at pocket. Good condition.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1609,7 +1609,7 @@
     "condition": "good",
     "material": "denim",
     "price": 5.99,
-    "description": "Forever 21 jeans in classic dark wash. Budget-friendly and still looks great.",
+    "description": "Blue jeans by Forever 21 in dark wash. Standard five-pocket construction. Size 26. Even dark indigo color with no visible fading. Good condition.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1644,7 +1644,7 @@
     "condition": "good",
     "material": "premium denim",
     "price": 14.99,
-    "description": "Joe's Jeans in premium dark wash. Designer denim at a thrift store price.",
+    "description": "Blue premium jeans by Joe's Jeans. Dark wash denim with clean finish and no distressing. Size 33. Five-pocket styling with branded hardware. Good condition.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -1680,7 +1680,7 @@
     "condition": "good",
     "material": "denim",
     "price": 9.99,
-    "description": "Switch Remarkable jeans with bleach splatter detail. Streetwear-ready statement denim.",
+    "description": "Black jeans by Switch with bleach splatter detail across legs. Remarkable style with relaxed fit. Size 36/34. Intentional distressing pattern. Good condition.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1716,7 +1716,7 @@
     "condition": "excellent",
     "material": "denim",
     "price": 7.99,
-    "description": "Non-distressed skinny jeans. Clean, classic, new with tags.",
+    "description": "Blue non-distressed skinny jeans by Mellow Denim. Clean dark wash with no rips or fading. Size 7 (Juniors). Excellent condition, new with tags still attached.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1752,7 +1752,7 @@
     "condition": "good",
     "material": "denim",
     "price": 6.99,
-    "description": "Parker denim shorts. Cut-off style with just the right amount of wear.",
+    "description": "Blue denim shorts by Parker. Cut-off style with frayed hem. Size 32. Medium blue wash with some intentional fading. Good condition.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1789,7 +1789,7 @@
     "condition": "good",
     "material": "cotton blend",
     "price": 9.99,
-    "description": "Selected Homme two-toned straight-leg pants. Scandinavian minimalism.",
+    "description": "Gray and black two-toned straight-leg pants by Selected Homme. Cotton blend with color-blocked design. Size 34/32. Scandinavian brand label at waist. Good condition.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -1826,7 +1826,7 @@
     "condition": "good",
     "material": "cotton",
     "price": 5.99,
-    "description": "Gap pinstripe casual shorts. Easy summer staple.",
+    "description": "Blue and white pinstripe casual shorts by Gap. Cotton with flat front and zip fly. Size 31. Vertical stripe pattern on white background. Good condition.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1862,7 +1862,7 @@
     "condition": "good",
     "material": "denim",
     "price": 6.99,
-    "description": "H&M distressed denim shorts. Lived-in look for warm Tempe days.",
+    "description": "Blue distressed denim shorts by H&M. Intentional rip and fray details with cuffed hem. Size 32. Medium blue wash. Good condition.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -1898,7 +1898,7 @@
     "condition": "excellent",
     "material": "polyester blend",
     "price": 7.99,
-    "description": "Izod plaid golf shorts with stretch. New, lightweight, ready for the course.",
+    "description": "Plaid golf shorts by Izod with stretch fabric. Polyester blend in multicolor plaid pattern. Size 8. Flat front with belt loops. Excellent condition, appear new.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1934,7 +1934,7 @@
     "condition": "good",
     "material": "cotton",
     "price": 5.99,
-    "description": "Chaps casual shorts in khaki. Timeless, comfortable, reliable.",
+    "description": "Khaki casual shorts by Chaps. Cotton with flat front and zip fly. Size 31. Classic tan color with clean finish. Good condition, no stains.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -1970,7 +1970,7 @@
     "condition": "good",
     "material": "lace/polyester",
     "price": 19.99,
-    "description": "Karl Lagerfeld black lace cocktail dress. Designer elegance at a secondhand price.",
+    "description": "Black lace cocktail dress by Karl Lagerfeld. Lace overlay on polyester lining with fitted silhouette. Size 4. Scalloped lace detail at neckline and hem. Good condition.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -2006,7 +2006,7 @@
     "condition": "excellent",
     "material": "leather, cork",
     "price": 78,
-    "description": "Birkenstock Gizeh sandals. The gold standard of comfort footwear, new in box.",
+    "description": "Brown Gizeh thong sandals by Birkenstock. Leather upper with classic cork footbed and rubber sole. Various sizes available. New in box, unworn condition with original packaging.",
     "store": {
       "id": "store-1",
       "name": "Habitat for Humanity ReStore",
@@ -2042,7 +2042,7 @@
     "condition": "excellent",
     "material": "leather, cork",
     "price": 75,
-    "description": "Birkenstock Arizona two-strap sandals. Classic design, brand new.",
+    "description": "Brown Arizona two-strap sandals by Birkenstock. Leather straps with adjustable metal buckles and contoured cork footbed. Various sizes. New condition, no wear visible.",
     "store": {
       "id": "store-1",
       "name": "Habitat for Humanity ReStore",
@@ -2079,7 +2079,7 @@
     "condition": "good",
     "material": "braided leather",
     "price": 19.99,
-    "description": "Alexandre Birman Clarita braided flat sandals. Italian luxury at a fraction of retail.",
+    "description": "Tan braided flat sandals by Alexandre Birman, Clarita style. Italian-made leather with woven strap detail. Size 38 EU. Some sole wear consistent with light use.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -2116,7 +2116,7 @@
     "condition": "good",
     "material": "quilted leather",
     "price": 19.99,
-    "description": "Red quilted Michael Kors handbag. Bold color, iconic designer.",
+    "description": "Red quilted handbag by Michael Kors. Quilted leather exterior with gold-tone hardware and chain strap detail. Single compartment with zip closure. Good condition, minor corner wear.",
     "store": {
       "id": "store-2",
       "name": "Buffalo Exchange",
@@ -2152,7 +2152,7 @@
     "condition": "fair",
     "material": "aluminum",
     "price": 9.99,
-    "description": "Apple TV 3rd generation. Compact streaming device, still going strong.",
+    "description": "Black Apple TV 3rd generation streaming device. Compact aluminum housing with HDMI output. Includes unit only. Fair condition with light scratches on top surface.",
     "store": {
       "id": "store-1",
       "name": "Habitat for Humanity ReStore",
@@ -2188,7 +2188,7 @@
     "condition": "excellent",
     "material": "plastic",
     "price": 11.99,
-    "description": "Google Nest Thermostat trim kit. Brand new and sealed.",
+    "description": "White Google Nest Thermostat trim kit. Plastic construction in snow white color. New and sealed in original packaging. Excellent condition.",
     "store": {
       "id": "store-1",
       "name": "Habitat for Humanity ReStore",
@@ -2226,7 +2226,7 @@
     "condition": "good",
     "material": "dichroic glass",
     "price": 24.89,
-    "description": "Handcrafted blue swirl glass vase with dichroic accents. One-of-a-kind art piece.",
+    "description": "Blue and white handcrafted glass vase with dichroic accents. Swirl pattern in blown glass signed by artist Teppie, dated 2010. One-of-a-kind piece. Good condition, no chips or cracks.",
     "store": {
       "id": "store-1",
       "name": "Habitat for Humanity ReStore",
@@ -2262,7 +2262,7 @@
     "condition": "good",
     "material": "polyester",
     "price": 5.99,
-    "description": "Even Tide men's swim trunks. Pool-ready and priced to move.",
+    "description": "Blue men's swim trunks by Even Tide. Polyester with elastic waist and mesh lining. Size 40. Solid blue with side pockets. Good condition.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -2298,7 +2298,7 @@
     "condition": "good",
     "material": "denim",
     "price": 6.99,
-    "description": "Levi's 511 slim jeans. Classic slim fit in a versatile wash.",
+    "description": "Blue 511 slim jeans by Levi's. Classic slim-fit denim in medium wash. Size 16 (28x28). Five-pocket construction with red tab branding. Good condition, slight fading at knees.",
     "store": {
       "id": "store-4",
       "name": "Goodwill Tempe",
@@ -2334,7 +2334,7 @@
     "condition": "good",
     "material": "polyester blend",
     "price": 6.99,
-    "description": "Mad Pelican walking shorts in Aruba Blue. Lightweight and vacation-ready.",
+    "description": "Blue walking shorts by Mad Pelican in Aruba Blue color. Polyester blend with elastic waist. Size M. Lightweight fabric with quick-dry finish. Good condition.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -2370,7 +2370,7 @@
     "condition": "excellent",
     "material": "knit blend",
     "price": 15.56,
-    "description": "Wren + Rowe open-front drape cardigan in Large. Effortless elegance.",
+    "description": "Gray open-front drape cardigan by Wren + Rowe. Knit blend with cascading front panels. Size L. Heathered gray tone. Excellent condition, appears unworn.",
     "store": {
       "id": "store-3",
       "name": "Savers",
@@ -2387,5 +2387,537 @@
     "status": "available",
     "createdAt": "2026-04-04T12:58:54.121Z",
     "updatedAt": "2026-04-04T12:58:54.121Z"
+  },
+  {
+    "id": "item-067",
+    "photos": [
+      "/uploads/item-067.webp"
+    ],
+    "type": "shoes",
+    "color": "Brown",
+    "brand": "Birkenstock",
+    "size": "8",
+    "style": "Sandals",
+    "condition": "New",
+    "material": "Leather/Cork",
+    "price": 34.99,
+    "description": "Birkenstock Gizeh thong sandals in brown with classic cork footbed. New in box, unworn condition. Adjustable buckle strap and contoured arch support.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-04-04T03:34:03.048Z",
+    "updatedAt": "2026-04-05T12:53:41.377Z"
+  },
+  {
+    "id": "item-068",
+    "photos": [
+      "/uploads/item-068.webp"
+    ],
+    "type": "shoes",
+    "color": "Black",
+    "brand": "Birkenstock",
+    "size": "7",
+    "style": "Sandals",
+    "condition": "New",
+    "material": "Leather/Cork",
+    "price": 32.99,
+    "description": "Birkenstock Mayari cross-strap sandals in black. New in box with original packaging. Cork-latex footbed with suede lining.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-30T17:49:49.561Z",
+    "updatedAt": "2026-04-05T12:53:41.474Z"
+  },
+  {
+    "id": "item-069",
+    "photos": [
+      "/uploads/item-069.webp"
+    ],
+    "type": "shoes",
+    "color": "Brown",
+    "brand": "Birkenstock",
+    "size": "10",
+    "style": "Sandals",
+    "condition": "New",
+    "material": "Leather/Cork",
+    "price": 36.99,
+    "description": "Men's Birkenstock Arizona two-strap sandals in brown. New condition with adjustable metal buckle closures and contoured cork footbed.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-04-02T23:57:41.117Z",
+    "updatedAt": "2026-04-05T12:53:41.502Z"
+  },
+  {
+    "id": "item-070",
+    "photos": [
+      "/uploads/item-070.webp"
+    ],
+    "type": "shoes",
+    "color": "Black",
+    "brand": "Naot",
+    "size": "9",
+    "style": "Casual",
+    "condition": "New",
+    "material": "Leather",
+    "price": 28.99,
+    "description": "Naot Papaki comfort walking shoes in black. New in box. Padded leather footbed with anatomic arch support and lightweight sole.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-04-03T21:21:33.692Z",
+    "updatedAt": "2026-04-05T12:53:41.598Z"
+  },
+  {
+    "id": "item-071",
+    "photos": [
+      "/uploads/item-071.webp"
+    ],
+    "type": "shoes",
+    "color": "Gray",
+    "brand": "Naot",
+    "size": "7.5",
+    "style": "Heels",
+    "condition": "New",
+    "material": "Leather",
+    "price": 29.99,
+    "description": "Naot Temper heels in gray leather. New in box. Low block heel with padded footbed and adjustable strap closure.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-03-30T14:29:52.683Z",
+    "updatedAt": "2026-04-05T12:53:41.864Z"
+  },
+  {
+    "id": "item-072",
+    "photos": [
+      "/uploads/item-072.jpg"
+    ],
+    "type": "shoes",
+    "color": "Tan",
+    "brand": "Alexandre Birman",
+    "size": "38 EU",
+    "style": "Sandals",
+    "condition": "Pre-owned",
+    "material": "Leather",
+    "price": 45.99,
+    "description": "Alexandre Birman Clarita braided flat sandals in tan leather, size 38 EU. Italian-made with signature bow detail and woven leather straps.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-04-02T13:42:51.552Z",
+    "updatedAt": "2026-04-05T12:53:42.006Z"
+  },
+  {
+    "id": "item-073",
+    "photos": [
+      "/uploads/item-073.jpg"
+    ],
+    "type": "shoes",
+    "color": "Tan",
+    "brand": "Franco Sarto",
+    "size": "8",
+    "style": "Sandals",
+    "condition": "Pre-owned",
+    "material": "Fabric/Jute",
+    "price": 14.99,
+    "description": "Franco Sarto espadrille wedge sandals in tan, women's size 8. Jute-wrapped platform sole with open toe and ankle strap.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-04-03T17:16:50.373Z",
+    "updatedAt": "2026-04-05T12:53:42.173Z"
+  },
+  {
+    "id": "item-074",
+    "photos": [
+      "/uploads/item-074.jpg"
+    ],
+    "type": "shoes",
+    "color": "Gray/White",
+    "brand": "Wolf & Shepherd",
+    "size": "6",
+    "style": "Sneakers",
+    "condition": "New",
+    "material": "Knit/Synthetic",
+    "price": 39.99,
+    "description": "Wolf & Shepherd sneakers in heather gray and white. New condition. Lightweight knit upper with cushioned sole.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-31T10:24:23.052Z",
+    "updatedAt": "2026-04-05T12:53:42.252Z"
+  },
+  {
+    "id": "item-075",
+    "photos": [
+      "/uploads/item-075.jpg"
+    ],
+    "type": "shoes",
+    "color": "Silver",
+    "brand": "Nine West",
+    "size": "7.5",
+    "style": "Heels",
+    "condition": "Pre-owned",
+    "material": "Synthetic",
+    "price": 12.99,
+    "description": "Nine West holographic heels in silver iridescent finish, women's size 7.5. Pointed toe with stiletto heel. Light wear on soles.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-04-02T09:24:53.212Z",
+    "updatedAt": "2026-04-05T12:53:42.342Z"
+  },
+  {
+    "id": "item-076",
+    "photos": [
+      "/uploads/item-076.jpg"
+    ],
+    "type": "shoes",
+    "color": "Black",
+    "brand": "Simmi London",
+    "size": "8",
+    "style": "Heels",
+    "condition": "Pre-owned",
+    "material": "Synthetic",
+    "price": 15.99,
+    "description": "Simmi London pointed toe heels in black. Stiletto heel with sleek silhouette. Minor sole wear consistent with light use.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-04-03T14:18:29.975Z",
+    "updatedAt": "2026-04-05T12:53:42.605Z"
+  },
+  {
+    "id": "item-077",
+    "photos": [
+      "/uploads/item-077.jpg"
+    ],
+    "type": "shoes",
+    "color": "Brown",
+    "brand": "Naot",
+    "size": "9",
+    "style": "Sandals",
+    "condition": "New",
+    "material": "Leather",
+    "price": 31.99,
+    "description": "Naot Lagoon leather sandals in brown. New in box. Multi-strap design with padded anatomic footbed and cork midsole.",
+    "store": {
+      "id": "store-3",
+      "name": "Savers"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-04-04T05:37:22.411Z",
+    "updatedAt": "2026-04-05T12:53:42.777Z"
+  },
+  {
+    "id": "item-078",
+    "photos": [
+      "/uploads/item-078.jpg"
+    ],
+    "type": "shoes",
+    "color": "Nude/Beige",
+    "brand": "Heart in D",
+    "size": "6.5",
+    "style": "Boots",
+    "condition": "Pre-owned",
+    "material": "Faux Leather",
+    "price": 18.99,
+    "description": "Heart in D ankle boots in nude faux leather, size 6.5. Block heel with side zip closure. Some creasing at toe consistent with wear.",
+    "store": {
+      "id": "store-4",
+      "name": "Goodwill"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-04-01T05:05:16.738Z",
+    "updatedAt": "2026-04-05T12:53:42.904Z"
+  },
+  {
+    "id": "item-079",
+    "photos": [
+      "/uploads/item-079.jpg"
+    ],
+    "type": "shoes",
+    "color": "Silver",
+    "brand": "Ann Marino",
+    "size": "8.5",
+    "style": "Heels",
+    "condition": "Pre-owned",
+    "material": "Synthetic",
+    "price": 11.99,
+    "description": "Ann Marino strappy heeled sandals in silver, women's 8.5. Open toe with low heel and metallic finish.",
+    "store": {
+      "id": "store-2",
+      "name": "Buffalo Exchange"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-04-01T11:39:49.753Z",
+    "updatedAt": "2026-04-05T12:53:42.964Z"
+  },
+  {
+    "id": "item-080",
+    "photos": [
+      "/uploads/item-080.jpg"
+    ],
+    "type": "shoes",
+    "color": "Silver",
+    "brand": "Propet",
+    "size": "12",
+    "style": "Sneakers",
+    "condition": "Pre-owned",
+    "material": "Mesh/Synthetic",
+    "price": 19.99,
+    "description": "Propet TravelFit Prestige women's walking shoes in silver, size 12 width D. Mesh upper with elastic lace closure and padded collar.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore"
+    },
+    "carbonSavings": {
+      "co2Kg": 8.5,
+      "waterLiters": 2500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-04-01T01:56:26.635Z",
+    "updatedAt": "2026-04-05T12:53:43.248Z"
+  },
+  {
+    "id": "item-081",
+    "photos": [
+      "/uploads/item-081.jpg"
+    ],
+    "type": "home",
+    "color": "Blue",
+    "brand": "Teppie",
+    "size": "One Size",
+    "style": "Decorative",
+    "condition": "Good",
+    "material": "Glass",
+    "price": 16.99,
+    "description": "Handcrafted blown glass vase in blue swirl pattern with dichroic accents. Approximately 8 inches tall. Signed by artist Teppie, dated 2010.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore"
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 3.5
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-04-01T01:55:10.395Z",
+    "updatedAt": "2026-04-05T12:53:43.358Z"
+  },
+  {
+    "id": "item-082",
+    "photos": [
+      "/uploads/item-082.jpg"
+    ],
+    "type": "home",
+    "color": "Silver",
+    "brand": "Godinger",
+    "size": "One Size",
+    "style": "Decorative",
+    "condition": "Good",
+    "material": "Silver Plate",
+    "price": 8.99,
+    "description": "Godinger silver-plated candle holder, approximately 8 inches tall. Single taper style with ornate base. Minor tarnishing consistent with age.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore"
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 3.5
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-04-03T23:27:04.086Z",
+    "updatedAt": "2026-04-05T12:53:43.629Z"
+  },
+  {
+    "id": "item-083",
+    "photos": [
+      "/uploads/item-083.webp"
+    ],
+    "type": "home",
+    "color": "White/Blue",
+    "brand": "Mikasa",
+    "size": "One Size",
+    "style": "Kitchenware",
+    "condition": "Good",
+    "material": "Porcelain",
+    "price": 12.99,
+    "description": "Mikasa Intaglio Santa Fe coffee pot with lid, pattern CAC24. White porcelain with blue-gray southwestern geometric border. Approximately 8 inches tall. No chips or cracks visible.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore"
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 3.5
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-04-02T10:43:29.046Z",
+    "updatedAt": "2026-04-05T12:53:43.656Z"
+  },
+  {
+    "id": "item-084",
+    "photos": [
+      "/uploads/item-084.jpg"
+    ],
+    "type": "home",
+    "color": "Clear/Blue",
+    "brand": "Unbranded",
+    "size": "One Size",
+    "style": "Decorative",
+    "condition": "Good",
+    "material": "Glass/Pewter",
+    "price": 14.99,
+    "description": "Mexican blown glass apothecary jar with ribbed body and ornate pewter lid. Clear glass with subtle blue tint. Decorative canister suitable for display.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore"
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 3.5
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-04-03T07:52:23.251Z",
+    "updatedAt": "2026-04-05T12:53:44.256Z"
+  },
+  {
+    "id": "item-085",
+    "photos": [
+      "/uploads/item-085.jpg"
+    ],
+    "type": "home",
+    "color": "Blue",
+    "brand": "Teppie",
+    "size": "One Size",
+    "style": "Decorative",
+    "condition": "Good",
+    "material": "Glass",
+    "price": 18.99,
+    "description": "Handcrafted art glass vase in iridized blue finish. Smooth curved form with metallic sheen. Signed by artist Teppie, dated 2010.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore"
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 3000,
+      "shippingCo2Kg": 3.5
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-04-03T10:56:13.367Z",
+    "updatedAt": "2026-04-05T12:53:44.677Z"
   }
 ]
