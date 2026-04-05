@@ -1,5 +1,752 @@
 [
   {
+    "id": "ebay-1",
+    "photos": [
+      "/uploads/ebay-1.jpg",
+      "/uploads/ebay-1-2.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "blue"
+    ],
+    "brand": "Orvis",
+    "size": "M",
+    "style": [
+      "casual",
+      "outdoor"
+    ],
+    "condition": "good",
+    "material": "polyester fleece",
+    "price": 9.99,
+    "description": "Orvis full-zip fleece jacket in a rich blue. Soft, warm, and perfect for layering on cool Arizona evenings.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 7,
+    "status": "available",
+    "createdAt": "2026-03-22T09:12:54.397Z",
+    "updatedAt": "2026-03-22T09:12:54.397Z"
+  },
+  {
+    "id": "ebay-2",
+    "photos": [
+      "/uploads/ebay-2.jpg",
+      "/uploads/ebay-2-2.jpg"
+    ],
+    "type": "jeans",
+    "color": [
+      "blue"
+    ],
+    "brand": "Maeve by Anthropologie",
+    "size": "29",
+    "style": [
+      "wide-leg",
+      "flare"
+    ],
+    "condition": "good",
+    "material": "denim",
+    "price": 9.99,
+    "description": "Anthropologie Maeve wide flare-leg jeans. Retro silhouette with a modern fit.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 33.4,
+      "waterLiters": 10000,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-23T02:00:54.397Z",
+    "updatedAt": "2026-03-23T02:00:54.397Z"
+  },
+  {
+    "id": "ebay-3",
+    "photos": [
+      "/uploads/ebay-3.jpg",
+      "/uploads/ebay-3-2.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "gray"
+    ],
+    "brand": "Columbia",
+    "size": "M",
+    "style": [
+      "casual",
+      "lightweight"
+    ],
+    "condition": "good",
+    "material": "nylon",
+    "price": 7.99,
+    "description": "Columbia lightweight wind jacket. Packable and perfect for unpredictable weather.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-23T18:48:54.397Z",
+    "updatedAt": "2026-03-23T18:48:54.397Z"
+  },
+  {
+    "id": "ebay-4",
+    "photos": [
+      "/uploads/ebay-4.jpg",
+      "/uploads/ebay-4-2.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "tan",
+      "brown"
+    ],
+    "brand": "Roundtree & Yorke",
+    "size": "L",
+    "style": [
+      "blazer",
+      "vintage"
+    ],
+    "condition": "good",
+    "material": "camel hair",
+    "price": 14.99,
+    "description": "Vintage Roundtree & Yorke 100% camel hair sport coat. Timeless, luxurious, and beautifully constructed.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 6,
+    "status": "available",
+    "createdAt": "2026-03-24T11:36:54.397Z",
+    "updatedAt": "2026-03-24T11:36:54.397Z"
+  },
+  {
+    "id": "ebay-5",
+    "photos": [
+      "/uploads/ebay-5.jpg",
+      "/uploads/ebay-5-2.jpg"
+    ],
+    "type": "shirt",
+    "color": [
+      "multicolor"
+    ],
+    "brand": "Tommy Bahama",
+    "size": "L",
+    "style": [
+      "dress",
+      "tropical"
+    ],
+    "condition": "good",
+    "material": "silk",
+    "price": 12.99,
+    "description": "Tommy Bahama 100% silk dress shirt. Island vibes meet dressed-up style.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 6.5,
+      "waterLiters": 2700,
+      "shippingCo2Kg": 0.8
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-25T04:24:54.397Z",
+    "updatedAt": "2026-03-25T04:24:54.397Z"
+  },
+  {
+    "id": "ebay-6",
+    "photos": [
+      "/uploads/ebay-6.jpg",
+      "/uploads/ebay-6-2.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "black"
+    ],
+    "brand": "The North Face",
+    "size": "M",
+    "style": [
+      "casual",
+      "fleece"
+    ],
+    "condition": "good",
+    "material": "polyester fleece",
+    "price": 7.55,
+    "description": "The North Face Hazen fleece jacket. Iconic brand, warm and comfortable for everyday wear.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-25T21:12:54.397Z",
+    "updatedAt": "2026-03-25T21:12:54.397Z"
+  },
+  {
+    "id": "ebay-7",
+    "photos": [
+      "/uploads/ebay-7.jpg",
+      "/uploads/ebay-7-2.jpg"
+    ],
+    "type": "jacket",
+    "color": [
+      "green"
+    ],
+    "brand": "Royal Matrix",
+    "size": "M",
+    "style": [
+      "denim",
+      "casual"
+    ],
+    "condition": "excellent",
+    "material": "denim",
+    "price": 21.99,
+    "description": "Royal Matrix green denim jacket. A bold pop of color for any outfit. Brand new with tags.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 35,
+      "waterLiters": 12000,
+      "shippingCo2Kg": 1.5
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-26T14:00:54.397Z",
+    "updatedAt": "2026-03-26T14:00:54.397Z"
+  },
+  {
+    "id": "ebay-8",
+    "photos": [
+      "/uploads/ebay-8.jpg",
+      "/uploads/ebay-8-2.jpg"
+    ],
+    "type": "sweater",
+    "color": [
+      "gray"
+    ],
+    "brand": "Wren + Rowe",
+    "size": "M",
+    "style": [
+      "cardigan",
+      "draped"
+    ],
+    "condition": "excellent",
+    "material": "knit blend",
+    "price": 15.56,
+    "description": "Wren + Rowe open-front drape cardigan. Effortlessly elegant layering piece.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 12,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 1
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-27T06:48:54.397Z",
+    "updatedAt": "2026-03-27T06:48:54.397Z"
+  },
+  {
+    "id": "ebay-9",
+    "photos": [
+      "/uploads/ebay-9.jpg",
+      "/uploads/ebay-9-2.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "brown",
+      "multicolor"
+    ],
+    "brand": "Birkenstock",
+    "size": "Various",
+    "style": [
+      "sandals"
+    ],
+    "condition": "excellent",
+    "material": "leather, cork",
+    "price": 78,
+    "description": "Birkenstock Gizeh sandals. The gold standard of comfort footwear, brand new in box.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 6,
+    "status": "available",
+    "createdAt": "2026-03-27T23:36:54.397Z",
+    "updatedAt": "2026-03-27T23:36:54.397Z"
+  },
+  {
+    "id": "ebay-10",
+    "photos": [
+      "/uploads/ebay-10.jpg",
+      "/uploads/ebay-10-2.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "brown",
+      "multicolor"
+    ],
+    "brand": "Birkenstock",
+    "size": "Various",
+    "style": [
+      "sandals"
+    ],
+    "condition": "excellent",
+    "material": "leather, cork",
+    "price": 75,
+    "description": "Birkenstock Arizona sandals for men. Classic two-strap design, brand new.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-03-28T16:24:54.397Z",
+    "updatedAt": "2026-03-28T16:24:54.397Z"
+  },
+  {
+    "id": "ebay-11",
+    "photos": [
+      "/uploads/ebay-11.jpg",
+      "/uploads/ebay-11-2.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "tan",
+      "neutral"
+    ],
+    "brand": "Alexandre Birman",
+    "size": "38 EU",
+    "style": [
+      "sandals",
+      "designer"
+    ],
+    "condition": "good",
+    "material": "braided leather",
+    "price": 19.99,
+    "description": "Alexandre Birman Clarita braided flat sandals. Italian luxury craftsmanship at a fraction of retail.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-03-29T09:12:54.397Z",
+    "updatedAt": "2026-03-29T09:12:54.397Z"
+  },
+  {
+    "id": "ebay-12",
+    "photos": [
+      "/uploads/ebay-12.jpg",
+      "/uploads/ebay-12-2.jpg"
+    ],
+    "type": "shoes",
+    "color": [
+      "brown",
+      "black"
+    ],
+    "brand": "Naot",
+    "size": "Various",
+    "style": [
+      "sandals"
+    ],
+    "condition": "excellent",
+    "material": "leather",
+    "price": 78,
+    "description": "Naot Lappland leather sandals. Premium Israeli comfort brand, new in box.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 14,
+      "waterLiters": 4500,
+      "shippingCo2Kg": 1.8
+    },
+    "favorites": 1,
+    "status": "available",
+    "createdAt": "2026-03-30T02:00:54.397Z",
+    "updatedAt": "2026-03-30T02:00:54.397Z"
+  },
+  {
+    "id": "ebay-13",
+    "photos": [
+      "/uploads/ebay-13.jpg",
+      "/uploads/ebay-13-2.jpg"
+    ],
+    "type": "bag",
+    "color": [
+      "red"
+    ],
+    "brand": "Michael Kors",
+    "size": "One Size",
+    "style": [
+      "quilted",
+      "designer"
+    ],
+    "condition": "good",
+    "material": "quilted leather",
+    "price": 19.99,
+    "description": "Red quilted Michael Kors handbag. Bold color, iconic designer, and perfectly sized for daily use.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 10,
+      "waterLiters": 3500,
+      "shippingCo2Kg": 1.2
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-03-30T18:48:54.397Z",
+    "updatedAt": "2026-03-30T18:48:54.397Z"
+  },
+  {
+    "id": "ebay-14",
+    "photos": [
+      "/uploads/ebay-14.jpg",
+      "/uploads/ebay-14-2.jpg"
+    ],
+    "type": "accessories",
+    "color": [
+      "brown",
+      "gold"
+    ],
+    "brand": "Banana Republic",
+    "size": "One Size",
+    "style": [
+      "sunglasses"
+    ],
+    "condition": "excellent",
+    "material": "acetate, metal",
+    "price": 14.99,
+    "description": "Banana Republic sunglasses with a warm, sophisticated frame. UV protection meets style.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 3,
+      "waterLiters": 1000,
+      "shippingCo2Kg": 0.5
+    },
+    "favorites": 7,
+    "status": "available",
+    "createdAt": "2026-03-31T11:36:54.397Z",
+    "updatedAt": "2026-03-31T11:36:54.397Z"
+  },
+  {
+    "id": "ebay-15",
+    "photos": [
+      "/uploads/ebay-15.jpg",
+      "/uploads/ebay-15-2.jpg"
+    ],
+    "type": "home",
+    "color": [
+      "blue",
+      "white"
+    ],
+    "brand": "Teppie (Handcrafted)",
+    "size": "One Size",
+    "style": [
+      "vase",
+      "handcrafted"
+    ],
+    "condition": "fair",
+    "material": "dichroic glass",
+    "price": 24.89,
+    "description": "Handcrafted blue swirl glass vase with dichroic accents by Teppie (2010). A unique art piece.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 15,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 3
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-04-01T04:24:54.397Z",
+    "updatedAt": "2026-04-01T04:24:54.397Z"
+  },
+  {
+    "id": "ebay-16",
+    "photos": [
+      "/uploads/ebay-16.jpg",
+      "/uploads/ebay-16-2.jpg"
+    ],
+    "type": "home",
+    "color": [
+      "tan",
+      "brown",
+      "red"
+    ],
+    "brand": "Tohatchi Art",
+    "size": "14x8",
+    "style": [
+      "art",
+      "southwestern"
+    ],
+    "condition": "fair",
+    "material": "sand, mixed media",
+    "price": 9.99,
+    "description": "Sand art painting from Tohatchi, New Mexico. Authentic Southwestern fine art, framed and ready to hang.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 15,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 3
+    },
+    "favorites": 3,
+    "status": "available",
+    "createdAt": "2026-04-01T21:12:54.397Z",
+    "updatedAt": "2026-04-01T21:12:54.397Z"
+  },
+  {
+    "id": "ebay-17",
+    "photos": [
+      "/uploads/ebay-17.jpg",
+      "/uploads/ebay-17-2.jpg"
+    ],
+    "type": "home",
+    "color": [
+      "white",
+      "brown"
+    ],
+    "brand": "Mikasa",
+    "size": "One Size",
+    "style": [
+      "kitchenware",
+      "coffee"
+    ],
+    "condition": "fair",
+    "material": "ceramic",
+    "price": 14.99,
+    "description": "Mikasa Intaglio Santa Fe coffee pot with lid. Southwest-inspired design, elegant and functional.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 15,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 3
+    },
+    "favorites": 0,
+    "status": "available",
+    "createdAt": "2026-04-02T14:00:54.397Z",
+    "updatedAt": "2026-04-02T14:00:54.397Z"
+  },
+  {
+    "id": "ebay-18",
+    "photos": [
+      "/uploads/ebay-18.jpg",
+      "/uploads/ebay-18-2.jpg"
+    ],
+    "type": "home",
+    "color": [
+      "brown",
+      "natural"
+    ],
+    "brand": "Franmara",
+    "size": "One Size",
+    "style": [
+      "kitchen",
+      "vintage"
+    ],
+    "condition": "excellent",
+    "material": "hardwood",
+    "price": 14.99,
+    "description": "Franmara vintage wine bottle peppermill in hardwood. A conversation-starter for any kitchen.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 15,
+      "waterLiters": 5000,
+      "shippingCo2Kg": 3
+    },
+    "favorites": 2,
+    "status": "available",
+    "createdAt": "2026-04-03T06:48:54.397Z",
+    "updatedAt": "2026-04-03T06:48:54.397Z"
+  },
+  {
+    "id": "ebay-19",
+    "photos": [
+      "/uploads/ebay-19.jpg",
+      "/uploads/ebay-19-2.jpg"
+    ],
+    "type": "electronics",
+    "color": [
+      "black"
+    ],
+    "brand": "Apple",
+    "size": "One Size",
+    "style": [
+      "streaming",
+      "smart home"
+    ],
+    "condition": "fair",
+    "material": "aluminum, plastic",
+    "price": 9.99,
+    "description": "Apple TV 3rd generation. Compact streaming device, still going strong.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 50,
+      "waterLiters": 15000,
+      "shippingCo2Kg": 5
+    },
+    "favorites": 4,
+    "status": "available",
+    "createdAt": "2026-04-03T23:36:54.397Z",
+    "updatedAt": "2026-04-03T23:36:54.397Z"
+  },
+  {
+    "id": "ebay-20",
+    "photos": [
+      "/uploads/ebay-20.jpg",
+      "/uploads/ebay-20-2.jpg"
+    ],
+    "type": "electronics",
+    "color": [
+      "white"
+    ],
+    "brand": "Google",
+    "size": "One Size",
+    "style": [
+      "smart home",
+      "thermostat"
+    ],
+    "condition": "excellent",
+    "material": "plastic",
+    "price": 11.99,
+    "description": "Google Nest Thermostat trim kit in Snow white. Brand new and sealed. Smart home upgrade made easy.",
+    "store": {
+      "id": "store-1",
+      "name": "Habitat for Humanity ReStore",
+      "address": "2513 S Rural Rd, Tempe, AZ 85282",
+      "lat": 33.4055,
+      "lng": -111.9265
+    },
+    "carbonSavings": {
+      "co2Kg": 50,
+      "waterLiters": 15000,
+      "shippingCo2Kg": 5
+    },
+    "favorites": 6,
+    "status": "available",
+    "createdAt": "2026-04-04T16:24:54.397Z",
+    "updatedAt": "2026-04-04T16:24:54.397Z"
+  },
+  {
     "id": "item-001",
     "photos": [
       "/seed/denim-jacket.jpg"
