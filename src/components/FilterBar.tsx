@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { X } from "lucide-react";
 import { STORES } from "@/lib/stores";
 
@@ -41,7 +41,6 @@ const SORT_OPTIONS = [
 ];
 
 export default function FilterBar() {
-  const router = useRouter();
   const searchParams = useSearchParams();
 
   const activeRadius = searchParams.get("radius") || "";
@@ -60,11 +59,12 @@ export default function FilterBar() {
     } else {
       params.delete(key);
     }
-    router.push(`/?${params.toString()}`);
+    const qs = params.toString();
+    window.location.href = qs ? `/?${qs}` : "/";
   }
 
   function clearAll() {
-    router.push("/");
+    window.location.href = "/";
   }
 
   const selectClass = (active: boolean) =>
