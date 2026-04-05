@@ -74,10 +74,11 @@ export default function ItemForm({ initialData, photoPaths, preSelectedStoreId }
         setSubmitted(true);
         setTimeout(() => router.push("/"), 1500);
       } else {
-        throw new Error("Save failed");
+        const err = await res.json().catch(() => null);
+        throw new Error(err?.error || `Save failed (${res.status})`);
       }
-    } catch {
-      alert("Failed to create item");
+    } catch (err) {
+      alert(err instanceof Error ? err.message : "Failed to create item");
     } finally {
       setSubmitting(false);
     }

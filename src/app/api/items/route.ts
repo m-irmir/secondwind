@@ -52,15 +52,21 @@ export async function GET(request: NextRequest) {
 }
 
 export async function POST(request: NextRequest) {
-  const body = await request.json();
-  const item: Item = {
-    ...body,
-    id: `item-${Date.now()}`,
-    favorites: 0,
-    status: "available",
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-  };
-  const created = await createItem(item);
-  return NextResponse.json(created, { status: 201 });
+  try {
+    const body = await request.json();
+    const item: Item = {
+      ...body,
+      id: `item-${Date.now()}`,
+      favorites: 0,
+      status: "available",
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+    const created = await createItem(item);
+    return NextResponse.json(created, { status: 201 });
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Unknown error";
+    console.error("POST /api/items failed:", message);
+    return NextResponse.json({ error: message }, { status: 500 });
+  }
 }
