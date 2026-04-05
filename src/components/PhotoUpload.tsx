@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { Camera, Upload, X, Loader2, Plus, Tag } from "lucide-react";
+import { Camera, ImagePlus, Upload, X, Loader2, Plus, Tag } from "lucide-react";
 
 interface PhotoUploadProps {
   onProcessed: (result: Record<string, unknown>, photoPaths: string[]) => void;
@@ -70,7 +70,9 @@ export default function PhotoUpload({ onProcessed, onError }: PhotoUploadProps) 
   const [photos, setPhotos] = useState<PhotoEntry[]>([]);
   const [processing, setProcessing] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const fileBrowseRef = useRef<HTMLInputElement>(null);
   const tagInputRef = useRef<HTMLInputElement>(null);
+  const tagBrowseRef = useRef<HTMLInputElement>(null);
 
   async function addPhoto(file: File, label: "item" | "tag") {
     if (!file.type.startsWith("image/")) {
@@ -145,18 +147,27 @@ export default function PhotoUpload({ onProcessed, onError }: PhotoUploadProps) 
               <Camera className="w-8 h-8 text-indigo-600" />
             </div>
             <div>
-              <p className="text-gray-900 font-medium">Take a photo of the item</p>
+              <p className="text-gray-900 font-medium">Add a photo of the item</p>
               <p className="text-sm text-gray-400 mt-1">
                 This will be the main listing photo
               </p>
             </div>
-            <button
-              onClick={() => fileInputRef.current?.click()}
-              className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 transition-colors"
-            >
-              <Upload className="w-4 h-4" />
-              Upload Photo
-            </button>
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => fileInputRef.current?.click()}
+                className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 transition-colors"
+              >
+                <Camera className="w-4 h-4" />
+                Take Photo
+              </button>
+              <button
+                onClick={() => fileBrowseRef.current?.click()}
+                className="flex items-center gap-2 px-4 py-2 bg-white text-indigo-600 text-sm font-medium rounded-lg border border-indigo-200 hover:bg-indigo-50 transition-colors"
+              >
+                <ImagePlus className="w-4 h-4" />
+                Choose from Files
+              </button>
+            </div>
           </div>
         </div>
       ) : (
@@ -182,15 +193,28 @@ export default function PhotoUpload({ onProcessed, onError }: PhotoUploadProps) 
 
             {/* Add tag photo button */}
             {!processing && (
-              <button
-                onClick={() => tagInputRef.current?.click()}
-                className="aspect-square border-2 border-dashed border-gray-200 rounded-xl flex flex-col items-center justify-center gap-2 hover:border-indigo-300 transition-colors"
-              >
+              <div className="aspect-square border-2 border-dashed border-gray-200 rounded-xl flex flex-col items-center justify-center gap-2">
                 <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
                   <Tag className="w-5 h-5 text-gray-400" />
                 </div>
                 <span className="text-xs text-gray-400 font-medium">Add Tag Photo</span>
-              </button>
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => tagInputRef.current?.click()}
+                    className="p-1.5 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
+                    title="Take photo"
+                  >
+                    <Camera className="w-3.5 h-3.5 text-gray-500" />
+                  </button>
+                  <button
+                    onClick={() => tagBrowseRef.current?.click()}
+                    className="p-1.5 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
+                    title="Choose from files"
+                  >
+                    <ImagePlus className="w-3.5 h-3.5 text-gray-500" />
+                  </button>
+                </div>
+              </div>
             )}
           </div>
 
@@ -217,7 +241,7 @@ export default function PhotoUpload({ onProcessed, onError }: PhotoUploadProps) 
         </div>
       )}
 
-      {/* Hidden file inputs */}
+      {/* Hidden file inputs — camera capture */}
       <input
         ref={fileInputRef}
         type="file"
@@ -235,6 +259,29 @@ export default function PhotoUpload({ onProcessed, onError }: PhotoUploadProps) 
         type="file"
         accept="image/*"
         capture="environment"
+        onChange={(e) => {
+          const file = e.target.files?.[0];
+          if (file) addPhoto(file, "tag");
+          e.target.value = "";
+        }}
+        className="hidden"
+      />
+      {/* Hidden file inputs — file browser (no capture attr) */}
+      <input
+        ref={fileBrowseRef}
+        type="file"
+        accept="image/*"
+        onChange={(e) => {
+          const file = e.target.files?.[0];
+          if (file) addPhoto(file, "item");
+          e.target.value = "";
+        }}
+        className="hidden"
+      />
+      <input
+        ref={tagBrowseRef}
+        type="file"
+        accept="image/*"
         onChange={(e) => {
           const file = e.target.files?.[0];
           if (file) addPhoto(file, "tag");
