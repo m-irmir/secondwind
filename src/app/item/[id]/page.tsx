@@ -179,7 +179,10 @@ export default function ItemDetail() {
           </div>
           <div>
             <p className="font-medium text-gray-900 text-sm">{item.store.name}</p>
-            <p className="text-xs text-gray-400">{item.store.address}</p>
+            <p className="text-xs text-gray-400">
+              {item.store.address}
+              {item.distance != null && ` · ${item.distance} mi away`}
+            </p>
           </div>
         </div>
         <a

@@ -30,6 +30,7 @@ export interface Item {
   status: "available" | "sold";
   createdAt: string;
   updatedAt: string;
+  distance?: number;
 }
 
 export interface GeminiExtractionResult {

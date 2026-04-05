@@ -25,14 +25,16 @@ const COLORS = [
 
 const RADIUS_OPTIONS = [
   { value: "", label: "Any Distance" },
-  { value: "1", label: "Within 1 mi" },
+  { value: "0.25", label: "Within ¼ mi" },
+  { value: "0.7", label: "Within ¾ mi" },
+  { value: "1.1", label: "Within 1 mi" },
+  { value: "2", label: "Within 2 mi" },
   { value: "5", label: "Within 5 mi" },
-  { value: "10", label: "Within 10 mi" },
-  { value: "25", label: "Within 25 mi" },
 ];
 
 const SORT_OPTIONS = [
   { value: "newest", label: "Newest First" },
+  { value: "nearest", label: "Nearest First" },
   { value: "price_asc", label: "Price: Low to High" },
   { value: "price_desc", label: "Price: High to Low" },
   { value: "favorites", label: "Most Loved" },

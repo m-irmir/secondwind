@@ -108,6 +108,9 @@ export default function ItemCard({ item }: { item: Item }) {
             <div className="flex items-center gap-1 text-xs text-gray-400">
               <MapPin className="w-3 h-3" />
               <span className="truncate max-w-[120px]">{item.store.name}</span>
+              {item.distance != null && (
+                <span className="text-gray-300">· {item.distance} mi</span>
+              )}
             </div>
             <div className="flex items-center gap-1 text-xs text-gray-400">
               <Clock className="w-3 h-3" />

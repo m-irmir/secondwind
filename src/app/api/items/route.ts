@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getItems, createItem } from "@/lib/db";
 import { Item } from "@/lib/types";
+import { distanceFromUser } from "@/lib/geo";
 
 export async function GET(request: NextRequest) {
   const items = await getItems();
@@ -42,13 +43,26 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  const sort = params.get("sort");
-  if (sort === "price_asc") filtered.sort((a, b) => a.price - b.price);
-  else if (sort === "price_desc") filtered.sort((a, b) => b.price - a.price);
-  else if (sort === "favorites") filtered.sort((a, b) => b.favorites - a.favorites);
-  else filtered.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+  // Compute distance for each item and attach it
+  const withDistance = filtered.map((item) => ({
+    ...item,
+    distance: Math.round(distanceFromUser(item.store.lat, item.store.lng) * 10) / 10,
+  }));
 
-  return NextResponse.json(filtered);
+  // Radius filter (miles)
+  const radius = params.get("radius");
+  const radiusFiltered = radius
+    ? withDistance.filter((i) => i.distance <= Number(radius))
+    : withDistance;
+
+  const sort = params.get("sort");
+  if (sort === "price_asc") radiusFiltered.sort((a, b) => a.price - b.price);
+  else if (sort === "price_desc") radiusFiltered.sort((a, b) => b.price - a.price);
+  else if (sort === "favorites") radiusFiltered.sort((a, b) => b.favorites - a.favorites);
+  else if (sort === "nearest") radiusFiltered.sort((a, b) => a.distance - b.distance);
+  else radiusFiltered.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+
+  return NextResponse.json(radiusFiltered);
 }
 
 export async function POST(request: NextRequest) {
