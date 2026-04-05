@@ -184,21 +184,25 @@ const CURATED = [
   { title: /michael kors handbag/i, type: 'bag', brand: 'Michael Kors', size: 'One Size', color: ['red'], style: ['quilted', 'designer'], condition: 'good', material: 'quilted leather', price: 19.99, storeId: 'store-2',
     desc: 'Red quilted Michael Kors handbag. Bold color, iconic designer.' },
 
-  // ═══════════ HOME & ELECTRONICS (7) — all at Habitat ReStore ═══════════
-  { title: /handcrafted blue swirl glass vase/i, type: 'home', brand: 'Teppie (Handcrafted)', size: 'One Size', color: ['blue', 'white'], style: ['vase', 'art glass'], condition: 'good', material: 'dichroic glass', price: 24.89, storeId: 'store-1',
-    desc: 'Handcrafted blue swirl glass vase with dichroic accents. One-of-a-kind art piece.' },
-  { title: /mikasa.*coffee pot/i, type: 'home', brand: 'Mikasa', size: 'One Size', color: ['white', 'brown'], style: ['kitchenware'], condition: 'good', material: 'ceramic', price: 14.99, storeId: 'store-1',
-    desc: 'Mikasa Intaglio Santa Fe coffee pot. Southwest-inspired design.' },
+  // ═══════════ HOME & ELECTRONICS (3 only) — Habitat ReStore ═══════════
   { title: /apple tv.*3rd/i, type: 'electronics', brand: 'Apple', size: 'One Size', color: ['black'], style: ['streaming'], condition: 'fair', material: 'aluminum', price: 9.99, storeId: 'store-1',
     desc: 'Apple TV 3rd generation. Compact streaming device, still going strong.' },
   { title: /google nest thermostat trim/i, type: 'electronics', brand: 'Google', size: 'One Size', color: ['white'], style: ['smart home'], condition: 'excellent', material: 'plastic', price: 11.99, storeId: 'store-1',
     desc: 'Google Nest Thermostat trim kit. Brand new and sealed.' },
-  { title: /franmara.*wine.*peppermill/i, type: 'home', brand: 'Franmara', size: 'One Size', color: ['brown'], style: ['kitchen', 'vintage'], condition: 'good', material: 'hardwood', price: 14.99, storeId: 'store-1',
-    desc: 'Vintage wine bottle peppermill in hardwood. A conversation-starter.' },
-  { title: /sand art painting.*tohatchi/i, type: 'home', brand: 'Tohatchi Art', size: '14x8', color: ['tan', 'red'], style: ['art', 'southwestern'], condition: 'good', material: 'sand, mixed media', price: 9.99, storeId: 'store-1',
-    desc: 'Sand art painting from Tohatchi, New Mexico. Authentic Southwestern fine art.' },
-  { title: /vintage.*imperial.*camera/i, type: 'electronics', brand: 'Imperial', size: 'One Size', color: ['black', 'silver'], style: ['camera', 'vintage'], condition: 'fair', material: 'plastic, metal', price: 7.99, storeId: 'store-1',
-    desc: 'Vintage Imperial Instant Load 900 camera. A collectible piece of photography history.' },
+  { title: /handcrafted blue swirl glass vase/i, type: 'home', brand: 'Teppie (Handcrafted)', size: 'One Size', color: ['blue', 'white'], style: ['vase', 'art glass'], condition: 'good', material: 'dichroic glass', price: 24.89, storeId: 'store-1',
+    desc: 'Handcrafted blue swirl glass vase with dichroic accents. One-of-a-kind art piece.' },
+
+  // ═══════════ MORE CLOTHES — fill out the feed ═══════════
+  { title: /royal matrix.*denim jacket.*xs/i, type: 'jacket', brand: 'Royal Matrix', size: 'XS', color: ['green'], style: ['denim'], condition: 'excellent', material: 'denim', price: 19.99, storeId: 'store-4',
+    desc: 'Royal Matrix green denim jacket in XS. New with tags, bold color.' },
+  { title: /even tide.*swim shorts/i, type: 'shorts', brand: 'Even Tide', size: '40', color: ['blue'], style: ['swim', 'casual'], condition: 'good', material: 'polyester', price: 5.99, storeId: 'store-4',
+    desc: 'Even Tide men\'s swim trunks. Pool-ready and priced to move.' },
+  { title: /levi.*511.*boys.*16/i, type: 'jeans', brand: "Levi's", size: '16 (28x28)', color: ['blue'], style: ['slim', '511'], condition: 'good', material: 'denim', price: 6.99, storeId: 'store-4',
+    desc: "Levi's 511 slim jeans. Classic slim fit in a versatile wash." },
+  { title: /mad pelican.*shorts.*medium/i, type: 'shorts', brand: 'Mad Pelican', size: 'M', color: ['blue'], style: ['walking', 'casual'], condition: 'good', material: 'polyester blend', price: 6.99, storeId: 'store-3',
+    desc: 'Mad Pelican walking shorts in Aruba Blue. Lightweight and vacation-ready.' },
+  { title: /wren.*rowe.*cardigan.*large/i, type: 'sweater', brand: 'Wren + Rowe', size: 'L', color: ['gray'], style: ['cardigan', 'open-front'], condition: 'excellent', material: 'knit blend', price: 15.56, storeId: 'store-3',
+    desc: 'Wren + Rowe open-front drape cardigan in Large. Effortless elegance.' },
 ];
 
 async function main() {
