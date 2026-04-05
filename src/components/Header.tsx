@@ -1,14 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { Wind, Plus, Search, UserCircle } from "lucide-react";
+import { Wind, Search, UserCircle, Info, ShoppingBag } from "lucide-react";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 
 export default function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [query, setQuery] = useState("");
   const router = useRouter();
+  const pathname = usePathname();
 
   function handleSearch(e: React.FormEvent) {
     e.preventDefault();
@@ -57,19 +58,39 @@ export default function Header() {
           )}
 
           <Link
+            href="/"
+            className={`flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
+              pathname === "/"
+                ? "text-indigo-600 bg-indigo-50"
+                : "text-gray-500 hover:text-indigo-600 hover:bg-indigo-50"
+            }`}
+          >
+            <ShoppingBag className="w-5 h-5" />
+            <span className="hidden sm:inline">Browse</span>
+          </Link>
+
+          <Link
             href="/employee"
-            className="flex items-center gap-1.5 px-3 py-2 text-gray-500 hover:text-indigo-600 hover:bg-indigo-50 text-sm font-medium rounded-lg transition-colors"
+            className={`flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
+              pathname.startsWith("/employee")
+                ? "text-indigo-600 bg-indigo-50"
+                : "text-gray-500 hover:text-indigo-600 hover:bg-indigo-50"
+            }`}
           >
             <UserCircle className="w-5 h-5" />
             <span className="hidden sm:inline">Employee</span>
           </Link>
 
           <Link
-            href="/upload"
-            className="flex items-center gap-1.5 px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-lg hover:bg-indigo-700 transition-colors"
+            href="/about"
+            className={`flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
+              pathname === "/about"
+                ? "text-indigo-600 bg-indigo-50"
+                : "text-gray-500 hover:text-indigo-600 hover:bg-indigo-50"
+            }`}
           >
-            <Plus className="w-4 h-4" />
-            <span className="hidden sm:inline">Add Item</span>
+            <Info className="w-5 h-5" />
+            <span className="hidden sm:inline">About</span>
           </Link>
         </div>
       </div>
